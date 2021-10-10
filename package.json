@@ -1,0 +1,16 @@
+{
+    "name": "isitbig.org",
+    "version": "1.0.0",
+    "description": "Helps you find if a brand is from a big group.",
+    "main": "index.js",
+    "repository": "git@github.com:yoannmoinet/isitbig.org.git",
+    "author": "Yoann Moinet <yo@nnmoi.net>",
+    "workspaces": [
+        "packages/*"
+    ],
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "prettier": "2.4.1"
+    }
+}

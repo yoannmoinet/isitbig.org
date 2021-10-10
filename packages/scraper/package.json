@@ -1,0 +1,13 @@
+{
+    "name": "scraper",
+    "version": "1.0.0",
+    "description": "Scraper of informations.",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "axios": "0.22.0",
+        "chalk": "4.1.2",
+        "cheerio": "1.0.0-rc.10",
+        "puppeteer": "10.4.0"
+    }
+}
