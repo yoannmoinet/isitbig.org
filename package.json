@@ -12,5 +12,8 @@
     "private": true,
     "devDependencies": {
         "prettier": "2.4.1"
+    },
+    "scripts": {
+        "scrap": "yarn workspace scraper start"
     }
 }

@@ -1,7 +1,6 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
-const c = require('chalk');
-const { REQUEST_OPTS } = require('../utils');
+import axios from 'axios';
+import cheerio from 'cheerio';
+import { REQUEST_OPTS } from '../utils/index.js';
 
 // Sometimes we can't get the right info.
 const NAME_OVERRIDES = {
@@ -11,37 +10,39 @@ const NAME_OVERRIDES = {
     'ESPN.com': 'ESPN',
 };
 
-module.exports = {
-    name: 'Disney',
-    url: 'https://thewaltdisneycompany.com/about/',
-    scrap: async (get$) => {
-        const $ = await get$();
-        const proms = [];
-        const brands = new Map();
-        const sections = $('#our-businesses > section');
+export const name = 'Disney';
+export const url = 'https://thewaltdisneycompany.com/about/';
+export const scrap = async (get$) => {
+    const $ = await get$();
+    const proms = [];
+    const brands = new Map();
+    const sections = $('#our-businesses > section');
 
-        for (let i = 0; i <= sections.length; i += 1) {
-            const section = sections.eq(i);
-            if (!section.html()) continue;
+    for (let i = 0; i <= sections.length; i += 1) {
+        const section = sections.eq(i);
+        if (!section.html()) continue;
 
-            const cards = section.find('div>div>div>div>a');
+        const cards = section.find('div>div>div>div>a');
 
-            for (let j = 0; j <= cards.length; j += 1) {
-                const card = cards.eq(j);
-                if (!card.html()) continue;
+        for (let j = 0; j <= cards.length; j += 1) {
+            const card = cards.eq(j);
+            if (!card.html()) continue;
 
-                const img = card.find('img');
-                const link = card.attr('href');
-                const name = (img ? img.attr('alt') : link).replace(/[-_ ](Logo)?/gi, ' ');
-                const brand = {
-                    link,
-                    name,
-                    picture: img?.attr('src'),
-                };
+            const img = card.find('img');
+            const name = (img ? img.attr('alt') : link).replace(/[-_ ](Logo)?/gi, ' ');
+            const link = card.attr('href');
+            const links = new Map();
+            links.set(name, link);
+            const brand = {
+                name,
+                picture: img?.attr('src').split('?')[0],
+            };
 
-                // Try to get a better name.
-                proms.push(
-                    axios.get(link, REQUEST_OPTS).then(
+            // Try to get a better name.
+            proms.push(
+                axios
+                    .get(link, REQUEST_OPTS)
+                    .then(
                         async (response) => {
                             const $$ = cheerio.load(response.data);
                             const metas = $$('head meta');
@@ -52,23 +53,29 @@ module.exports = {
                                 if (metaId === 'og:site_name') {
                                     foundName = meta.attr('content');
                                 }
+                                if (metaId === 'description') {
+                                    brand.description = meta.attr('content');
+                                }
                             }
                             if (foundName) {
                                 // Use overrides as last resort.
                                 brand.name = NAME_OVERRIDES[foundName] || foundName;
                             }
-                            brands.set(name, brand);
                         },
                         (e) => {
                             // What can we do?
                             // Use overrides as last resort.
                             brand.name = NAME_OVERRIDES[brand.name] || brand.name;
                         },
-                    ),
-                );
-            }
+                    )
+                    .then(() => {
+                        links.set(name, card.attr('href'));
+                        brand.links = Object.fromEntries(links);
+                        brands.set(name, brand);
+                    }),
+            );
         }
-        await Promise.all(proms);
-        return brands;
-    },
+    }
+    await Promise.all(proms);
+    return brands;
 };
