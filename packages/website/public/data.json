@@ -238,11 +238,6 @@
             }
         }
     },
-    "kellogs": {
-        "name": "Kellogs",
-        "url": "https://www.kelloggcompany.com/en_US/brandportfolio.html",
-        "brands": {}
-    },
     "nestle": {
         "name": "Nestlé",
         "url": "https://www.nestle.com/brands/brandssearchlist",
@@ -662,10 +657,5 @@
                 "links": {}
             }
         }
-    },
-    "pepsi-co": {
-        "name": "PepsiCo",
-        "url": "https://www.pepsico.com/brands/product-information",
-        "brands": {}
     }
 }

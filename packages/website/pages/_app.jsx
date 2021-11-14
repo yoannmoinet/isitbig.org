@@ -7,14 +7,16 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+const darkTheme = createTheme({ palette: { mode: 'dark' } });
+const lightTheme = createTheme({ palette: { mode: 'light' } });
+
 function MyApp({ Component, pageProps }) {
-    const theme = createTheme({});
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={darkTheme}>
             <CssBaseline />
             <Head>
                 <title>Is it big?</title>
-                <meta name="description" content="Is this brand part of a big corporation?" />
+                <meta name="description" content="Is this brand part of a big corporation or group?" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
             </Head>
