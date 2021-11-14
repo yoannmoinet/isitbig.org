@@ -54,7 +54,7 @@ const scrap = async (page, { name, url, scrap }) => {
     for (const [brandName, brand] of group.brands.entries()) {
         proms.push(
             new Promise(async (resolve) => {
-                const groupDir = path.join(ROOT, `./packages/website/assets/${slug(name)}`);
+                const groupDir = path.join(ROOT, `./packages/website/public/img/${slug(name)}`);
                 const imagePath = `${slug(brandName)}${path.extname(brand.picture)}`;
 
                 // Ensure the dir exists.
@@ -106,7 +106,7 @@ const scrap = async (page, { name, url, scrap }) => {
 
             // Save the file in the website's assets.
             await fsP.writeFile(
-                path.join(ROOT, './packages/website/assets/data.json'),
+                path.join(ROOT, './packages/website/public/data.json'),
                 JSON.stringify(groups, null, 4),
                 'utf-8',
             );
