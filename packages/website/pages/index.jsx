@@ -4,7 +4,7 @@ import { merge } from 'lodash';
 import { useState } from 'react';
 import { Input } from '../components/Input';
 import { Title } from '../components/Title';
-import { GroupsLayout } from './Home/groups';
+import { GroupsLayout } from '../layout/Home/groups';
 
 export default function Home({ groups }) {
     const [search, setSearch] = useState('');
