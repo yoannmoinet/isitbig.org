@@ -1,19 +1,10 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
-// const Item = styled(Card)(({ theme }) => ({
-//     ...theme.typography.body2,
-//     color: theme.palette.text.secondary,
-//     padding: 10,
-//     display: 'grid',
-//     gridTemplateColumns: { md: '1fr 1fr' },
-//     gap: 2,
-// }));
-
 export const Brand = ({ name, description, links, picture }) => {
     const pictureSrc = `./${picture.split('/').slice(3).join('/')}`;
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }} variant="elevation" elevation={2}>
             <Box
                 sx={{
                     background: 'white',

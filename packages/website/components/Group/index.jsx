@@ -18,6 +18,7 @@ export const Group = ({ group }) => {
                 gridTemplateColumns: { md: '1fr 1fr' },
                 gap: 2,
             }}
+            variant="elevation"
         >
             <Typography gutterBottom variant="h5" component="div">
                 {group.name}

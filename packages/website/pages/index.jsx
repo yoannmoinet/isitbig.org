@@ -1,4 +1,4 @@
-import { Container, Divider, Typography } from '@mui/material';
+import { Container, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { merge } from 'lodash';
 import { useState } from 'react';
@@ -9,12 +9,21 @@ import { GroupsLayout } from '../layout/Home/groups';
 export default function Home({ groups }) {
     const [search, setSearch] = useState('');
     return (
-        <Container maxWidth="lg">
-            <Box sx={{ my: 4 }}>
+        <Container maxWidth="xl">
+            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
                 <Title>Is it big?</Title>
             </Box>
-            <Box sx={{ my: 4 }}>
+            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
+                <Paper variant="elevation" elevation={12}>
+                    <Typography variant="h5" component="h2">
+                        What is this?
+                    </Typography>
+                </Paper>
+            </Box>
+            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="md">
                 <Input value={search} setValue={setSearch} />
+            </Box>
+            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
                 <GroupsLayout groups={groups} />
             </Box>
         </Container>
