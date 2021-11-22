@@ -5,8 +5,6 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-import axios from 'axios';
-import cheerio from 'cheerio';
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import c from 'chalk';
@@ -14,59 +12,54 @@ import slug from '@sindresorhus/slugify';
 
 const fsP = fs.promises;
 
-import { downloadImage, REQUEST_OPTS, ROOT } from './utils/index.js';
+import { downloadImage, ROOT, getCheerio, getPuppeteer } from './utils/index.js';
 
-const scrap = async (page, { name, url, scrap }) => {
+const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     console.log(`Scraping ${c.bold.green(name)}...`);
-    const group = {
-        name,
-        url,
-    };
-    // Scrap websites
-    group.brands = await scrap(
-        async () => {
-            try {
-                const response = await axios.get(url, REQUEST_OPTS);
-                return cheerio.load(response.data);
-            } catch (e) {
-                console.log(`[Axios] Error scraping ${c.bold.red(name)}.\n${e}`);
-                return {};
-            }
-        },
-        async () => {
-            try {
-                await page.goto(url);
-                return page;
-            } catch (e) {
-                console.log(`[Puppeteer] Error scraping ${c.bold.red(name)}.\n${e}`);
-                return {};
-            }
-        },
-    );
+    const group = { name };
 
-    if (!group.brands.size) {
-        return group;
-    }
+    // Scrap for details
+    group.details = await scrapDetails(getCheerio(name), getPuppeteer(name, page));
+    // Scrap websites
+    group.brands = await scrapBrands(getCheerio(name), getPuppeteer(name, page));
 
     console.log(`Downloading pictures for ${c.bold.green(name)}...`);
-    // Download pictures.
     const proms = [];
+    const groupDir = path.join(ROOT, `./packages/website/public/img/${slug(name)}`);
+    // Ensure the dir exists.
+    await fsP.mkdir(groupDir, { recursive: true });
+
+    if (group.details.logo) {
+        proms.push(
+            new Promise(async (resolve) => {
+                const fileName = `${slug(group.details.name)}${path.extname(group.details.logo)}`;
+                const filePath = path.join(groupDir, fileName);
+                try {
+                    await downloadImage(group.details.logo, filePath);
+                } catch (e) {
+                    console.log(`${c.red('Failed')}: ${group.details.logo}`);
+                }
+
+                // Update the path to the picture.
+                group.details.logo = path.relative(ROOT, filePath);
+                resolve();
+            }),
+        );
+    }
+
     for (const [brandName, brand] of group.brands.entries()) {
         proms.push(
             new Promise(async (resolve) => {
-                const groupDir = path.join(ROOT, `./packages/website/public/img/${slug(name)}`);
-                const imagePath = `${slug(brandName)}${path.extname(brand.picture)}`;
-
-                // Ensure the dir exists.
-                await fsP.mkdir(groupDir, { recursive: true });
+                const fileName = `${slug(brandName)}${path.extname(brand.picture)}`;
+                const filePath = path.join(groupDir, fileName);
                 try {
-                    await downloadImage(brand.picture, path.join(groupDir, imagePath));
+                    await downloadImage(brand.picture, filePath);
                 } catch (e) {
                     console.log(`${c.red('Failed')}: ${brand.picture}`);
                 }
 
                 // Update the path to the picture.
-                brand.picture = path.relative(ROOT, path.join(groupDir, imagePath));
+                brand.picture = path.relative(ROOT, filePath);
                 group.brands.set(brandName, brand);
                 resolve();
             }),
@@ -87,7 +80,7 @@ const scrap = async (page, { name, url, scrap }) => {
         // Get groups' configurations
         const groupsPath = `${__dirname}/groups`;
         for (const name of fs.readdirSync(groupsPath)) {
-            // if (!name.startsWith('disney')) continue;
+            if (name.startsWith('_')) continue;
             const config = await import(`${groupsPath}/${name}`);
             proms.push(scrap(page, config));
         }
