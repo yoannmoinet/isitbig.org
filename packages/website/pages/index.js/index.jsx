@@ -1,20 +1,17 @@
 import { Container, Divider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { merge } from 'lodash';
 import { useState } from 'react';
 import { Input } from '../../components/Input';
-import { Title } from '../../components/Title';
+import { Page } from '../../components/Page/index.jsx';
+import { useData } from '../../hooks/useData';
 import { Brands } from './Brands';
-import { GroupsLayout } from './GroupsLayout';
 import { InfoPanel } from './InfoPanel';
 
 export default function Home({ groups }) {
     const [search, setSearch] = useState('');
+    const data = useData();
     return (
-        <Container maxWidth="xl">
-            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
-                <Title>Is it big?</Title>
-            </Box>
+        <Page>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
                 <InfoPanel />
             </Box>
@@ -27,18 +24,8 @@ export default function Home({ groups }) {
                 </Typography>
             </Divider>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
-                <Brands brands={groups} />
+                <Brands brands={data} />
             </Box>
-        </Container>
+        </Page>
     );
 }
-
-export const getStaticProps = async () => {
-    const data = await import('../../public/data.json');
-    const override = await import('../../public/overrides.json');
-    return {
-        props: {
-            groups: Object.values(merge(data.default, override.default)),
-        },
-    };
-};
