@@ -34,7 +34,7 @@ export const scrapBrands = async (get$) => {
                     brand.description = data.description.replace('<p>', '').replace('</p>', '\n');
                     brands.set(slugify(brand.name), brand);
                 } catch (e) {
-                    console.log(`Couldn't get data from ${button}`);
+                    console.log(`Couldn't get data from ${button.attr('aria-label')}: ${e.toString()}`);
                 }
                 resolve(brand);
             }),

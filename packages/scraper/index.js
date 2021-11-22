@@ -55,7 +55,7 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
                 try {
                     await downloadImage(brand.picture, filePath);
                 } catch (e) {
-                    console.log(`${c.red('Failed')}: ${brand.picture}`);
+                    console.log(`${c.red('Failed')}: ${brand.picture}\n${e.toString()}`);
                 }
 
                 // Update the path to the picture.
@@ -91,9 +91,16 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
 
             // Index groups by name
             for (const group of everything) {
+                // Sort brands alphabetically.
+                const brands = Object.fromEntries(group.brands);
+                const sortedBrands = {};
+                for (const brandName of Object.keys(brands).sort()) {
+                    sortedBrands[brandName] = brands[brandName];
+                }
+
                 groups[slug(group.name)] = {
                     ...group,
-                    brands: Object.fromEntries(group.brands),
+                    brands: sortedBrands,
                 };
             }
 

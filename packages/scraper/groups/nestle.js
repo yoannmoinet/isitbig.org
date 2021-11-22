@@ -39,19 +39,19 @@ export const scrapBrands = async (get$) => {
                 const linkOptions = in$('.views-row a');
                 for (let j = 0; j <= linkOptions.length; j += 1) {
                     const l = linkOptions.eq(j);
-                    if (!l.html()) continue;
+                    if (!l.text() || !l.attr('href')) continue;
                     links.set(l.text(), l.attr('href'));
                 }
+
+                // The brand may not have any links so we use the one we have.
+                if (!links.size) {
+                    links.set(name, link);
+                }
+
+                brand.links = Object.fromEntries(links);
+                brands.set(name, brand);
             }),
         );
-
-        // The brand may not have any links so we use the one we have.
-        if (!links.size) {
-            links.set(name, link);
-        }
-
-        brand.links = links;
-        brands.set(name, brand);
     }
 
     await Promise.all(proms);

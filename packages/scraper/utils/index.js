@@ -2,6 +2,7 @@ import fs from 'fs';
 import axios from 'axios';
 import cheerio from 'cheerio';
 import path from 'path';
+import c from 'chalk';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
@@ -9,8 +10,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export const downloadImage = async (url, destination) => {
-    // console.log('Downloading', url, 'to', destination);
-    const writer = fs.createWriteStream(destination);
+    const tempFile = path.resolve('./temp', path.relative(__dirname, destination));
+    const writer = fs.createWriteStream(tempFile);
     const response = await axios({
         url,
         method: 'GET',
@@ -20,8 +21,14 @@ export const downloadImage = async (url, destination) => {
     response.data.pipe(writer);
 
     return new Promise((resolve, reject) => {
-        writer.on('finish', resolve);
-        writer.on('error', reject);
+        writer.on('finish', async (result) => {
+            await fs.promises.rename(tempFile, destination);
+            resolve(result);
+        });
+        writer.on('error', async (error) => {
+            await fs.promises.unlink(tempFile);
+            reject(error);
+        });
     });
 };
 export const ROOT = path.resolve(__dirname, '../../../');
@@ -38,7 +45,7 @@ export const getCheerio = (name) => async (url) => {
         return cheerio.load(response.data);
     } catch (e) {
         console.log(`[Axios] Error scraping ${c.bold.red(name)}.\n${e}`);
-        return {};
+        return () => [];
     }
 };
 
