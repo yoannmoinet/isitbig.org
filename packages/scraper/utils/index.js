@@ -65,7 +65,7 @@ export const getDetailsScraper = (url, infoUrl) => async (get$) => {
     const $ = await get$(infoUrl);
     let description = '';
 
-    const logo = `https:${$('.infobox-image.logo > a.image > img').attr('src')}`;
+    const picture = `https:${$('.infobox-image.logo > a.image > img').attr('src')}`;
     const name = $('#firstHeading').text();
     const selector = '#mw-content-text > .mw-parser-output >';
 
@@ -81,6 +81,6 @@ export const getDetailsScraper = (url, infoUrl) => async (get$) => {
         url,
         infoUrl,
         description,
-        logo,
+        picture,
     };
 };

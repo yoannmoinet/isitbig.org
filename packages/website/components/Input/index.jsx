@@ -3,8 +3,8 @@ import CategoryTwoToneIcon from '@mui/icons-material/CategoryTwoTone';
 
 export const Input = ({ setValue, value }) => {
     return (
-        <FormControl fullWidth sx={{ mt: 10, mb: 20 }}>
-            <InputLabel htmlFor="outlined-adornment-amount">Name of brand</InputLabel>
+        <FormControl fullWidth sx={{ mt: 5, mb: 10 }}>
+            <InputLabel htmlFor="outlined-adornment-amount">Search for a brand</InputLabel>
             <OutlinedInput
                 id="outlined-adornment-amount"
                 value={value}
@@ -16,7 +16,7 @@ export const Input = ({ setValue, value }) => {
                         <CategoryTwoToneIcon />
                     </InputAdornment>
                 }
-                label="Name of brand"
+                label="Search for a brand"
             />
         </FormControl>
     );
