@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Grid, Fade, Grow, Link } from '@mui/material';
-import { Brand } from '../../components/Group/Brand';
+import { Brand } from '../components/Group/Brand';
 import { Box } from '@mui/system';
 import slugify from '@sindresorhus/slugify';
 
