@@ -246,8 +246,189 @@
     },
     "kellogs": {
         "name": "Kellogs",
-        "details": {},
-        "brands": {}
+        "details": {
+            "name": "Kellogg's",
+            "url": "https://www.kelloggcompany.com/en_US/brandportfolio.html",
+            "infoUrl": "https://en.wikipedia.org/wiki/Kellogg%27s",
+            "description": "  Former Kellogg's Café, Union Square (Manhattan)The Kellogg Company, doing business as Kellogg's, is an American multinational food manufacturing company headquartered in Battle Creek, Michigan, United States. Kellogg's produces cereal and convenience foods, including crackers and toaster pastries and markets their products by several well known brands including Corn Flakes, Rice Krispies, Frosted Flakes, Pringles, Eggo, and Cheez-It. Kellogg's mission statement is \"Nourishing families so they can flourish and thrive.\"[2]\nKellogg's products are manufactured and marketed in over 180 countries.[3] Kellogg's largest factory is at Trafford Park in Trafford, Greater Manchester, United Kingdom, which is also the location of its UK headquarters.[4] Other corporate office locations outside of Battle Creek include Chicago, Dublin (European Headquarters), Shanghai, and Querétaro City.[5] Kellogg's holds a Royal Warrant from Queen Elizabeth II and the Prince of Wales.[6]\n",
+            "logo": "packages/website/public/img/kellogs/kellogg-s.png"
+        },
+        "brands": {
+            "all-bran": {
+                "picture": "packages/website/public/img/kellogs/all-bran.jpg",
+                "name": "All-Bran",
+                "links": {
+                    "Website": "https://www.all-bran.com/en_US/home.html"
+                },
+                "description": "Did you know that fiber helps support digestive health and overall wellness? Kellogg’s® All-Bran® cereal makes great-tasting recipes for any occasion."
+            },
+            "austin": {
+                "picture": "packages/website/public/img/kellogs/austin.png",
+                "name": "Austin",
+                "links": {
+                    "Website": "https://www.kelloggsfamilyrewards.com/en_US/products/austin-cheese-crackers-with-cheddar-cheese-product.html"
+                },
+                "description": "Sandwich Crackers, Cheese crackers with Cheddar Cheese."
+            },
+            "carr-s": {
+                "picture": "packages/website/public/img/kellogs/carr-s.png",
+                "name": "Carr's",
+                "links": {
+                    "Website": "http://www.carrscrackers.com/"
+                },
+                "description": ""
+            },
+            "cheez-it": {
+                "picture": "packages/website/public/img/kellogs/cheez-it.jpg",
+                "name": "Cheez-It",
+                "links": {
+                    "Website": "http://www.cheez-it.com/"
+                },
+                "description": "With Cheez-It® Baked Snack Crackers, real cheese matters. Taste the difference real cheese makes in our cheesy baked snack cracker varieties today."
+            },
+            "coco-pops-chocos": {
+                "picture": "packages/website/public/img/kellogs/coco-pops-chocos.png",
+                "name": "Coco Pops/Chocos",
+                "links": {
+                    "Website": "https://www.kelloggs.com.au/en_AU/brands/coco-pops.html/"
+                },
+                "description": "Coco Pops® cereal is the much loved breakfast treat kids have enjoyed for generations. Enjoy the chocolatey crunch with Coco Pops Original, Chex Cookies & Cream or try our delicious LCMs snack range."
+            },
+            "corn-flakes": {
+                "picture": "packages/website/public/img/kellogs/corn-flakes.png",
+                "name": "Corn Flakes",
+                "links": {
+                    "Website": "http://www.kelloggs.com"
+                },
+                "description": "Découvrez les céréales, encas et recettes faciles de Kellogg's. Ce site vous offre tout ce dont vous avez besoin"
+            },
+            "corn-pops": {
+                "picture": "packages/website/public/img/kellogs/corn-pops.png",
+                "name": "Corn Pops",
+                "links": {
+                    "Website": "https://www.kelloggs.com/en_US/products/kellogg-s-corn-pops-cereal-product.html"
+                }
+            },
+            "crunchy-nut": {
+                "picture": "packages/website/public/img/kellogs/crunchy-nut.png",
+                "name": "Crunchy Nut",
+                "links": {
+                    "Website": "https://www.facebook.com/Kelloggs-Crunchy-Nut-Cornflakes-118928971467572/"
+                },
+                "description": "Kellogg's Crunchy Nut Cornflakes. 300 J’aime. Communauté"
+            },
+            "eggo": {
+                "picture": "packages/website/public/img/kellogs/eggo.png",
+                "name": "Eggo",
+                "links": {
+                    "Website": "http://www.leggomyeggo.com"
+                },
+                "description": "Mornings are hard enough! Make them easier - and more delicious - with crispy waffles, fluffy pancakes and irresistible French toast."
+            },
+            "fiber-plus": {
+                "picture": "packages/website/public/img/kellogs/fiber-plus.png",
+                "name": "Fiber Plus",
+                "links": {
+                    "Website": "https://www.kelloggs.com/en_US/home.html"
+                },
+                "description": "Explore Kellogg's and learn about our food, history and our commitment to sustainability, nutrition and giving back."
+            },
+            "froot-loops": {
+                "picture": "packages/website/public/img/kellogs/froot-loops.png",
+                "name": "Froot Loops",
+                "links": {
+                    "Website": "http://www.frootloops.com"
+                },
+                "description": "Start your day on the right Froot with the delicious flavor of Froot Loops® cereal and other products."
+            },
+            "frosted-flakes": {
+                "picture": "packages/website/public/img/kellogs/frosted-flakes.png",
+                "name": "Frosted Flakes",
+                "links": {
+                    "Website": "http://www.frostedflakes.com"
+                },
+                "description": "Sweeten up your morning with Kellogg's® Frosted Flakes® cereal. Enjoy the satisfying crunch of frosted golden flakes and let your gr-r-reat out!"
+            },
+            "frosted-mini-wheats": {
+                "picture": "packages/website/public/img/kellogs/frosted-mini-wheats.jpg",
+                "name": "Frosted Mini-Wheats*",
+                "links": {
+                    "Website": "http://www.frostedminiwheats.com"
+                },
+                "description": "Frosted Mini-Wheats® are the breakfast cereal made to fill you on Big Days. Nourish yourself with layers of frosted whole wheat for a filling breakfast."
+            },
+            "gardenburger": {
+                "picture": "packages/website/public/img/kellogs/gardenburger.png",
+                "name": "Gardenburger",
+                "links": {
+                    "Website": "http://gardenburger.com/"
+                },
+                "description": "Consumers are craving veggie foods more than ever. Gardenburger® delivers a versatile and flavorful line-up of veggie foods that will keep your guests coming back again and again"
+            },
+            "kellogg-s-rice-krispies": {
+                "picture": "packages/website/public/img/kellogs/kellogg-s-rice-krispies.jpg",
+                "name": "Kellogg's Rice Krispies",
+                "links": {
+                    "Website": "https://www.ricekrispies.com/en_US/home.html"
+                },
+                "description": "Our cereals and marshmallow squares have become one of life's simple pleasures. Discover Rice Krispies® Cereal, Treats, recipes and more!"
+            },
+            "krave": {
+                "picture": "packages/website/public/img/kellogs/krave.png",
+                "name": "Krave",
+                "links": {
+                    "Website": "http://www.kelloggs.com/en_US/kellogg-s-krave-chocolate-cereal-product.html"
+                }
+            },
+            "morningstar-farms": {
+                "picture": "packages/website/public/img/kellogs/morningstar-farms.jpg",
+                "name": "Morningstar Farms",
+                "links": {
+                    "Website": "https://www.morningstarfarms.com/"
+                },
+                "description": "Venture into a plant-based lifestyle with ease! Discover tasty veggie meals and meatless foods from MorningStar Farms®. Find links to recipes, coupons, and more!"
+            },
+            "nutri-grain": {
+                "picture": "packages/website/public/img/kellogs/nutri-grain.jpg",
+                "name": "Nutri-Grain",
+                "links": {
+                    "Website": "http://www.nutrigrain.com"
+                },
+                "description": "Nutri-Grain® helps parents come prepared! Discover delicious breakfast cereal bars and bites made with whole grains and real fruit."
+            },
+            "pop-tarts": {
+                "picture": "packages/website/public/img/kellogs/pop-tarts.png",
+                "name": "Pop-Tarts",
+                "links": {
+                    "Website": "http://www.poptarts.com"
+                },
+                "description": "Pop-Tarts® toaster pastries are a delicious and easy breakfast treat to look forward to. The perfect snack to enjoy at home or on the go!"
+            },
+            "pringles": {
+                "picture": "packages/website/public/img/kellogs/pringles.png",
+                "name": "Pringles",
+                "links": {
+                    "Website": "https://www.pringles.com/us/home.html"
+                },
+                "description": "Once you pop, the fun don't stop! Pringles® are the original stackable snack with a savory potato taste and perfect crunch."
+            },
+            "special-k": {
+                "picture": "packages/website/public/img/kellogs/special-k.png",
+                "name": "Special K",
+                "links": {
+                    "Website": "https://www.specialk.com/content/NorthAmerica/specialk/en_US/pages/home.html"
+                },
+                "description": "Special K® uses real ingredients to create tasty food. Discover your favorite flavors in nutritious cereals, bars, protein shakes, frozen meals and recipes!"
+            },
+            "townhouse": {
+                "picture": "packages/website/public/img/kellogs/townhouse.png",
+                "name": "Townhouse",
+                "links": {
+                    "Website": "http://www.townhousecrackers.com"
+                },
+                "description": "Find a variety of delicious Town House® crackers, quick and easy recipes, dazzling dips, and tasty pairings for every party and occasion."
+            }
+        }
     },
     "nestle": {
         "name": "Nestlé",
