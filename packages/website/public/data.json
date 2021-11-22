@@ -1,39 +1,14 @@
 {
     "disney": {
         "name": "Disney",
-        "url": "https://thewaltdisneycompany.com/about/",
+        "details": {
+            "name": "The Walt Disney Company",
+            "url": "https://thewaltdisneycompany.com/about/",
+            "infoUrl": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+            "description": "The Walt Disney Company, commonly just Disney (/ˈdɪzni/),[2] is an American multinational entertainment and media conglomerate headquartered at the Walt Disney Studios complex in Burbank, California.\nDisney was originally founded on October 16, 1923, by brothers Walt and Roy O. Disney as the \"Disney Brothers Cartoon Studio\";[3] it also operated under the names \"The Walt Disney Studio\" and \"Walt Disney Productions\" before officially changing its name to The Walt Disney Company in 1986. The company established itself as a leader in the American animation industry before diversifying into live-action film production, television, and theme parks.\nSince the 1980s, Disney has created and acquired corporate divisions in order to market more mature content than is typically associated with its flagship family-oriented brands. The company is known for its film studio division, The Walt Disney Studios, which includes Walt Disney Pictures, Walt Disney Animation Studios, Pixar, Marvel Studios, Lucasfilm, 20th Century Studios, 20th Century Animation, and Searchlight Pictures. Disney's other main business units include divisions in television, broadcasting, streaming media, theme park resorts, consumer products, publishing, and international operations. Through these various segments, Disney owns and operates the ABC broadcast network; cable television networks such as Disney Channel, ESPN, Freeform, FX, and National Geographic; publishing, merchandising, music, and theater divisions; direct-to-consumer streaming services such as Disney+, Star+, ESPN+, Hulu, and Hotstar; and Disney Parks, Experiences and Products, a group of 14 theme parks, resort hotels, and cruise lines around the world.[4][5] Cartoon character Mickey Mouse, created in 1928 by Walt Disney and Ub Iwerks, serves as the company's official mascot.[6]\nThe company, which trades on the New York Stock Exchange (NYSE) under DIS stock symbol,[7] has been a component of the Dow Jones Industrial Average since 1991.[8] In August 2020, just under two-thirds of the stock was owned by large financial institutions.[9]\n",
+            "logo": "packages/website/public/img/disney/the-walt-disney-company.png"
+        },
         "brands": {
-            "Tokyo Disney Resort ": {
-                "name": "Tokyo Disney Resort ",
-                "picture": "packages/website/public/img/disney/tokyo-disney-resort.jpg",
-                "description": "東京ディズニーリゾートでは、遊ぶこと、泊まること、食べること、ショッピング、すべてがエンターテイメント！東京ディズニーランド、東京ディズニーシーの2つのテーマパークを中心とした滞在型テーマリゾートです。",
-                "links": {
-                    "Tokyo Disney Resort ": "http://www.tokyodisneyresort.jp/en/"
-                }
-            },
-            "Walt Disney Animation Studios ": {
-                "name": "Walt Disney Animation Studios",
-                "picture": "packages/website/public/img/disney/walt-disney-animation-studios.jpg",
-                "description": "The official site of Walt Disney Animation Studios. Walt Disney Animation Studios is a filmmaker-driven animation studio responsible for creating some of the most beloved films ever made. Located in California, Disney Animation continues to build on its rich legacy of innovation and creativity, from the first fully-animated feature film– 1937's Snow White and the Seven Dwarfs– to 2019's Frozen 2.",
-                "links": {
-                    "Walt Disney Animation Studios ": "http://www.disneyanimation.com/"
-                }
-            },
-            "FXlogo": {
-                "name": "FXlogo",
-                "picture": "packages/website/public/img/disney/f-xlogo.png",
-                "links": {
-                    "FXlogo": "https://www.fxnetworks.com/"
-                }
-            },
-            "Disney+ ": {
-                "name": "Disney+ ",
-                "picture": "packages/website/public/img/disney/disney.png",
-                "description": "Celebrate and save on a month of streaming. Limited time offer of one month for $1.99 and then $7.99/mo. Sign-up and start streaming today with Disney+.",
-                "links": {
-                    "Disney+ ": "http://disneyplus.com"
-                }
-            },
             "Disneyland ": {
                 "name": "Disneyland ",
                 "picture": "packages/website/public/img/disney/disneyland.jpg",
@@ -41,50 +16,12 @@
                     "Disneyland ": "https://disneyland.disney.go.com/"
                 }
             },
-            "2018 abc news  promo black": {
-                "name": "ABC News",
-                "picture": "packages/website/public/img/disney/2018-abc-news-promo-black.png",
-                "description": "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com",
+            "Tokyo Disney Resort ": {
+                "name": "Tokyo Disney Resort ",
+                "picture": "packages/website/public/img/disney/tokyo-disney-resort.jpg",
+                "description": "東京ディズニーリゾートでは、遊ぶこと、泊まること、食べること、ショッピング、すべてがエンターテイメント！東京ディズニーランド、東京ディズニーシーの2つのテーマパークを中心とした滞在型テーマリゾートです。",
                 "links": {
-                    "2018 abc news  promo black": "https://abcnews.go.com/"
-                }
-            },
-            "hd14180": {
-                "name": "Disneyland Paris",
-                "picture": "packages/website/public/img/disney/hd14180.png",
-                "description": "Welcome to the official website of Disneyland Paris. Discover 2 Disney Parks, 7 Disney Hotels, a golf course and  Disney Village for even more magic and fun.",
-                "links": {
-                    "hd14180": "http://www.disneylandparis.com/en-us/"
-                }
-            },
-            "WDI ": {
-                "name": "Disney Parks, Experiences and Products",
-                "picture": "packages/website/public/img/disney/wdi.png",
-                "description": "Disney Parks, Experiences and Consumer Products brings Disney’s stories, characters and franchises to life through Parks and Resorts, toys, apps, apparel, books and stores.",
-                "links": {
-                    "WDI ": "http://www.aboutdisneyparks.com/about/around-the-world/walt-disney-imagineering"
-                }
-            },
-            "Disney Vacation Club": {
-                "name": "Disney Vacation Club",
-                "picture": "packages/website/public/img/disney/disney-vacation-club.png",
-                "links": {
-                    "Disney Vacation Club": "https://disneyvacationclub.disney.go.com/"
-                }
-            },
-            "hulu ": {
-                "name": "Hulu",
-                "picture": "packages/website/public/img/disney/hulu.png",
-                "description": "Watch TV shows and movies online. Stream TV episodes of South Park, Empire, SNL, Modern Family and popular movies on your favorite devices. Start your free trial now. Cancel anytime.",
-                "links": {
-                    "hulu ": "https://www.hulu.com"
-                }
-            },
-            "Walt Disney World": {
-                "name": "Walt Disney World",
-                "picture": "packages/website/public/img/disney/walt-disney-world.png",
-                "links": {
-                    "Walt Disney World": "https://disneyworld.disney.go.com/"
+                    "Tokyo Disney Resort ": "http://www.tokyodisneyresort.jp/en/"
                 }
             },
             "ESPN PLUS ": {
@@ -95,27 +32,19 @@
                     "ESPN PLUS ": "https://plus.espn.com/"
                 }
             },
-            "Hong Kong Disneyland ": {
-                "name": "Hong Kong Disneyland ",
-                "picture": "packages/website/public/img/disney/hong-kong-disneyland.jpg",
+            "Disney Music Group": {
+                "name": "Disney Music",
+                "picture": "packages/website/public/img/disney/disney-music-group.png",
+                "description": "Listen to songs, browse albums, and watch music videos from your favorite Disney artists!",
                 "links": {
-                    "Hong Kong Disneyland ": "https://www.hongkongdisneyland.com/"
+                    "Disney Music Group": "https://music.disney.com/"
                 }
             },
-            "Pixar Animation Studios": {
-                "name": "Pixar Animation Studios",
-                "picture": "packages/website/public/img/disney/pixar-animation-studios.png",
-                "description": "Pixar Animation Studios (Pixar) is an American computer animation film \nstudio based in Emeryville, California. Pixar is a subsidiary of The Walt \nDisney Company.",
+            "Disney Vacation Club": {
+                "name": "Disney Vacation Club",
+                "picture": "packages/website/public/img/disney/disney-vacation-club.png",
                 "links": {
-                    "Pixar Animation Studios": "http://www.pixar.com/"
-                }
-            },
-            "Lucasfilm": {
-                "name": "Lucasfilm",
-                "picture": "packages/website/public/img/disney/lucasfilm.png",
-                "description": "Founded in 1971, Lucasfilm is one of the world's leading entertainment companies and home to the legendary Star Wars and Indiana Jones franchises.",
-                "links": {
-                    "Lucasfilm": "http://lucasfilm.com/"
+                    "Disney Vacation Club": "https://disneyvacationclub.disney.go.com/"
                 }
             },
             "Disney Cruise Line ": {
@@ -125,20 +54,42 @@
                     "Disney Cruise Line ": "https://disneycruise.disney.go.com/"
                 }
             },
-            "The Walt Disney Studios": {
-                "name": "The Walt Disney Studios",
-                "picture": "packages/website/public/img/disney/the-walt-disney-studios.png",
-                "description": "Welcome to The Walt Disney Studios",
+            "FXlogo": {
+                "name": "FXlogo",
+                "picture": "packages/website/public/img/disney/f-xlogo.png",
                 "links": {
-                    "The Walt Disney Studios": "http://waltdisneystudios.com/"
+                    "FXlogo": "https://www.fxnetworks.com/"
                 }
             },
-            "SLP ": {
-                "name": "Searchlight Pictures",
-                "picture": "packages/website/public/img/disney/slp.png",
-                "description": "We're Searchlight Pictures, the studio that brought you 12 Years A Slave, The Grand Budapest Hotel, Wild, Birdman, Slumdog Millionaire, and Little Miss Sunshine.",
+            "Hong Kong Disneyland ": {
+                "name": "Hong Kong Disneyland ",
+                "picture": "packages/website/public/img/disney/hong-kong-disneyland.jpg",
                 "links": {
-                    "SLP ": "https://www.searchlightpictures.com/"
+                    "Hong Kong Disneyland ": "https://www.hongkongdisneyland.com/"
+                }
+            },
+            "Walt Disney Animation Studios ": {
+                "name": "Walt Disney Animation Studios",
+                "picture": "packages/website/public/img/disney/walt-disney-animation-studios.jpg",
+                "description": "The official site of Walt Disney Animation Studios. Walt Disney Animation Studios is a filmmaker-driven animation studio responsible for creating some of the most beloved films ever made. Located in California, Disney Animation continues to build on its rich legacy of innovation and creativity, from the first fully-animated feature film– 1937's Snow White and the Seven Dwarfs– to 2019's Frozen 2.",
+                "links": {
+                    "Walt Disney Animation Studios ": "http://www.disneyanimation.com/"
+                }
+            },
+            "WDI ": {
+                "name": "Disney Parks, Experiences and Products",
+                "picture": "packages/website/public/img/disney/wdi.png",
+                "description": "Disney Parks, Experiences and Consumer Products brings Disney’s stories, characters and franchises to life through Parks and Resorts, toys, apps, apparel, books and stores.",
+                "links": {
+                    "WDI ": "http://www.aboutdisneyparks.com/about/around-the-world/walt-disney-imagineering"
+                }
+            },
+            "Disney+ ": {
+                "name": "Disney+ ",
+                "picture": "packages/website/public/img/disney/disney.png",
+                "description": "Disney+ is the home for your favorite movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic. Sign up for Disney+ and start streaming today.",
+                "links": {
+                    "Disney+ ": "http://disneyplus.com"
                 }
             },
             "Final Hotstar  lockup": {
@@ -149,28 +100,11 @@
                     "Final Hotstar  lockup": "https://us.hotstar.com"
                 }
             },
-            "ESPN ": {
-                "name": "ESPN",
-                "picture": "packages/website/public/img/disney/espn.jpg",
-                "description": "Visit ESPN to get up-to-the-minute sports news coverage, scores, highlights and commentary for NFL, MLB, NBA, College Football, NCAA Basketball and more.",
+            "Walt Disney World": {
+                "name": "Walt Disney World",
+                "picture": "packages/website/public/img/disney/walt-disney-world.png",
                 "links": {
-                    "ESPN ": "http://espn.go.com/"
-                }
-            },
-            "Disney Music Group": {
-                "name": "Disney Music",
-                "picture": "packages/website/public/img/disney/disney-music-group.png",
-                "description": "Listen to songs, browse albums, and watch music videos from your favorite Disney artists!",
-                "links": {
-                    "Disney Music Group": "https://music.disney.com/"
-                }
-            },
-            "NG  black": {
-                "name": "National Geographic",
-                "picture": "packages/website/public/img/disney/ng-black.png",
-                "description": "Explore National Geographic. A world leader in geography, cartography and exploration.",
-                "links": {
-                    "NG  black": "https://www.nationalgeographic.com"
+                    "Walt Disney World": "https://disneyworld.disney.go.com/"
                 }
             },
             "Adventures by Disney": {
@@ -180,44 +114,20 @@
                     "Adventures by Disney": "https://www.adventuresbydisney.com/"
                 }
             },
-            "Aulani ": {
-                "name": "Aulani Hawaii Resort",
-                "picture": "packages/website/public/img/disney/aulani.jpg",
-                "description": "Aulani, a Disney Resort & Spa in Ko Olina, is the place to stay for a Hawaii family vacation that immerses you in local culture through Disney magic.",
+            "hd14180": {
+                "name": "Disneyland Paris",
+                "picture": "packages/website/public/img/disney/hd14180.png",
+                "description": "Welcome to the official website of Disneyland Paris. Discover 2 Disney Parks, 7 Disney Hotels, a golf course and  Disney Village for even more magic and fun.",
                 "links": {
-                    "Aulani ": "https://resorts.disney.go.com/aulani-hawaii-resort/"
+                    "hd14180": "http://www.disneylandparis.com/en-us/"
                 }
             },
-            "Shop Disney TDS  Blue": {
-                "name": "Show Disney",
-                "picture": "packages/website/public/img/disney/shop-disney-tds-blue.jpg",
-                "description": "Disney Store online is now shopDisney.com, the ultimate Disney shopping destination! Shop for costumes, clothes, toys, collectibles, decor, movies and more at shopDisney.",
+            "2018 abc news  promo black": {
+                "name": "ABC News",
+                "picture": "packages/website/public/img/disney/2018-abc-news-promo-black.png",
+                "description": "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com",
                 "links": {
-                    "Shop Disney TDS  Blue": "http://www.shopdisney.com/"
-                }
-            },
-            "Disney Publishing Worldwide": {
-                "name": "Disney Books",
-                "picture": "packages/website/public/img/disney/disney-publishing-worldwide.png",
-                "description": "Browse thousands of books for all ages featuring your favorite characters from Disney, Star Wars, Marvel, Pixar, and more!",
-                "links": {
-                    "Disney Publishing Worldwide": "http://books.disney.com/"
-                }
-            },
-            "20th century studios": {
-                "name": "20th Century Studios",
-                "picture": "packages/website/public/img/disney/20th-century-studios.png",
-                "description": "The Official Website for all movies from 20th Century Studios. Shop for movies on Blu-ray, DVD, 4K Ultra HD, or Digital.",
-                "links": {
-                    "20th century studios": "https://www.20thcenturystudios.com/"
-                }
-            },
-            "FF  Horiz 01 Blue Inverse": {
-                "name": "Freeform",
-                "picture": "packages/website/public/img/disney/ff-horiz-01-blue-inverse.png",
-                "description": "Watch Freeform original TV shows, movies and live TV.",
-                "links": {
-                    "FF  Horiz 01 Blue Inverse": "https://freeform.go.com/"
+                    "2018 abc news  promo black": "https://abcnews.go.com/"
                 }
             },
             "MARVEL STUDIOS ": {
@@ -228,6 +138,54 @@
                     "MARVEL STUDIOS ": "http://marvel.com/movies"
                 }
             },
+            "Aulani ": {
+                "name": "Aulani Hawaii Resort",
+                "picture": "packages/website/public/img/disney/aulani.jpg",
+                "description": "Aulani, a Disney Resort & Spa in Ko Olina, is the place to stay for a Hawaii family vacation that immerses you in local culture through Disney magic.",
+                "links": {
+                    "Aulani ": "https://resorts.disney.go.com/aulani-hawaii-resort/"
+                }
+            },
+            "NG  black": {
+                "name": "National Geographic",
+                "picture": "packages/website/public/img/disney/ng-black.png",
+                "description": "Explore National Geographic. A world leader in geography, cartography and exploration.",
+                "links": {
+                    "NG  black": "https://www.nationalgeographic.com"
+                }
+            },
+            "Shop Disney TDS  Blue": {
+                "name": "Show Disney",
+                "picture": "packages/website/public/img/disney/shop-disney-tds-blue.jpg",
+                "description": "Disney Store online is now shopDisney.com, the ultimate Disney shopping destination! Shop for costumes, clothes, toys, collectibles, decor, movies and more at shopDisney.",
+                "links": {
+                    "Shop Disney TDS  Blue": "http://www.shopdisney.com/"
+                }
+            },
+            "The Walt Disney Studios": {
+                "name": "The Walt Disney Studios",
+                "picture": "packages/website/public/img/disney/the-walt-disney-studios.png",
+                "description": "Welcome to The Walt Disney Studios",
+                "links": {
+                    "The Walt Disney Studios": "http://waltdisneystudios.com/"
+                }
+            },
+            "Pixar Animation Studios": {
+                "name": "Pixar Animation Studios",
+                "picture": "packages/website/public/img/disney/pixar-animation-studios.png",
+                "description": "Pixar Animation Studios (Pixar) is an American computer animation film \nstudio based in Emeryville, California. Pixar is a subsidiary of The Walt \nDisney Company.",
+                "links": {
+                    "Pixar Animation Studios": "http://www.pixar.com/"
+                }
+            },
+            "hulu ": {
+                "name": "Hulu",
+                "picture": "packages/website/public/img/disney/hulu.png",
+                "description": "Watch TV shows and movies online. Stream TV episodes of Grey's Anatomy, This Is Us, Bob's Burgers, Brooklyn Nine-Nine, Empire, SNL, and popular movies on your favorite devices. Start your free trial now. Cancel anytime.",
+                "links": {
+                    "hulu ": "https://www.hulu.com"
+                }
+            },
             "Shanghai Disney Resort ": {
                 "name": "Shanghai Disney Resort ",
                 "picture": "packages/website/public/img/disney/shanghai-disney-resort.jpg",
@@ -235,426 +193,575 @@
                 "links": {
                     "Shanghai Disney Resort ": "https://www.shanghaidisneyresort.com/en"
                 }
+            },
+            "20th century studios": {
+                "name": "20th Century Studios",
+                "picture": "packages/website/public/img/disney/20th-century-studios.png",
+                "description": "The Official Website for all movies from 20th Century Studios. Shop for movies on Blu-ray, DVD, 4K Ultra HD, or Digital.",
+                "links": {
+                    "20th century studios": "https://www.20thcenturystudios.com/"
+                }
+            },
+            "SLP ": {
+                "name": "Searchlight Pictures",
+                "picture": "packages/website/public/img/disney/slp.png",
+                "description": "We're Searchlight Pictures, the studio that brought you 12 Years A Slave, The Grand Budapest Hotel, Wild, Birdman, Slumdog Millionaire, and Little Miss Sunshine.",
+                "links": {
+                    "SLP ": "https://www.searchlightpictures.com/"
+                }
+            },
+            "Disney Publishing Worldwide": {
+                "name": "Disney Books",
+                "picture": "packages/website/public/img/disney/disney-publishing-worldwide.png",
+                "description": "Browse thousands of books for all ages featuring your favorite characters from Disney, Star Wars, Marvel, Pixar, and more!",
+                "links": {
+                    "Disney Publishing Worldwide": "http://books.disney.com/"
+                }
+            },
+            "Lucasfilm": {
+                "name": "Lucasfilm",
+                "picture": "packages/website/public/img/disney/lucasfilm.png",
+                "description": "Founded in 1971, Lucasfilm is one of the world's leading entertainment companies and home to the legendary Star Wars and Indiana Jones franchises.",
+                "links": {
+                    "Lucasfilm": "http://lucasfilm.com/"
+                }
+            },
+            "ESPN ": {
+                "name": "ESPN",
+                "picture": "packages/website/public/img/disney/espn.jpg",
+                "description": "Visit ESPN to get up-to-the-minute sports news coverage, scores, highlights and commentary for NFL, MLB, NBA, College Football, NCAA Basketball and more.",
+                "links": {
+                    "ESPN ": "http://espn.go.com/"
+                }
+            },
+            "FF  Horiz 01 Blue Inverse": {
+                "name": "Freeform",
+                "picture": "packages/website/public/img/disney/ff-horiz-01-blue-inverse.png",
+                "description": "Watch Freeform original TV shows, movies and live TV.",
+                "links": {
+                    "FF  Horiz 01 Blue Inverse": "https://freeform.go.com/"
+                }
             }
         }
     },
-    "nestle": {
-        "name": "Nestlé",
-        "url": "https://www.nestle.com/brands/brandssearchlist",
+    "kellogs": {
+        "name": "Kellogs",
+        "details": {},
+        "brands": {}
+    },
+    "pepsi-co": {
+        "name": "PepsiCo",
+        "details": {
+            "name": "PepsiCo",
+            "url": "https://www.pepsico.com/brands/product-information",
+            "infoUrl": "https://en.wikipedia.org/wiki/PepsiCo",
+            "description": "PepsiCo, Inc. is an American multinational food, snack, and beverage corporation headquartered in Harrison, New York, in the hamlet of Purchase. PepsiCo's business encompasses all aspects of the food and beverage market. It oversees the manufacturing, distribution, and marketing of its products. PepsiCo was formed in 1965 with the merger of the Pepsi-Cola Company and Frito-Lay, Inc. PepsiCo has since expanded from its namesake product Pepsi Cola to an immensely diversified range of food and beverage brands. The largest and most recent acquisition was Tropicana Products in 1998 and the Quaker Oats Company in 2001, which added the Gatorade brand to the Pepsi portfolio.\nAs of January 2021, the company possesses 23 brands that have over $1 billion in sales.[2] Pepsico has operations all around the world and its products were distributed across more than 200 countries, resulting in annual net revenues of over $70 billion. Based on net revenue, profit, and market capitalization; PepsiCo is the second-largest food and beverage business in the world, behind Nestlé. PepsiCo's flagship product Pepsi Cola has been engaged in a rivalry for generations with Coca-Cola, commonly referred to as the Soda Wars. Despite Coca-Cola outselling Pepsi Cola in the United States, PepsiCo within the North American market is the largest food and beverage company by net revenue. Ramon Laguarta has been the chief executive of PepsiCo since 2018. The company's beverage distribution and bottling is conducted by PepsiCo as well as by licensed bottlers in certain regions.\nPepsi has been repeatedly criticized by environmentalists for its relationship to negative environmental impacts of agriculture in its supply chain, and distributing operations such as palm oil-related deforestation and pesticide use, its use of water resources, and the negative impacts of its packaging—Pepsi's packaging has consistently been one of the top sources of plastic pollution globally.[3]  Similarly public health advocates have criticized Pepsi's high-calorie, poor nutrition product lines along with other popular snack and drink manufacturers. In response, PepsiCo has made public comments on their commitment to minimizing their impact but has not released public information documenting progress on most of its public commitments.\n",
+            "logo": "packages/website/public/img/pepsi-co/pepsi-co.png"
+        },
         "brands": {
-            "Aero": {
-                "name": "Aero",
-                "description": "Known for its delightful bubbles. A unique way to experience pure chocolate pleasure. Available in many countries including the UK, Canada and Japan.",
-                "picture": "packages/website/public/img/nestle/aero.png",
-                "links": {}
-            },
-            "Alpo": {
-                "name": "Alpo",
-                "description": "A leading dog food brand known for meaty taste and high quality protein. Available in many varieties including wet and dry food, and tasty treats.",
-                "picture": "packages/website/public/img/nestle/alpo.png",
-                "links": {}
-            },
-            "Bakers Complete": {
-                "name": "Bakers Complete",
-                "description": "The UK’s #1 complete dry dog food made with fresh meat and wholesome kibbles. Available in a range of varieties for each stage of your dog’s life.",
-                "picture": "packages/website/public/img/nestle/bakers-complete.png",
-                "links": {}
-            },
-            "Beneful": {
-                "name": "Beneful",
-                "description": "Dog food that keeps your dog happy with a perfect balance of wholesome ingredients, quality nutrition and great taste. Available in many countries.",
-                "picture": "packages/website/public/img/nestle/beneful.png",
-                "links": {}
-            },
-            "Boost": {
-                "name": "Boost",
-                "description": "Nutritionally complete drink designed to help adults meet their daily nutritional needs so they can maintain strength, functionality and mobility.",
-                "picture": "packages/website/public/img/nestle/boost.png",
-                "links": {}
-            },
-            "Buitoni": {
-                "name": "Buitoni",
-                "description": "Dedicated to using the highest quality ingredients to make delicious pastas and sauces - inspired by traditional Italian cuisine.",
-                "picture": "packages/website/public/img/nestle/buitoni.png",
-                "links": {}
-            },
-            "Cailler": {
-                "name": "Cailler",
-                "description": "Dedicated to quality since 1819, Cailler chocolate is one of Switzerland's oldest, best-known and best-loved chocolate brands.",
-                "picture": "packages/website/public/img/nestle/cailler.png",
-                "links": {}
-            },
-            "Carnation": {
-                "name": "Carnation",
-                "description": "A delicious evaporated milk alternative to cream for creating meals and treats. A good source of calcium. Also available in light variety.",
-                "picture": "packages/website/public/img/nestle/carnation.png",
-                "links": {}
-            },
-            "Cat Chow": {
-                "name": "Cat Chow",
-                "description": "Cat food that helps cats enjoy a healthy lifestyle - whether a kitten, adult or mature cat. Available in multiple formulas and countries.",
-                "picture": "packages/website/public/img/nestle/cat-chow.png",
-                "links": {}
-            },
-            "Cerelac": {
-                "name": "Cerelac",
-                "description": "A range of nutritious, easily-digested instant cereals – as a complementary food for infants from six months onwards.",
-                "picture": "packages/website/public/img/nestle/cerelac.png",
-                "links": {}
-            },
-            "Cheerios": {
-                "name": "Cheerios",
-                "description": "Cheerios are great tasting cereals made of five whole grains and with no artificial colors or flavors.",
-                "picture": "packages/website/public/img/nestle/cheerios.png",
-                "links": {}
-            },
-            "Chef": {
-                "name": "Chef",
-                "description": "Developed by chefs for chefs, Chef product culinary bases are the best kept secret of professional kitchens around the world.",
-                "picture": "packages/website/public/img/nestle/chef.png",
-                "links": {}
-            },
-            "Chef Michael’s Canine Creations": {
-                "name": "Chef Michael’s Canine Creations",
-                "description": "Delicious wet meals or dry dinners for your dog's desire with chicken, beef, turkey, pork and special touches like vegetable garnishes.",
-                "picture": "packages/website/public/img/nestle/chef-michael-s-canine-creations.png",
-                "links": {}
-            },
-            "Chef-Mate": {
-                "name": "Chef-Mate",
-                "description": "High quality, dependable, shelf-stable products that professional chefs have come to know and trust for the past 30 years.",
-                "picture": "packages/website/public/img/nestle/chef-mate.png",
-                "links": {}
-            },
-            "Coffee-Mate": {
-                "name": "Coffee-Mate",
-                "description": "The perfect partner to coffee. Non-dairy creamer available in many varieties that is lactose and cholesterol free. Makes coffee richer and creamier.",
-                "picture": "packages/website/public/img/nestle/coffee-mate.png",
-                "links": {}
-            },
-            "DiGiorno": {
-                "name": "DiGiorno",
-                "description": "The leader in the US frozen pizza category, DiGiorno delivers fresh-baked taste in the comfort of your home.",
-                "picture": "packages/website/public/img/nestle/di-giorno.png",
-                "links": {}
-            },
-            "Dog Chow": {
-                "name": "Dog Chow",
-                "description": "Complete, balanced nutrition for dogs of all ages. High quality ingredients deliver 100% of the essential nutrients your dog needs to stay happy.",
-                "picture": "packages/website/public/img/nestle/dog-chow.png",
-                "links": {}
-            },
-            "Dreyer’s": {
-                "name": "Dreyer’s",
-                "description": "Premium ice cream and frozen treats. Trusted, great-tasting brands for the family including Grand, Slow Churned, Dibs, and Outshine Fruit Bars.",
-                "picture": "packages/website/public/img/nestle/dreyer-s.png",
-                "links": {}
-            },
-            "Extrême": {
-                "name": "Extrême",
-                "description": "A convenient and delicious cone available in multiple flavours. A balance of taste and texture with the delight of a chocolate-filled tip.",
-                "picture": "packages/website/public/img/nestle/extreme.png",
-                "links": {}
-            },
-            "Fancy Feast": {
-                "name": "Fancy Feast",
-                "description": "An exquisite feline dining experience with all the nutritional benefits. An assortment of single-serve entrees in succulent varieties and textures.",
-                "picture": "packages/website/public/img/nestle/fancy-feast.png",
-                "links": {}
-            },
-            "Felix": {
-                "name": "Felix",
-                "description": "Irresistibly tasty cat food treats and milk. For kittens through to senior cats. Available in a range of delectable flavours, textures and formats.",
-                "picture": "packages/website/public/img/nestle/felix.png",
-                "links": {}
-            },
-            "Fitness": {
-                "name": "Fitness",
-                "description": "Delicious flakes made with whole grain and important vitamins and minerals, including calcium and iron.",
-                "picture": "packages/website/public/img/nestle/fitness.png",
-                "links": {}
-            },
-            "Friskies": {
-                "name": "Friskies",
-                "description": "Everything your cat wants – great taste, nutrition and an unbelievable selection of flavours and formats. Helps cats live life to the fullest.",
-                "picture": "packages/website/public/img/nestle/friskies.png",
-                "links": {}
-            },
-            "Garoto": {
-                "name": "Garoto",
-                "description": "Garoto is one of Brazil’s favourite chocolate brands with a history stretching back more than 80 years. Since 2002 it has been part of the Nestle family.",
-                "picture": "packages/website/public/img/nestle/garoto.png",
-                "links": {}
-            },
-            "Gerber": {
-                "name": "Gerber",
-                "description": "One of the most trusted names in baby food and baby care. Since 1927, committed to promoting good nutrition and healthy eating habits for children.",
-                "picture": "packages/website/public/img/nestle/gerber.png",
-                "links": {}
-            },
-            "Gourmet": {
-                "name": "Gourmet",
-                "description": "Cat food made to the highest cat culinary standards. Available in convenient, single-serve portions in a tantalising array of recipes.",
-                "picture": "packages/website/public/img/nestle/gourmet.png",
-                "links": {}
-            },
-            "Herta": {
-                "name": "Herta",
-                "description": "Founded more than 100 years ago, the Herta brand helps you take care of your loved ones with food the way it should be – simple, tasty and natural.",
-                "picture": "packages/website/public/img/nestle/herta.png",
-                "links": {}
-            },
-            "Hot Pockets": {
-                "name": "Hot Pockets",
-                "description": "America’s favourite frozen sandwiches for any meal. Convenient, great tasting varieties including Lean Pockets with 9 grams of fat or less.",
-                "picture": "packages/website/public/img/nestle/hot-pockets.png",
-                "links": {}
-            },
-            "Häagen-Dazs": {
-                "name": "Häagen-Dazs",
-                "description": "The finest creations. Ice cream, gelato, sorbet and frozen yogurt made from the finest ingredients like sweet, fresh strawberries and rich cocoa.",
-                "picture": "packages/website/public/img/nestle/haeagen-dazs.png",
-                "links": {}
-            },
-            "Jack's": {
-                "name": "Jack's",
-                "description": "In 1960, in the small US town of Little Chute, Wisconsin, a man named Jack had a vision to create the perfect pizza...  Jack’s pizza was born.",
-                "picture": "packages/website/public/img/nestle/jack-s.png",
-                "links": {}
-            },
-            "KitKat": {
-                "name": "KitKat",
-                "description": "One of the world’s favourite chocolate brands. Light layers of praline-filled wafer in smooth milk chocolate. ",
-                "picture": "packages/website/public/img/nestle/kit-kat.png",
-                "links": {}
-            },
-            "La Laitière": {
-                "name": "La Laitière",
-                "description": "Great tasting desserts for everyone who loves the wholesome goodness of nature and a choice of lighter options.",
-                "picture": "packages/website/public/img/nestle/la-laitiere.png",
-                "links": {}
-            },
-            "Lean Cuisine": {
-                "name": "Lean Cuisine",
-                "description": "Lean Cuisine meals are low in fat and high in nutritional value. Delicious nutritious meals ready to eat in minutes.\n",
-                "picture": "packages/website/public/img/nestle/lean-cuisine.png",
-                "links": {}
-            },
-            "Lion cereals": {
-                "name": "Lion cereals",
-                "description": "A unique combination of chocolate and caramel created to feed your wild hunger.",
-                "picture": "packages/website/public/img/nestle/lion-cereals.png",
-                "links": {}
-            },
-            "Maggi": {
-                "name": "Maggi",
-                "description": "Quick and easy options like bouillons, soups, seasonings, sauces and instant noodles. Complements fresh meat and vegetables as part of a healthy diet.",
-                "picture": "packages/website/public/img/nestle/maggi.png",
-                "links": {}
-            },
-            "Milkybar": {
-                "name": "Milkybar",
-                "description": "Milkybar is one of the UK best loved brands and the No.1 White Chocolate brand.",
-                "picture": "packages/website/public/img/nestle/milkybar.png",
-                "links": {}
-            },
-            "Milo": {
-                "name": "Milo",
-                "description": "The world's leading chocolate malt beverage with essential vitamins and minerals. Includes calcium, iron, vitamin A, vitamins B1 and B2 and Vitamin C.",
-                "picture": "packages/website/public/img/nestle/milo.png",
-                "links": {}
-            },
-            "Minor's": {
-                "name": "Minor's",
-                "description": "Pure flavour, premium quality, superior aroma, bold functionality providing the perfect solution for chefs' sauces and gravies.",
-                "picture": "packages/website/public/img/nestle/minor-s.png",
-                "links": {}
-            },
-            "Mövenpick": {
-                "name": "Mövenpick",
-                "description": "The Art of Swiss Ice Cream - crafted with the best ingredients that nature can provide. Natural flavour; no artificial additives or colours.\n",
-                "picture": "packages/website/public/img/nestle/moevenpick.png",
-                "links": {}
-            },
-            "NaturNes": {
-                "name": "NaturNes",
-                "description": "Baby food with better nutrition and taste. Steam cooking preserves nutrients and flavour. 100% natural; no added salt, sugar or modified starches.\n",
-                "picture": "packages/website/public/img/nestle/natur-nes.png",
-                "links": {}
-            },
-            "Nescafé": {
-                "name": "Nescafé",
-                "description": "One of the world’s most popular coffee brands. Many varieties to suit all tastes and occasions. Rich in natural goodness, flavour and convenience.",
-                "picture": "packages/website/public/img/nestle/nescafe.png",
-                "links": {}
-            },
-            "Nescafé Dolce Gusto": {
-                "name": "Nescafé Dolce Gusto",
-                "description": "A multi-coffee capsule system using ground-breaking technology to give you a perfect cup of coffee, every time.",
-                "picture": "packages/website/public/img/nestle/nescafe-dolce-gusto.png",
-                "links": {}
-            },
-            "Nescafé Ready to Drink": {
-                "name": "Nescafé Ready to Drink",
-                "description": "Discover Nescafé to go in convenient ready to drink formats.",
-                "picture": "packages/website/public/img/nestle/nescafe-ready-to-drink.png",
-                "links": {}
-            },
-            "Nespresso": {
-                "name": "Nespresso",
-                "description": "For coffee connoisseurs. Stylish machines and Grand Cru coffees available in exclusive Nespresso boutiques and via the company website.",
-                "picture": "packages/website/public/img/nestle/nespresso.png",
-                "links": {}
-            },
-            "Nesquik": {
-                "name": "Nesquik",
-                "description": "Chocolate powder, syrup and ready-to-drink products. A quick and easy way to complement the natural nutrition of milk and make delicious drinks.",
-                "picture": "packages/website/public/img/nestle/nesquik.png",
-                "links": {}
-            },
-            "Nesquik Breakfast Cereal": {
-                "name": "Nesquik Breakfast Cereal",
-                "description": "The only breakfast cereal with the irresistible taste of Nesquik chocolate in every bite. Made with whole grain, minerals, plus iron and calcium.\n",
-                "picture": "packages/website/public/img/nestle/nesquik-breakfast-cereal.png",
-                "links": {}
-            },
-            "Nestea": {
-                "name": "Nestea",
-                "description": "Refreshing, naturally-flavoured sweetened and unsweetened iced tea and green tea products in a range of convenient formats.",
-                "picture": "packages/website/public/img/nestle/nestea.png",
-                "links": {}
-            },
-            "Nestlé Ice Cream": {
-                "name": "Nestlé Ice Cream",
-                "description": "Ice cream range of pleasurable tastes and wholesome natural ingredients like milk, fruit and nuts. All-natural, low/no sugar or lactose-free options.",
-                "picture": "packages/website/public/img/nestle/nestle-ice-cream.png",
-                "links": {}
-            },
-            "Nestlé Les Recettes de l'Atelier": {
-                "name": "Nestlé Les Recettes de l'Atelier",
-                "description": "Since 2014, Nestlé Les Recettes de l'Atelier has been offering delicious premium chocolate blocks with natural fruit and nut pièces.",
-                "picture": "packages/website/public/img/nestle/nestle-les-recettes-de-l-atelier.png",
-                "links": {}
-            },
-            "Nestlé Pure Life": {
-                "name": "Nestlé Pure Life",
-                "description": "The world's most popular bottled water brand, available in more than 20 markets. Affordable, safe, healthy hydration with a great taste.",
-                "picture": "packages/website/public/img/nestle/nestle-pure-life.png",
-                "links": {}
-            },
-            "Nido": {
-                "name": "Nido",
-                "description": "Range of milk and milk-based products with nutrition solutions for each stage of childhood. A brand that mothers trust. And a taste that kids love.",
-                "picture": "packages/website/public/img/nestle/nido.png",
-                "links": {}
-            },
-            "Nutren Junior": {
-                "name": "Nutren Junior",
-                "description": "Used in healthcare for total or supplementary nutrition for children who are struggling to get their nutrient requirements from regular food.",
-                "picture": "packages/website/public/img/nestle/nutren-junior.png",
-                "links": {}
-            },
-            "Optifast": {
-                "name": "Optifast",
-                "description": "A medically monitored weight loss programme that is clinically proven to help people lose weight and keep it off for the long term.",
-                "picture": "packages/website/public/img/nestle/optifast.png",
-                "links": {}
-            },
-            "Orion": {
-                "name": "Orion",
-                "description": "A much-loved chocolate brand among Czech and Slovak consumers. Known for its quality and craftsmanship since 1896.",
-                "picture": "packages/website/public/img/nestle/orion.png",
-                "links": {}
-            },
-            "Peptamen": {
-                "name": "Peptamen",
-                "description": "Complete nutritional formulas to support nutritional needs of patients with impaired gastrointestinal function such as malabsorption syndromes.",
-                "picture": "packages/website/public/img/nestle/peptamen.png",
-                "links": {}
-            },
-            "Perrier": {
-                "name": "Perrier",
-                "description": "The ultimate sparkling water refreshment – a unique balance of minerals and a light effervescent taste.",
-                "picture": "packages/website/public/img/nestle/perrier.png",
-                "links": {}
-            },
-            "Purina": {
-                "name": "Purina",
-                "description": "For over 75 years the Purina brand has worked to help make pets' lives better through a range of trusted pet food brands and advice.",
-                "picture": "packages/website/public/img/nestle/purina.png",
-                "links": {}
-            },
-            "Purina ONE": {
-                "name": "Purina ONE",
-                "description": "Range of dog and cat food rich in essential nutrients and taste. Innovative formulas to help pets' health and meet changing nutritional needs.",
-                "picture": "packages/website/public/img/nestle/purina-one.png",
-                "links": {}
-            },
-            "Purina Pro Plan": {
-                "name": "Purina Pro Plan",
-                "description": "Pet food developed by nutritionists. Made from only high quality ingredients, scientifically formulated to help pets enjoy a long and healthy life.",
-                "picture": "packages/website/public/img/nestle/purina-pro-plan.png",
-                "links": {}
-            },
-            "Quality Street": {
-                "name": "Quality Street",
-                "description": "With 12 iconic sweets to choose from in the classic assortment, Quality Street creates more magic moments for you and your family.",
-                "picture": "packages/website/public/img/nestle/quality-street.png",
-                "links": {}
-            },
-            "Resource": {
-                "name": "Resource",
-                "description": "Range of nutritional solutions to provide adequate nutrients and energy when the body needs it most such as after an illness, surgery, or injury.",
-                "picture": "packages/website/public/img/nestle/resource.png",
-                "links": {}
-            },
-            "S.Pellegrino": {
-                "name": "S.Pellegrino",
-                "description": "An extraordinary combination of exceptionally pure water and minerals. It is the sparkling mineral water preferred by top restaurants worldwide.",
-                "picture": "packages/website/public/img/nestle/s-pellegrino.png",
-                "links": {}
-            },
-            "Sjora": {
-                "name": "Sjora",
-                "description": "A smooth, light-tasting blend of fruit juices and milk that helps food service operators offer a range of healthier beverages.",
-                "picture": "packages/website/public/img/nestle/sjora.png",
-                "links": {}
-            },
-            "Smarties": {
-                "name": "Smarties",
-                "description": "The delicious nibble everyone loves! Colourful coated chocolate confectionery.",
-                "picture": "packages/website/public/img/nestle/smarties.png",
-                "links": {}
-            },
-            "Starbucks Coffee At Home": {
-                "name": "Starbucks Coffee At Home",
-                "description": "Our Starbucks Coffee At Home range includes a variety of signature Starbucks blends and single-origin coffees, classic beverages such as Caramel Macchiato and Cappuccino, tea latte, and coffee. creamers.",
-                "picture": "packages/website/public/img/nestle/starbucks-coffee-at-home.png",
-                "links": {}
-            },
-            "Stouffer's": {
-                "name": "Stouffer's",
-                "description": "An impressive range of high quality, convenient entrées and side dishes – devoted to bringing families together around delicious food.",
-                "picture": "packages/website/public/img/nestle/stouffer-s.png",
-                "links": {}
-            },
-            "Thomy": {
-                "name": "Thomy",
-                "description": "The first brand to put mustard in a tube. The undisputed leader in offering delectable spreads and sauces in Germany and Switzerland.",
-                "picture": "packages/website/public/img/nestle/thomy.png",
-                "links": {}
-            },
-            "Toll House": {
-                "name": "Toll House",
-                "description": "A brand that America trusts, Nestlé Toll House has provided the best-tasting chocolate chips for over 50 years.",
-                "picture": "packages/website/public/img/nestle/toll-house.png",
-                "links": {}
-            },
-            "Tombstone": {
-                "name": "Tombstone",
-                "description": "A frozen pizza brand that provides a consistently good, unmistakable flavour.",
-                "picture": "packages/website/public/img/nestle/tombstone.png",
-                "links": {}
+            "pure-leaf": {
+                "name": "Pure Leaf",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Pure-Leaf"
+                },
+                "picture": "packages/website/public/img/pepsi-co/pure-leaf.png",
+                "description": "Pure Leaf brews premium iced tea from real tea leaves and follows a simple and authentic&nbsp; process that comes from a passion for realness.\n"
+            },
+            "lay-s": {
+                "name": "Lay's",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Lays"
+                },
+                "picture": "packages/website/public/img/pepsi-co/lay-s.png",
+                "description": "Wherever celebrations and good times happen, the LAY'S&reg; brand will be there just as it has been for more than 75 years. With flavors almost as rich as our history, we have a chip or crisp flavor guaranteed to bring a smile on your face.\n"
+            },
+            "lifewtr": {
+                "name": "LIFEWTR",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Life-Wtr"
+                },
+                "picture": "packages/website/public/img/pepsi-co/lifewtr.png",
+                "description": "LIFEWTR is premium bottled water that fuses creativity and design to serve as a source of inspiration as well as hydration. LIFEWTR is a purified water, pH balanced with electrolytes added for taste.\n"
+            },
+            "starbucks": {
+                "name": "Starbucks",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Starbucks"
+                },
+                "picture": "packages/website/public/img/pepsi-co/starbucks.png",
+                "description": "More than twenty years ago, Starbucks and PepsiCo started the North America Coffee Partnership and launched Starbucks Bottled Frappuccino chilled coffee drink. What started out as a nascent category has grown to be more than 40 ready-to-drink Starbucks beverages and more than $2 billion in retail business.\n"
+            },
+            "pepsi": {
+                "name": "Pepsi",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Pepsi"
+                },
+                "picture": "packages/website/public/img/pepsi-co/pepsi.png",
+                "description": "Delicious. Refreshing. Pepsi\n"
+            },
+            "mountain-dew": {
+                "name": "Mountain Dew",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Mountain-Dew"
+                },
+                "picture": "packages/website/public/img/pepsi-co/mountain-dew.png",
+                "description": "The original, the one that started it all. MTN DEW exhilarates and quenches with its one of a kind taste.\n"
+            },
+            "cheetos": {
+                "name": "Cheetos",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Cheetos"
+                },
+                "picture": "packages/website/public/img/pepsi-co/cheetos.png",
+                "description": "CHEETOS&reg; snacks are the much-loved cheesy treats that are fun for everyone! You just can&rsquo;t eat a CHEETOS&reg; snack without licking the signature &ldquo;cheetle&rdquo; off your fingertips. And wherever the CHEETOS&reg; brand and CHESTER CHEETAH&reg; go, cheesy smiles are sure to follow.\n"
+            },
+            "nut-harvest": {
+                "name": "Nut Harvest",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Nut-Harvest"
+                },
+                "picture": "packages/website/public/img/pepsi-co/nut-harvest.png",
+                "description": "Whether you&rsquo;re going for a run or heading out to run errands, &ldquo;on the go&rdquo; shouldn&rsquo;t mean going without the snacks that keep you going! Our nuts, trail mixes and seeds are a tasty way to stay satisfied while you&rsquo;re out and about.\n"
+            },
+            "life": {
+                "name": "Life",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Quaker"
+                },
+                "picture": "packages/website/public/img/pepsi-co/life.png",
+                "description": "Life cereal is the crunchy wholesome choice that's great for the whole family to enjoy. Each tasty square features whole grains so you can savor the sweet moments that bring your family together.\n"
+            },
+            "pearl-milling-company": {
+                "name": "Pearl Milling Company",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Aunt-Jemima"
+                },
+                "picture": "packages/website/public/img/pepsi-co/pearl-milling-company.png",
+                "description": "New name, same great taste you know and love. Pearl Milling Company&reg; easy-to-prepare mixes, syrups, cornmeal mixes, and grits have been a part of special family moments for over a century. Learn more about the brand&rsquo;s changes <a href=\"https://contact.pepsico.com/auntjemima/article/why-is-aunt-jemima-removing-image-from-packaging-and-changing-it\">here</a>.\n"
+            },
+            "bubly": {
+                "name": "bubly",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/bubly"
+                },
+                "picture": "packages/website/public/img/pepsi-co/bubly.png",
+                "description": "bubly is an unsweetened sparkling water that playfully instigates fun and positivity in everyday life. Available in eight flavors, bubly sparkling water pairs crisp, sparkling water with natural fruit flavors to provide a delicious taste with no calories, no sweeteners, all smiles.\n"
+            },
+            "tropicana": {
+                "name": "Tropicana",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Tropicana"
+                },
+                "picture": "packages/website/public/img/pepsi-co/tropicana.png",
+                "description": "We've been making orange juice for nearly 70 years and still bring the same passion to the process as when we first started. See what we are doing to bring you the best-tasting, most nutritious orange juice possible.\n"
+            },
+            "doritos": {
+                "name": "Doritos",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Doritos"
+                },
+                "picture": "packages/website/public/img/pepsi-co/doritos.png",
+                "description": "The DORITOS&reg; brand is all about boldness. If you&rsquo;re up to the challenge, grab a bag of DORITOS&reg; tortilla chips and get ready to make some memories you won&rsquo;t soon forget. It&rsquo;s a bold experience in snacking and beyond.\n"
+            },
+            "quaker": {
+                "name": "Quaker",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Quaker"
+                },
+                "picture": "packages/website/public/img/pepsi-co/quaker.png",
+                "description": "For more than 140 years, Quaker has been the leading expert in oats, combining science, scale, passion, and expertise, and dedicated to determining ways to transform the oat into products that help people benefit from their goodness.\n"
+            },
+            "aquafina": {
+                "name": "Aquafina",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Aquafina"
+                },
+                "picture": "packages/website/public/img/pepsi-co/aquafina.png",
+                "description": "Aquafina&rsquo;s reverse osmosis purification system means perfect taste every time.\n"
+            },
+            "soda-stream": {
+                "name": "Soda Stream",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/soda-stream.png",
+                "description": "Turn regular water into sparkling water at the touch of a button with SodaStream&reg;. You drink more water when it&rsquo;s exciting, so dress up your glass, and show you&rsquo;re high class with better bubbles. Add a squeeze of fresh fruit or a drop of natural flavor for a better way to hydrate. Plus, when you use SodaStream reusable bottles your choices are better for you and better for the planet.\n"
+            },
+            "ruffles": {
+                "name": "Ruffles",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Ruffles"
+                },
+                "picture": "packages/website/public/img/pepsi-co/ruffles.png",
+                "description": "With crunchy ridges and epic inspired flavors, RUFFLES&reg; potato chips bring snack satisfaction and big taste to any moment.\n"
+            },
+            "brisk": {
+                "name": "Brisk",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Brisk"
+                },
+                "picture": "packages/website/public/img/pepsi-co/brisk.png",
+                "description": "Brisk has become the badge of creative hustlers everywhere, and we're damn proud of it. By bringing in-your-face flavors, vibrant colors, and dynamic packaging to the juice drink and iced tea game, we attract anyone pushing themselves to make their mark on the world.\n"
+            },
+            "sun-chips": {
+                "name": "SunChips",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/SunChips"
+                },
+                "picture": "packages/website/public/img/pepsi-co/sun-chips.png",
+                "description": "SUNCHIPS&reg; snacks are wavy, ripple-y squares full of whole-grain goodness (19g of whole grains per serving). Grab a bag of SUNCHIPS&reg; multigrain snacks in your favorite flavor, and tell your taste buds to meet you at the corner of delicious and wholesome.\n"
+            },
+            "naked": {
+                "name": "Naked",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Naked"
+                },
+                "picture": "packages/website/public/img/pepsi-co/naked.png",
+                "description": "Naked has a deep tradition of goodness. For more than 30 years, we have been committed to giving consumers easy access to the best fruits and vegetables.\n"
+            },
+            "ke-vita": {
+                "name": "KeVita",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Kevita"
+                },
+                "picture": "packages/website/public/img/pepsi-co/ke-vita.png",
+                "description": "KeVita is a leader in fermented probiotic and kombucha beverages with three refreshingly accessible product lines and billions of live probiotics in every bottle. With over two dozen flavors of Sparkling Probiotic Drink, Master Brew Kombucha and Apple Cider Vinegar Tonic, all KeVita drinks are USDA Certified Organic, non-GMO Project Verified and gluten-free.\n"
+            },
+            "o-n-e": {
+                "name": "O.N.E",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/ONE-Coconut-Water"
+                },
+                "picture": "packages/website/public/img/pepsi-co/o-n-e.png",
+                "description": "Made from the best coconuts, O.N.E. has a vibrant coconut flavor. O.N.E. pure coconut water is refreshing and hydrating, helping to inspire and power your ONE thing.\n"
+            },
+            "7-up": {
+                "name": "7UP",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/7-up.png",
+                "description": "7UP is one of PepsiCo&rsquo;s billion dollar brands present across more than 140 countries outside of the U.S. It&rsquo;s an authentic trademark with strong heritage, equity since 1929\n"
+            },
+            "simply": {
+                "name": "Simply",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Simply"
+                },
+                "picture": "packages/website/public/img/pepsi-co/simply.png",
+                "description": "Simply put, SIMPLY snacks have a great taste, with no artificial flavors or colors to get in the way. They&rsquo;re the ones that make you feel good about sharing with the people you love most!\n"
+            },
+            "imag-ne": {
+                "name": "Imag!ne",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/imagine"
+                },
+                "picture": "packages/website/public/img/pepsi-co/imag-ne.png",
+                "description": "Imag!ne snacks are lip-smackingly delicious snacks that are a good source of protein or calcium. Our clever snacks are proof that food made with real ingredients, like cheese, apples and cranberries, can be totally scrumptious and convenient for snack-time with no artificial colors or flavors and Non-GMO Project Verified.\n"
+            },
+            "near-east": {
+                "name": "Near East",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Near-East"
+                },
+                "picture": "packages/website/public/img/pepsi-co/near-east.png",
+                "description": "The Near East&reg; family of products includes more than 30 different varieties of rice pilaf, couscous, quinoa blends, and other grain dishes. Our easy-to-prepare products are made with high quality ingredients and feature authentic flavors from around the world.\n"
+            },
+            "fritos": {
+                "name": "Fritos",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Fritos"
+                },
+                "picture": "packages/website/public/img/pepsi-co/fritos.png",
+                "description": "The popularity of FRITOS&reg; corn chips puts this iconic snack in a class of its own. From small towns and family barbecues to parties in the big city, this classic snack is still satisfying fans after more than 80 years.\n"
+            },
+            "bare-snacks": {
+                "name": "Bare Snacks",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Bare-Snacks"
+                },
+                "picture": "packages/website/public/img/pepsi-co/bare-snacks.png",
+                "description": "At Bare, we believe the less you add, the more you actually taste. We slice real fruit and veggies and bake them up slowly for a one-of-a-kind crunch. Snacks gone simple&reg;.\n"
+            },
+            "tostitos": {
+                "name": "Tostitos",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Tostitos"
+                },
+                "picture": "packages/website/public/img/pepsi-co/tostitos.png",
+                "description": "TOSTITOS&reg; are more than tortilla chips and dips &ndash; they&rsquo;re an invitation to catch up with friends, so Get Together Already&trade;!\n"
+            },
+            "off-the-eaten-path": {
+                "name": "Off the Eaten Path",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Off-The-Eaten-Path"
+                },
+                "picture": "packages/website/public/img/pepsi-co/off-the-eaten-path.png",
+                "description": "Hungry for a new adventure? Try Off the Eaten Path &ndash; deliciously different from chips. You&rsquo;ll discover a new take on Real Veggies like green peas, yellow peas and black beans. Keep feeding your curious!\n"
+            },
+            "gatorade": {
+                "name": "Gatorade",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Gatorade"
+                },
+                "picture": "packages/website/public/img/pepsi-co/gatorade.png",
+                "description": "With a legacy over 50 years in the making, it&rsquo;s the most scientifically researched and game-tested way to replace electrolytes lost in sweat. Gatorade Thirst Quencher is specifically made to keep you hydrated, which is why it&rsquo;s trusted by some of the world&rsquo;s best athletes.\n"
+            },
+            "propel": {
+                "name": "Propel",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Propel"
+                },
+                "picture": "packages/website/public/img/pepsi-co/propel.png",
+                "description": "Give your workout a boost of fruit flavor. Each of Propel's eight flavors provide electrolytes while also providing vitamin B and antioxidant vitamins C and E so you can hydrate, replenish and get your best workout without adding calories.\n"
+            },
+            "diet-pepsi": {
+                "name": "Diet Pepsi",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Diet-Pepsi"
+                },
+                "picture": "packages/website/public/img/pepsi-co/diet-pepsi.png",
+                "description": "With its light, crisp taste, Diet Pepsi gives you all the refreshment you need - with zero sugar, zero calories and zero carbs. Light. Crisp. Refreshing. Diet Pepsi.\n"
+            },
+            "stacy-s": {
+                "name": "Stacy's",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Stacys"
+                },
+                "picture": "packages/website/public/img/pepsi-co/stacy-s.png",
+                "description": "STACY&rsquo;S&reg; pita chips and thins, real pita bread twice baked for incredible crunch.\n"
+            },
+            "cracker-jack": {
+                "name": "Cracker Jack",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Cracker-Jack"
+                },
+                "picture": "packages/website/public/img/pepsi-co/cracker-jack.png",
+                "description": "The CRACKER JACK&reg; brand has been an American favorite for 120 years. The delicious blend of caramel coated popcorn and peanuts is just as good as you remember. And, as if a tasty snack weren&rsquo;t enough, who can forget the thrill of opening the surprise inside?\n"
+            },
+            "matador": {
+                "name": "Matador",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/matador.png",
+                "description": "Matador&reg; beef jerky is made with 100% beef to help you get the most out of every day. Sunup to sundown. So from work to play, Charge Forward&trade; every single day and steer life where you want it to go.\n"
+            },
+            "lipton": {
+                "name": "Lipton",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Lipton"
+                },
+                "picture": "packages/website/public/img/pepsi-co/lipton.png",
+                "description": "With more than 125 years of experience, Lipton is one of the world's great refreshment brands, with tea-based drinks including leaf tea, infusions, and ready-to-drink iced tea.\n"
+            },
+            "sierra-mist": {
+                "name": "Sierra Mist",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Sierra-Mist"
+                },
+                "picture": "packages/website/public/img/pepsi-co/sierra-mist.png",
+                "description": "Crisp lemon lime flavored refreshment made with real sugar.\n"
+            },
+            "rice-a-roni-and-pasta-roni": {
+                "name": "Rice-A-Roni and Pasta Roni",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Rice-A-Roni"
+                },
+                "picture": "packages/website/public/img/pepsi-co/rice-a-roni-and-pasta-roni.png",
+                "description": "Rice-A-Roni&reg; and Pasta Roni&reg; offer easy-to-prepare side dishes in various flavors you&rsquo;ll love to help delight your family with a delicious dinner. It&rsquo;s The San Francisco Treat!\n"
+            },
+            "izze": {
+                "name": "IZZE",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Izze"
+                },
+                "picture": "packages/website/public/img/pepsi-co/izze.png",
+                "description": "IZZE drinks are a simple mix including 70% fruit juice and a splash of sparkling water. With no preservatives and no added sugar, IZZE is the perfect feel-good drink to brighten up your days.\n"
+            },
+            "so-be-elixirs-and-teas": {
+                "name": "SoBe Elixirs® & Teas",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Sobe"
+                },
+                "picture": "packages/website/public/img/pepsi-co/so-be-elixirs-and-teas.png",
+                "description": "Our story began in 1995, when our founders dreamt up a flavorful concoction inspired by the sun-drenched beaches and laidback vibes of South Beach, Florida.&nbsp; Our first drink, SOBE&reg; Black Tea 3G, was an unheard of blend of Ginseng, Guarana and herbal ingredients.&nbsp; Today we offer a diverse range of SOBE ELIXIR&reg; and Tea products that are defined by exotic flavor combinations. Unapologetically bold and wickedly tasty, SOBE&reg; beverages are refreshing and delight the taste buds with an insane rush of flavor.\n\n<p>Enjoyed on their own or expertly remixed, SOBE ELIXIR&reg; and Tea products aren&rsquo;t for the faint of heart.&nbsp; Our crazy concoctions cater to all the daredevils and the adventure seekers out there.&nbsp; So go ahead and Ride The Wild!</p>"
+            },
+            "santitas": {
+                "name": "Santitas",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Santitas"
+                },
+                "picture": "packages/website/public/img/pepsi-co/santitas.png",
+                "description": "Just like the tortilla chips in your favorite Mexican restaurant, the authentic flavor of SANTITAS&reg; tortilla chips starts with high-quality, stone-ground corn. Just add salsa or guacamole on the side for a party snack that can&rsquo;t be beat!\n"
+            },
+            "stubborn-soda": {
+                "name": "STUBBORN SODA",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/stubborn-soda.png",
+                "description": "STUBBORN SODA is made with high quality ingredients, natural flavors, and without artificial sweeteners. Because when it comes to creating something great, you&rsquo;ve got to do it the STUBBORN way.\n"
+            },
+            "pepsi-black": {
+                "name": "Pepsi Black",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/pepsi-black.png",
+                "description": "Introducing the next generation Cola for the next generation of Cola drinkers. Pepsi Black delivers Maximum Taste with No Sugar. Go All In #FORTHELOVEOFIT.\n"
+            },
+            "smart50": {
+                "name": "Smart50",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Smartfood"
+                },
+                "picture": "packages/website/public/img/pepsi-co/smart50.png",
+                "description": "Seriously delicious popcorn at 50 calories per cup or less.\n"
+            },
+            "sabritones": {
+                "name": "Sabritones",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/sabritones"
+                },
+                "picture": "packages/website/public/img/pepsi-co/sabritones.png",
+                "description": "SABRITONES&reg; snacks are traditional puffed wheat snacks from Mexico. With authentic flavors like spicy chilies and tangy lime, it&rsquo;s a treat that&rsquo;s sure to make your mouth water.\n"
+            },
+            "smartfood": {
+                "name": "Smartfood",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Smartfood"
+                },
+                "picture": "packages/website/public/img/pepsi-co/smartfood.png",
+                "description": "As America&rsquo;s favorite popcorn brand, our fresh-tasting, light-textured SMARTFOOD&reg; varieties always seem to keep the fun popping. In our book, being smart is always in great taste.\n"
+            },
+            "funyuns": {
+                "name": "Funyuns",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Funyuns"
+                },
+                "picture": "packages/website/public/img/pepsi-co/funyuns.png",
+                "description": "FUNYUNS&reg; Onion Flavored Rings are a deliciously different snack that&rsquo;s fun to eat, with a crisp texture and zesty onion flavor. Next time you're in the mood for a tasty treat that's out of the ordinary, try FUNYUNS&reg; Onion Flavored Rings.\n"
+            },
+            "sabra": {
+                "name": "Sabra",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Sabra"
+                },
+                "picture": "packages/website/public/img/pepsi-co/sabra.png",
+                "description": "Sabra makes America&rsquo;s favorite hummus in more than a dozen delicious varieties. All of Sabra&rsquo;s products are made with fresh ingredients you can feel good about, including plant-based foods that are non-GMO, vegan, gluten-free, kosher, and organic.\n"
+            },
+            "rold-gold": {
+                "name": "Rold Gold",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Rold-Gold"
+                },
+                "picture": "packages/website/public/img/pepsi-co/rold-gold.png",
+                "description": "Between the one-of-a-kind flavor and crispy texture of ROLD GOLD&reg; pretzels, you just might fall in love with this golden-baked snack all over again every time you take a break. Try them with peanut butter, hummus or on their own to take your break to a whole new level!\n"
+            },
+            "maui-style": {
+                "name": "Maui Style",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Maui-Style"
+                },
+                "picture": "packages/website/public/img/pepsi-co/maui-style.png",
+                "description": "Check out the outrageous taste of MAUI STYLE&reg; potato chips, with flavors more classic than the tasty waves off Honolua Bay, and a fresh taste that captures the spirit of MAUI STYLE.\n"
+            },
+            "miss-vickie-s": {
+                "name": "Miss Vickie's",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Miss-Vickies"
+                },
+                "picture": "packages/website/public/img/pepsi-co/miss-vickie-s.png",
+                "description": "Kettle cooked potato chips made with love and care since 1987. No artificial preservatives or flavors.\n"
+            },
+            "walkers": {
+                "name": "Walkers",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/walkers.png",
+                "description": "Since 1948, we&rsquo;ve been delighting the nation everyday with our delicious great tasting crisps. We strive to always give you the very best quality and continue to be made with 100% Great British Potatoes.\n"
+            },
+            "grandma-s-cookies": {
+                "name": "Grandma's Cookies",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Grandmas"
+                },
+                "picture": "packages/website/public/img/pepsi-co/grandma-s-cookies.png",
+                "description": "GRANDMA&rsquo;S&reg; cookies offer a delicious variety of memories. With flavors like chocolate, peanut butter and lemon pie, every GRANDMA&rsquo;S treat is baked with love to transport you to your happy place with every bite.\n"
+            },
+            "quaker-rice-crisps-and-rice-cakes": {
+                "name": "Quaker Rice Crisps & Rice Cakes",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Quaker"
+                },
+                "picture": "packages/website/public/img/pepsi-co/quaker-rice-crisps-and-rice-cakes.png",
+                "description": "Quaker&rsquo;s Rice Crisps and Rice Cakes are delicious and crunchy gluten free snacks popped and baked to the pinnacle of crispiness. With several sweet and savory flavors, there&rsquo;s one for every snacking occasion.\n"
+            },
+            "munchos": {
+                "name": "Munchos",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Munchos"
+                },
+                "picture": "packages/website/public/img/pepsi-co/munchos.png",
+                "description": "When you want a snack packed with potato flavor and a crispy crunch, reach for a snack of MUNCHOS&reg; potato crisps. It&rsquo;s a one-two combination of mouthwatering taste and satisfying crunch!\n"
+            },
+            "quaker-chewy-granola-bars": {
+                "name": "Quaker Chewy Granola Bars",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Quaker"
+                },
+                "picture": "packages/website/public/img/pepsi-co/quaker-chewy-granola-bars.png",
+                "description": "Quaker Chewy Granola bars are a fun and convenient snack made with whole grains, other delicious ingredients and no high fructose corn syrup. With delicious flavors like Chocolate Chip, Peanut Butter Chocolate Chip and Oatmeal Raisin, there&rsquo;s bound to be a flavor for everyone in the family to love!\n"
+            },
+            "mug": {
+                "name": "MUG",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Mug"
+                },
+                "picture": "packages/website/public/img/pepsi-co/mug.png",
+                "description": "Everything about Mug Root Beer appeals to the senses: the rich foam, the unique aroma and the feeling of ice-cold refreshment. Mug's extra-creamy vanilla flavor and unique blend of sweetness and spice have been creating memories for nearly 80 years.\n"
+            },
+            "mirinda": {
+                "name": "Mirinda",
+                "links": {
+                    "nutrition": ""
+                },
+                "picture": "packages/website/public/img/pepsi-co/mirinda.png",
+                "description": "Mirinda is a fun brand that captures love for fruity flavors through vibrant, delicious fruity offerings. With over 44+ flavors globally, Mirinda is a billion dollar PepsiCo brand with presence in over 100 countries.\n"
+            },
+            "red-rock-deli": {
+                "name": "Red Rock Deli",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Red-Rock-Deli"
+                },
+                "picture": "packages/website/public/img/pepsi-co/red-rock-deli.png",
+                "description": "With each bite of Red Rock Deli potato chips, consumers will be immersed in a flavor-filled journey &ndash; from the savory taste of Himalayan Pink Salt to a perfectly powerful combination of Red Curry and Coconut, to the invigorating fresh taste of Lime and Cracked Pepper. Each variety combines distinct flavor profiles with a velvety crunch.\n"
+            },
+            "munchies": {
+                "name": "Munchies",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Munchies"
+                },
+                "picture": "packages/website/public/img/pepsi-co/munchies.png",
+                "description": "Inside each bag of MUNCHIES&reg; snacks, you&rsquo;ll find a tasty mix of some of your favorite snack brands, including SUNCHIPS&reg;, DORITOS&reg;, ROLD GOLD&reg; and CHEETOS&reg; snacks! Grab a bag for a flavor combination that&rsquo;s hard to beat!\n"
+            },
+            "cap-n-crunch": {
+                "name": "Cap'n Crunch",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Capn-Crunch"
+                },
+                "picture": "packages/website/public/img/pepsi-co/cap-n-crunch.png",
+                "description": "Sweet and golden, with a crunch you can&rsquo;t resist, nothing competes with the original Cap&rsquo;n Crunch&reg;. Grab a bowl or cup for an easy snack that goes great with couch time, anytime.\n"
+            },
+            "diet-mountain-dew": {
+                "name": "Diet Mountain Dew",
+                "links": {
+                    "nutrition": "http://pepsicosmartlabel.com/Mountain-Dew"
+                },
+                "picture": "packages/website/public/img/pepsi-co/diet-mountain-dew.png",
+                "description": "All the great, exhilarating taste of MTN DEW with zero calories.\n"
             }
         }
     }
