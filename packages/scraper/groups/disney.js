@@ -1,6 +1,7 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import { REQUEST_OPTS } from '../utils/index.js';
+import { getDetailsScraper } from './_common.js';
 
 // Sometimes we can't get the right info.
 const NAME_OVERRIDES = {
@@ -11,9 +12,14 @@ const NAME_OVERRIDES = {
 };
 
 export const name = 'Disney';
+
 export const url = 'https://thewaltdisneycompany.com/about/';
-export const scrap = async (get$) => {
-    const $ = await get$();
+export const infoUrl = 'https://en.wikipedia.org/wiki/The_Walt_Disney_Company';
+
+export const scrapDetails = getDetailsScraper(url, infoUrl);
+
+export const scrapBrands = async (get$) => {
+    const $ = await get$(url);
     const proms = [];
     const brands = new Map();
     const sections = $('#our-businesses > section');

@@ -1,12 +1,15 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-
-const URL = 'https://www.nestle.com/brands/brandssearchlist';
+import { getDetailsScraper } from './_common.js';
 
 export const name = 'Nestlé';
-export const url = URL;
-export const scrap = async (get$) => {
-    const $ = await get$();
+export const url = 'https://www.nestle.com/brands/brandssearchlist';
+export const infoUrl = 'https://en.wikipedia.org/wiki/Nestl%C3%A9';
+
+export const scrapDetails = getDetailsScraper(url, infoUrl);
+
+export const scrapBrands = async (get$) => {
+    const $ = await get$(url);
     const proms = [];
     const brands = new Map();
     const sections = $('.view-content > .views-row');
