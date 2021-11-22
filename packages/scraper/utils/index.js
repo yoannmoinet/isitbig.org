@@ -31,7 +31,9 @@ export const downloadImage = async (url, destination) => {
         });
     });
 };
+
 export const ROOT = path.resolve(__dirname, '../../../');
+
 export const REQUEST_OPTS = {
     headers: {
         'User-Agent':
@@ -41,10 +43,10 @@ export const REQUEST_OPTS = {
 
 export const getCheerio = (name) => async (url) => {
     try {
-        const response = await axios.get(url, REQUEST_OPTS);
+        const response = await axios.get(url);
         return cheerio.load(response.data);
     } catch (e) {
-        console.log(`[Axios] Error scraping ${c.bold.red(name)}.\n${e}`);
+        console.log(`[Axios] Error scraping ${c.bold.red(name)}: ${c.red(url)}.\n${e}`);
         return () => [];
     }
 };
@@ -57,4 +59,28 @@ export const getPuppeteer = (name, page) => async (url) => {
         console.log(`[Puppeteer] Error scraping ${c.bold.red(name)}.\n${e}`);
         return {};
     }
+};
+
+export const getDetailsScraper = (url, infoUrl) => async (get$) => {
+    const $ = await get$(infoUrl);
+    let description = '';
+
+    const logo = `https:${$('.infobox-image.logo > a.image > img').attr('src')}`;
+    const name = $('#firstHeading').text();
+    const selector = '#mw-content-text > .mw-parser-output >';
+
+    const indexStart = $(`${selector} .infobox.vcard`).index();
+    const indexEnd = $(`${selector} div[class^='toc']`).index();
+
+    for (let i = indexStart + 1; i < indexEnd; i += 1) {
+        description += $(`${selector} *`).eq(i).text();
+    }
+
+    return {
+        name,
+        url,
+        infoUrl,
+        description,
+        logo,
+    };
 };

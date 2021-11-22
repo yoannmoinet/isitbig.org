@@ -1,6 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import { getDetailsScraper } from './_common.js';
+import { getDetailsScraper } from '../utils/index.js';
 
 export const name = 'Nestlé';
 export const url = 'https://www.nestle.com/brands/brandssearchlist';

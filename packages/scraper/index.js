@@ -14,8 +14,21 @@ const fsP = fs.promises;
 
 import { downloadImage, ROOT, getCheerio, getPuppeteer } from './utils/index.js';
 
+const args = process.argv.slice(2);
+const NAME = args[0];
+
+// TODO
+/*
+CocaCola
+LVMH
+Kering
+Swatch
+Unilever
+*/
+
 const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     console.log(`Scraping ${c.bold.green(name)}...`);
+    const proms = [];
     const group = { name };
 
     // Scrap for details
@@ -24,7 +37,6 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     group.brands = await scrapBrands(getCheerio(name), getPuppeteer(name, page));
 
     console.log(`Downloading pictures for ${c.bold.green(name)}...`);
-    const proms = [];
     const groupDir = path.join(ROOT, `./packages/website/public/img/${slug(name)}`);
     // Ensure the dir exists.
     await fsP.mkdir(groupDir, { recursive: true });
@@ -80,7 +92,7 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
         // Get groups' configurations
         const groupsPath = `${__dirname}/groups`;
         for (const name of fs.readdirSync(groupsPath)) {
-            if (name.startsWith('_')) continue;
+            if (name.startsWith('_') || (NAME && path.basename(name, path.extname(name)) !== NAME)) continue;
             const config = await import(`${groupsPath}/${name}`);
             proms.push(scrap(page, config));
         }

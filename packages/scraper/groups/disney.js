@@ -1,7 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import { REQUEST_OPTS } from '../utils/index.js';
-import { getDetailsScraper } from './_common.js';
+import { REQUEST_OPTS, getDetailsScraper } from '../utils/index.js';
 
 // Sometimes we can't get the right info.
 const NAME_OVERRIDES = {

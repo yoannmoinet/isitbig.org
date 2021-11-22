@@ -1,9 +1,7 @@
 import axios from 'axios';
-import { getDetailsScraper } from './_common.js';
+import { getDetailsScraper } from '../utils/index.js';
 import slugify from '@sindresorhus/slugify';
 
-// Sometimes we can't get the right info.
-const NAME_OVERRIDES = {};
 export const ENABLED = false;
 export const name = 'PepsiCo';
 export const url = 'https://www.pepsico.com/brands/product-information';
