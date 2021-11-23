@@ -8,7 +8,7 @@ export const InfoPanel = () => {
     const [open, setOpen] = useState(true);
     const [showInfo, setShowInfo] = useState(false);
 
-    const endListener = useCallback(() => {
+    const onExit = useCallback(() => {
         setShowInfo(!open);
     }, [open]);
 
@@ -36,7 +36,7 @@ export const InfoPanel = () => {
                     More info
                 </Button>
             </Fade>
-            <Collapse in={open} addEndListener={endListener}>
+            <Collapse in={open} onExit={onExit}>
                 <Alert
                     severity="info"
                     action={

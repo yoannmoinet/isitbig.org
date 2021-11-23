@@ -1,24 +1,29 @@
 import { Button, Link, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import { Box } from '@mui/system';
+
 import { Page } from '../../components/Page/index.jsx';
+import { Brands } from '../../layouts/Brands.jsx';
 
-import { useData } from '../../hooks/useData.js';
-
-const Brand = () => {
+const Brand = ({ data }) => {
     const router = useRouter();
     const { brand } = router.query;
-    const data = useData();
-    const groupObject = data.find((group) => group.name === brand);
-    console.log(groupObject);
+    const groupObject = data.find((group) => group.details.slug === brand);
+    if (!groupObject) {
+        return null;
+    }
     return (
-        <Page>
+        <Page title={groupObject.details.name}>
             <Link href="/" underline="none">
                 <Button startIcon={<ArrowBackIosIcon />} size="large">
                     Back
                 </Button>
             </Link>
-            <Typography variant="body1">{brand}</Typography>
+            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
+                <Brands brands={Object.values(groupObject.brands)} masonry />
+            </Box>
         </Page>
     );
 };

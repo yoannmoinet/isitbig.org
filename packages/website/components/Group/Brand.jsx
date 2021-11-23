@@ -1,9 +1,10 @@
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
+import { Card, CardActionArea, CardContent, CardMedia, Link, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
-export const Brand = ({ name, description, links, picture }) => {
-    const pictureSrc = `./${picture.split('/').slice(3).join('/')}`;
-    return (
+export const Brand = ({ name, description, link, links, picture }) => {
+    const pictureSrc = `/${picture.split('/').slice(3).join('/')}`;
+
+    let brandEl = (
         <Card variant="elevation" elevation={2}>
             <CardActionArea>
                 <Box
@@ -38,4 +39,13 @@ export const Brand = ({ name, description, links, picture }) => {
             </CardActionArea>
         </Card>
     );
+
+    if (link) {
+        brandEl = (
+            <Link href={link} underline="none">
+                {brandEl}
+            </Link>
+        );
+    }
+    return brandEl;
 };

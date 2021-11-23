@@ -3,13 +3,11 @@ import { Box } from '@mui/system';
 import { useState } from 'react';
 import { Input } from '../components/Input';
 import { Page } from '../components/Page/index.jsx';
-import { useData } from '../hooks/useData';
 import { Brands } from '../layouts/Brands';
 import { InfoPanel } from '../layouts/InfoPanel';
 
-export default function Home({ groups }) {
+export default function Home({ data }) {
     const [search, setSearch] = useState('');
-    const data = useData();
     return (
         <Page>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
@@ -24,7 +22,13 @@ export default function Home({ groups }) {
                 </Typography>
             </Divider>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
-                <Brands brands={data} />
+                <Brands
+                    brands={data.map((b) => {
+                        b.details.description = `${Object.values(b.brands).length} brands.`;
+                        b.details.link = `/brand/${b.details.slug}`;
+                        return b.details;
+                    })}
+                />
             </Box>
         </Page>
     );
