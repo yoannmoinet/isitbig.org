@@ -32,7 +32,6 @@ export const Brand = ({ name, description, link, links, picture }) => {
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
-                            width: '100%',
                         }}
                     >
                         <CardMedia
