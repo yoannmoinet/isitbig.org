@@ -5,6 +5,7 @@ import path from 'path';
 import c from 'chalk';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import slugify from '@sindresorhus/slugify';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -78,6 +79,7 @@ export const getDetailsScraper = (url, infoUrl) => async (get$) => {
 
     return {
         name,
+        slug: slugify(name),
         url,
         infoUrl,
         description,
