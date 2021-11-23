@@ -5,7 +5,6 @@ import { getImageSrc } from '../../utils';
 
 export const Brand = ({ name, description, link, links, picture }) => {
     const pictureSrc = getImageSrc(picture);
-    const [loadedPicture, setLoadedPicture] = useState(false);
     const [showPicture, setShowPicture] = useState(false);
 
     // It seems that image loading breaks masonry.
@@ -15,7 +14,6 @@ export const Brand = ({ name, description, link, links, picture }) => {
         const img = new Image();
         img.src = pictureSrc;
         img.onload = () => {
-            setLoadedPicture(true);
             setTimeout(() => {
                 setShowPicture(true);
             }, 500);
@@ -25,31 +23,29 @@ export const Brand = ({ name, description, link, links, picture }) => {
     let brandEl = (
         <Card variant="elevation" elevation={2}>
             <CardActionArea>
-                {loadedPicture ? (
-                    <Grow in={showPicture}>
-                        <Box
+                {showPicture ? (
+                    <Box
+                        sx={{
+                            background: 'white',
+                            padding: '5px',
+                            minHeight: '100px',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: '100%',
+                        }}
+                    >
+                        <CardMedia
+                            component="img"
+                            alt={name}
+                            image={pictureSrc}
                             sx={{
-                                background: 'white',
-                                padding: '5px',
-                                minHeight: '100px',
-                                display: 'flex',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                                width: '100%',
+                                maxWidth: '100%',
+                                margin: 'auto',
+                                width: 'inherit',
                             }}
-                        >
-                            <CardMedia
-                                component="img"
-                                alt={name}
-                                image={pictureSrc}
-                                sx={{
-                                    maxWidth: '100%',
-                                    margin: 'auto',
-                                    width: 'inherit',
-                                }}
-                            />
-                        </Box>
-                    </Grow>
+                        />
+                    </Box>
                 ) : null}
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
