@@ -7,13 +7,16 @@ export const Brand = ({ name, description, link, links, picture }) => {
     const pictureSrc = getImageSrc(picture);
     const [loadedPicture, setLoadedPicture] = useState(false);
 
+    // It seems that image loading breaks masonry.
+    // Handling the loading and adding some delay before rendering the pictures
+    // seems to reduce the issue.
     useEffect(() => {
         const img = new Image();
         img.src = pictureSrc;
         img.onload = () => {
             setTimeout(() => {
                 setLoadedPicture(true);
-            }, 100);
+            }, 500);
         };
     });
 
