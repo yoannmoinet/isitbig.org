@@ -2,7 +2,7 @@ import { Container, Divider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { useState } from 'react';
 import { Input } from '../components/Input';
-import { Page } from '../components/Page/index.jsx';
+import { Page } from '../components/Page';
 import { Brands } from '../layouts/Brands';
 import { InfoPanel } from '../layouts/InfoPanel';
 

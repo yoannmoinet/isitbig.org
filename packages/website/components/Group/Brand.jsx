@@ -1,6 +1,5 @@
-import { Card, CardActionArea, CardContent, CardMedia, Grow, Link, Typography } from '@mui/material';
+import { Card, CardActionArea, CardContent, CardMedia, Link, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { useEffect, useState } from 'react';
 import { getImageSrc } from '../../utils';
 
 export const Brand = ({ name, description, link, links, picture }) => {

@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { Box } from '@mui/system';
-import { Title } from '../Title';
+import { Title } from './Title';
 
 export const Page = ({ children, title }) => {
     return (

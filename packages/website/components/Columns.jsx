@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 import { ThemeContext } from '@mui/styled-engine';
 import * as React from 'react';
 import { useContext } from 'react';
-import { useBreakpoint } from '../../hooks/useBreakpoint';
+import { useBreakpoint } from '../hooks/useBreakpoint';
 
 export const Columns = ({ children, columns, defaultToMin }) => {
     const nbChildren = React.Children.count(children);

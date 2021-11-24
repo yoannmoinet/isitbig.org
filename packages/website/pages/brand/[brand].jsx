@@ -7,7 +7,7 @@ import { Box } from '@mui/system';
 import InfoIcon from '@mui/icons-material/Info';
 import LanguageTwoToneIcon from '@mui/icons-material/LanguageTwoTone';
 
-import { Page } from '../../components/Page/index.jsx';
+import { Page } from '../../components/Page.jsx';
 import { Brands } from '../../layouts/Brands.jsx';
 import { getImageSrc } from '../../utils/index.js';
 
