@@ -5,47 +5,31 @@ import { getImageSrc } from '../../utils';
 
 export const Brand = ({ name, description, link, links, picture }) => {
     const pictureSrc = getImageSrc(picture);
-    const [showPicture, setShowPicture] = useState(false);
-
-    // It seems that image loading breaks masonry.
-    // Handling the loading and adding some delay before rendering the pictures
-    // seems to reduce the issue.
-    useEffect(() => {
-        const img = new Image();
-        img.src = pictureSrc;
-        img.onload = () => {
-            setTimeout(() => {
-                setShowPicture(true);
-            }, 500);
-        };
-    });
 
     let brandEl = (
         <Card variant="elevation" elevation={2}>
             <CardActionArea>
-                {showPicture ? (
-                    <Box
+                <Box
+                    sx={{
+                        background: 'white',
+                        padding: '5px',
+                        minHeight: '100px',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                >
+                    <CardMedia
+                        component="img"
+                        alt={name}
+                        image={pictureSrc}
                         sx={{
-                            background: 'white',
-                            padding: '5px',
-                            minHeight: '100px',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
+                            maxWidth: '100%',
+                            margin: 'auto',
+                            width: 'inherit',
                         }}
-                    >
-                        <CardMedia
-                            component="img"
-                            alt={name}
-                            image={pictureSrc}
-                            sx={{
-                                maxWidth: '100%',
-                                margin: 'auto',
-                                width: 'inherit',
-                            }}
-                        />
-                    </Box>
-                ) : null}
+                    />
+                </Box>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {name}
