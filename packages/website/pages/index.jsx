@@ -11,7 +11,6 @@ export default function Home({ data }) {
     const searchableData = useMemo(() => {
         const d = [];
         for (const group of data) {
-            console.log(group);
             d.push(
                 ...Object.values(group.brands).map((brand) => {
                     return {
