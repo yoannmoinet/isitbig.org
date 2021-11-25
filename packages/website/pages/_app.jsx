@@ -7,6 +7,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { GHBanner } from '../components/GHBanner';
 
 const darkTheme = createTheme({ palette: { mode: 'dark' } });
 const lightTheme = createTheme({ palette: { mode: 'light' } });
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
         <ThemeProvider theme={darkTheme}>
             <CssBaseline />
+            <GHBanner url="https://github.com/yoannmoinet/isitbig.org" />
             {head}
             {/* TODO Add animation here */}
             <Component {...{ ...{ data }, ...pageProps }} />
