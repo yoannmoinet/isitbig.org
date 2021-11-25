@@ -12,8 +12,6 @@ export const GHBanner = ({ url }) => {
     const txtColor = isDark ? 'black' : 'white';
     const breakpoint = useBreakpoint(theme.breakpoints.values);
 
-    console.log(breakpoint);
-
     const transforms = {
         xs: [`translate(-43%, -15%)`, `rotate(-45deg) scale(1)`],
         sm: [`translate(-40%, 0%)`, `rotate(-45deg) scale(1.5)`],
