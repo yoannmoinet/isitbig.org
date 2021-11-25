@@ -16,12 +16,14 @@ const getWindowValue = (width, breakpoints) => {
 };
 
 export const useBreakpoint = (breakpoints) => {
-    const [breakpoint, setBreakpoint] = useState(getWindowValue(window.innerWidth, breakpoints));
+    const [breakpoint, setBreakpoint] = useState('md');
     useEffect(() => {
         const iw = throttle(() => {
             setBreakpoint(getWindowValue(window.innerWidth, breakpoints));
         }, 200);
         window.addEventListener('resize', iw);
+        // First value.
+        iw();
         return () => window.removeEventListener('resize', iw);
     }, []);
 
