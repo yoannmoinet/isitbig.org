@@ -8,6 +8,9 @@ export const Columns = ({ children, columns, defaultToMin }) => {
     const nbChildren = React.Children.count(children);
     const theme = useContext(ThemeContext);
     const breakpoint = useBreakpoint(theme.breakpoints.values);
+    if (!breakpoint) {
+        return null;
+    }
     const nbColumns = defaultToMin ? Math.min(nbChildren, columns[breakpoint]) : columns[breakpoint];
     const cols = new Array(nbColumns);
 
