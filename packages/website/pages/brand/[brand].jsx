@@ -53,7 +53,7 @@ const Brand = ({ data }) => {
                 </Box>
             </Box>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
-                <Brands brands={Object.values(group.brands)} masonry />
+                <Brands brands={Object.values(group.brands)} />
             </Box>
         </Page>
     );

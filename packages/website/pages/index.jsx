@@ -1,20 +1,36 @@
 import { Container, Divider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Input } from '../components/Input';
 import { Page } from '../components/Page';
 import { Brands } from '../layouts/Brands';
 import { InfoPanel } from '../layouts/InfoPanel';
+import { Search } from '../layouts/Search';
 
 export default function Home({ data }) {
-    const [search, setSearch] = useState('');
+    const searchableData = useMemo(() => {
+        const d = [];
+        for (const group of data) {
+            console.log(group);
+            d.push(
+                ...Object.values(group.brands).map((brand) => {
+                    return {
+                        ...brand,
+                        parent: group.details,
+                    };
+                }),
+            );
+        }
+        return d;
+    }, [data]);
+
     return (
         <Page>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="lg">
                 <InfoPanel />
             </Box>
-            <Box sx={{ my: 4, mx: 'auto' }} maxWidth="md">
-                <Input value={search} setValue={setSearch} />
+            <Box maxWidth="xl">
+                <Search data={searchableData} />
             </Box>
             <Divider textAlign="left">
                 <Typography variant="h5" component="h2">
