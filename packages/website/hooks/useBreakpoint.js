@@ -16,7 +16,7 @@ const getWindowValue = (width, breakpoints) => {
 };
 
 export const useBreakpoint = (breakpoints) => {
-    const hasW = typeof window !== 'object';
+    const hasW = typeof window === 'object';
     const [breakpoint, setBreakpoint] = useState(hasW ? getWindowValue(window.innerWidth, breakpoints) : null);
     useEffect(() => {
         const iw = throttle(() => {
