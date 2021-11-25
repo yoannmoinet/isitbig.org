@@ -18,6 +18,6 @@ The source of the website located at https://isitbig.org
 
 ## Contribute
 
-```
+```bash
 yarn install
 ```
