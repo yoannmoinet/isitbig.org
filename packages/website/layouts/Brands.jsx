@@ -4,15 +4,19 @@ import { Box } from '@mui/system';
 import { Brand } from '../components/Group/Brand';
 import { Columns } from '../components/Columns';
 
-export const Brands = ({ brands }) => {
+export const Brands = ({ brands, noanim }) => {
     const getElement = (brand, i) => {
         const delay = 250 + i * 50;
-        return (
+        const elem = (
+            <Box sx={{ mb: 2 }}>
+                <Brand {...brand} />
+            </Box>
+        );
+        return noanim ? (
+            elem
+        ) : (
             <Fade in={true} style={{ transitionDelay: `${delay}ms` }} key={i}>
-                {/* Box is needed for the animation */}
-                <Box sx={{ mb: 2 }}>
-                    <Brand {...brand} />
-                </Box>
+                {elem}
             </Fade>
         );
     };

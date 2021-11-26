@@ -51,12 +51,11 @@ export const Search = ({ data }) => {
 
     const updateFilter = useCallback(
         (query) => {
-            console.log('Update filter', query);
             if (!query) {
                 setFiltered([]);
                 return;
             }
-            const rx = new RegExp(`.*${query}.*`);
+            const rx = new RegExp(`.*${query.toLowerCase()}.*`);
             setFiltered(
                 indexedData.filter((brand) => {
                     for (const index of brand.indexes) {
@@ -83,11 +82,9 @@ export const Search = ({ data }) => {
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="md">
                 <Input value={search} setValue={setSearch} />
             </Box>
-            {filtered.length ? (
-                <Box maxWidth="xl">
-                    <Brands brands={filtered} />
-                </Box>
-            ) : null}
+            <Box maxWidth="xl">
+                <Brands brands={filtered} noanim />
+            </Box>
         </Box>
     );
 };

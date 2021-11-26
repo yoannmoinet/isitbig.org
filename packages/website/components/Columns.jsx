@@ -12,8 +12,9 @@ export const Columns = ({ children, columns, defaultToMin }) => {
         return null;
     }
     const nbColumns = defaultToMin ? Math.min(nbChildren, columns[breakpoint]) : columns[breakpoint];
-    const cols = new Array(nbColumns);
+    const cols = [];
 
+    // Assign children to columns
     React.Children.forEach(children, (child, index) => {
         const col = index % nbColumns;
         cols[col] = cols[col] || [];
