@@ -1,6 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import { REQUEST_OPTS, getDetailsScraper } from '../utils/index.js';
+import { REQUEST_OPTS, getDetailsScraper, getMetas } from '../utils/index.js';
 
 // Sometimes we can't get the right info.
 const NAME_OVERRIDES = {
@@ -50,18 +50,16 @@ export const scrapBrands = async (get$) => {
                     .then(
                         async (response) => {
                             const $$ = cheerio.load(response.data);
-                            const metas = $$('head meta');
+                            const metas = getMetas($$('head meta'));
+
                             let foundName;
-                            for (let k = 0; k <= metas.length; k += 1) {
-                                const meta = metas.eq(k);
-                                const metaId = meta.attr('name') || meta.attr('property');
-                                if (metaId === 'og:site_name') {
-                                    foundName = meta.attr('content');
-                                }
-                                if (metaId === 'description') {
-                                    brand.description = meta.attr('content');
-                                }
+                            if (metas['og:site_name']) {
+                                foundName = metas['og:site_name'].content;
                             }
+                            if (metas.description) {
+                                brand.description = metas.description.content;
+                            }
+
                             if (foundName) {
                                 // Use overrides as last resort.
                                 brand.name = NAME_OVERRIDES[foundName] || foundName;

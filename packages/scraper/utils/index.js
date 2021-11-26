@@ -54,7 +54,7 @@ export const getCheerio = (name) => async (url) => {
 
 export const getPuppeteer = (name, page) => async (url) => {
     try {
-        await page.goto(url);
+        await page.goto(url, { waitUntil: 'networkidle2' });
         return page;
     } catch (e) {
         console.log(`[Puppeteer] Error scraping ${c.bold.red(name)}.\n${e}`);
@@ -66,7 +66,12 @@ export const getDetailsScraper = (url, infoUrl) => async (get$) => {
     const $ = await get$(infoUrl);
     let description = '';
 
-    const picture = `https:${$('.infobox-image.logo > a.image > img').attr('src')}`;
+    const picture = `https:${$('.infobox-image.logo > a.image > img').attr('src')}`
+        .split('/')
+        .slice(0, -1)
+        .join('/')
+        .replace('/thumb', '');
+
     const name = $('#firstHeading').text();
     const selector = '#mw-content-text > .mw-parser-output >';
 
@@ -85,4 +90,28 @@ export const getDetailsScraper = (url, infoUrl) => async (get$) => {
         description,
         picture,
     };
+};
+
+export const getAttributes = async (page, element) => {
+    return page.evaluate((el) => {
+        const attr = {};
+        const attributes = Array.from(el.attributes);
+        for (let a of attributes) {
+            attr[a.name] = el.getAttribute(a.name);
+        }
+        return attr;
+    }, element);
+};
+
+export const getMetas = (metas) => {
+    const allMetas = {};
+    for (let i = 0; i <= metas.length; i += 1) {
+        const meta = metas.eq(i);
+        const metaId = meta.attr('name') || meta.attr('property');
+        if (!metaId) {
+            continue;
+        }
+        allMetas[metaId] = { ...meta.attr() };
+    }
+    return allMetas;
 };

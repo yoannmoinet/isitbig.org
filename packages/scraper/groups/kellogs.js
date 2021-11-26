@@ -1,6 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import { getDetailsScraper } from '../utils/index.js';
+import { getDetailsScraper, getMetas } from '../utils/index.js';
 import slugify from '@sindresorhus/slugify';
 
 const OVERRIDES_WEBSITES = {
@@ -44,15 +44,9 @@ export const scrapBrands = async (get$) => {
             axios.get(brandUrl).then(
                 (response) => {
                     const $$ = cheerio.load(response.data);
-                    const metas = $$('head meta');
-                    for (let k = 0; k <= metas.length; k += 1) {
-                        const meta = metas.eq(k);
-                        const metaId = meta.attr('name') || meta.attr('property');
-                        const metaContent = meta.attr('content');
-
-                        if (metaId === 'description') {
-                            brand.description = metaContent;
-                        }
+                    const metas = getMetas($$('head meta'));
+                    if (metas.description) {
+                        brands.description = metas.description.content;
                     }
                     brands.set(slugify(brand.name), brand);
                 },
