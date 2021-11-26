@@ -1,4 +1,261 @@
 {
+    "coca-cola": {
+        "name": "CocaCola",
+        "details": {
+            "name": "The Coca-Cola Company",
+            "slug": "the-coca-cola-company",
+            "url": "https://www.coca-colacompany.com/brands",
+            "infoUrl": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company",
+            "description": "The Coca-Cola Company is an American multinational beverage corporation incorporated under Delaware's General Corporation Law[a] and headquartered in Atlanta, Georgia. The Coca-Cola Company has interests in the manufacturing, retailing, and marketing of nonalcoholic beverage concentrates and syrups, and alcoholic beverages. The company produces Coca-Cola, the  sugary drink for which it is best known, invented in 1886 by pharmacist John Stith Pemberton. At the time, the product was made with coca leaves, which added an amount of cocaine to the drink, and with kola nuts, which added caffeine, so that the coca and the kola together provided a  stimulative effect.  This stimulative effect is the reason the drink was sold to the public as a healthy \"tonic,\" and the coca and the kola are also the source of the name of the product and of the company.[2] In 1889, the formula and brand were sold for $2,300 (roughly $68,000 in 2021) to Asa Griggs Candler, who incorporated The Coca-Cola Company in Atlanta in 1892.\nThe company has operated a franchised distribution system since 1889.[3] The company largely produces syrup concentrate, which is then sold to various bottlers throughout the world who hold exclusive territories. The company owns its anchor bottler in North America, Coca-Cola Refreshments.[4] The company's stock is listed on the NYSE and is part of DJIA and the S&P 500 and S&P 100 indexes. The Coca-Cola Company is the world's largest producer of plastic waste.[5]\n",
+            "picture": "packages/website/public/img/coca-cola/the-coca-cola-company.svg"
+        },
+        "brands": {
+            "ade-s": {
+                "links": {
+                    "Website": "https://www.coca-colacompany.com/brands/ades"
+                },
+                "picture": "packages/website/public/img/coca-cola/ade-s.png",
+                "description": "Founded in 1988 in Argentina, AdeS is the leading soy-based beverage brand in Latin America. Learn more about AdeS & AdeS products here.",
+                "name": "AdeS"
+            },
+            "appletiser": {
+                "links": {
+                    "Website": "https://www.appletiser.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/appletiser.png",
+                "name": "Appletiser"
+            },
+            "aquarius-a-n-g-a-x": {
+                "links": {
+                    "Website": "https://www.aquarius-sports.jp/"
+                },
+                "picture": "packages/website/public/img/coca-cola/aquarius-a-n-g-a-x.png",
+                "description": "�M���J���_�ɁA�₦���A�N�G���B",
+                "name": "AQUARIUS | �A�N�G���A�X"
+            },
+            "aya-taka": {
+                "links": {
+                    "Website": "https://www.ayataka.jp/"
+                },
+                "picture": "packages/website/public/img/coca-cola/aya-taka.png",
+                "description": "�}�{�ł��ꂽ�悤�ȁA�ɂ���̎|�� �u����i���₽���j�v�̌����T�C�g�B����̐��i����A�L�����y�[�����Ȃǂ����Љ�B",
+                "name": "Aya Taka | 綾鷹"
+            },
+            "barq-and-39-s": {
+                "links": {
+                    "Website": "https://www.barqs.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/barq-and-39-s.png",
+                "description": "[object Object]",
+                "name": "Barq&#39;s"
+            },
+            "bodyarmor-sports-drink": {
+                "links": {
+                    "Website": "https://www.drinkbodyarmor.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/bodyarmor-sports-drink.png",
+                "description": "BODYARMOR is dedicated to providing today’s athletes the best in sports nutrition & hydration. With BODYARMOR Sports Drink, BODYARMOR LYTE Sports Drink and BODYARMOR SportWater, we continue to deliver Superior Hydration no matter your game.",
+                "name": "BODYARMOR Sports Drink"
+            },
+            "ciel": {
+                "links": {
+                    "Website": "https://www.coca-colamexico.com.mx/marcas/ciel"
+                },
+                "picture": "packages/website/public/img/coca-cola/ciel.png",
+                "name": "Ciel"
+            },
+            "coca-cola": {
+                "links": {
+                    "Website": "https://us.coca-cola.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/coca-cola.png",
+                "description": "Enjoy every magical moment of the season together. Explore ways you can be closer to the ones you love with meals worth sharing, festive playlists, and more holiday magic from Coke®.",
+                "name": "Coca-Cola®"
+            },
+            "costa-coffee": {
+                "links": {
+                    "Website": "https://www.costa.co.uk/"
+                },
+                "picture": "packages/website/public/img/coca-cola/costa-coffee.png",
+                "name": "Costa Coffee",
+                "description": "Costa is the Nation's Favourite coffee shop and the largest and fastest growing coffee shop chain in the UK."
+            },
+            "dasani-water": {
+                "links": {
+                    "Website": "https://www.dasani.com"
+                },
+                "picture": "packages/website/public/img/coca-cola/dasani-water.png",
+                "description": "Invigorate every day with the purified taste of the world&#39;s most delicious water. Splash Into Life with the refreshing, crisp taste of DASANI®.",
+                "name": "DASANI® Water"
+            },
+            "diet-coke": {
+                "links": {
+                    "Website": "https://www.dietcoke.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/diet-coke.png",
+                "description": "Diet Coke® is the perfect balance of crisp + refreshing. it’s your deliciously fizzy go-to companion. the beverage you can count on. an original, just like you.",
+                "name": "Diet Coke®"
+            },
+            "dogadan-cay": {
+                "links": {
+                    "Website": "https://www.dogadan.com.tr/"
+                },
+                "picture": "packages/website/public/img/coca-cola/dogadan-cay.png",
+                "name": "Doğadan Çay"
+            },
+            "drinkaha": {
+                "links": {
+                    "Website": "https://www.drinkaha.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/drinkaha.png",
+                "description": "AHA´s flavored sparkling water pairs familiar flavors in unexpected ways that delight. No sweeteners, no calories, no sodium. Try new AHA sparkling water today!",
+                "name": "Drinkaha®"
+            },
+            "fairlife-milk": {
+                "links": {
+                    "Website": "https://www.fairlife.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/fairlife-milk.png",
+                "description": "fairlife lactose-free ultra-filtered milk is higher protein and a great source of calcium.",
+                "name": "fairlife Milk"
+            },
+            "fanta": {
+                "links": {
+                    "Website": "https://www.fanta.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/fanta.png",
+                "name": "@Fanta",
+                "description": "Enjoy the refreshing tastes of Fanta®. Made with 100% natural  Orange, Grape, Pineapple and Strawberry flavors. This fruity soda will make you Wanta Fanta!"
+            },
+            "fresca": {
+                "links": {
+                    "Website": "https://www.fresca.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/fresca.png",
+                "description": "FRESCA has a fresh new look, but same fresh taste! Explore all the crisp, refreshing citrus flavors of great tasting zero calorie flavored soda with FRESCA!",
+                "name": "Fresca"
+            },
+            "fuze-tea": {
+                "links": {
+                    "Website": "https://www.fuze-tea.com/en/home.html"
+                },
+                "picture": "packages/website/public/img/coca-cola/fuze-tea.png",
+                "name": "Fuze Tea"
+            },
+            "georgia": {
+                "links": {
+                    "Website": "https://www.georgia.jp/"
+                },
+                "picture": "packages/website/public/img/coca-cola/georgia.png",
+                "description": "�R�[�q�[�u�����h �W���[�W�A�̃I�t�B�V�����T�C�g�B���i���ATVCM�A�L�����y�[�����ق��A�y�����X�y�V�����R���e���c�����J���I",
+                "name": "Georgia | ジョージア"
+            },
+            "gold-peak-beverages": {
+                "links": {
+                    "Website": "https://www.goldpeakbeverages.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/gold-peak-beverages.png",
+                "description": "Enjoy the real comforts of home with Gold Peak® Real Brewed Tea and Coffee. View our variety of Gold Peak Real Brewed beverages and find products near you!",
+                "name": "Gold Peak® Beverages"
+            },
+            "honest-tea": {
+                "links": {
+                    "Website": "https://www.honesttea.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/honest-tea.png",
+                "description": "Honest Tea brings you organic bottled beverages like lemonade, juices, kids drinks, and now yerba mate tea! Browse your favorite products online and find in stores.",
+                "name": "Honest® Tea"
+            },
+            "i-lohas": {
+                "links": {
+                    "Website": "https://www.i-lohas.jp/"
+                },
+                "picture": "packages/website/public/img/coca-cola/i-lohas.png",
+                "description": "�u����륂ͥ���v�͐���������u�����h�A����������������؂ɂ��܂��B�n���̂������������A�n���̋߂��֓͂��Ă��܂��B���I���ꂽ�S��7�����ō̐����A�������i���Ǘ����o�Ă��͂����Ă��܂��BLOVE WATER , LOVE ����륂ͥ���B",
+                "name": "I Lohas | い･ろ･は･す"
+            },
+            "innocent": {
+                "links": {
+                    "Website": "https://www.innocentdrinks.co.uk/"
+                },
+                "picture": "packages/website/public/img/coca-cola/innocent.png",
+                "name": "innocent",
+                "description": "We're innocent and we make natural, tasty little drinks. Find out more about our big dreams to help people and the planet."
+            },
+            "minute-maid-juice-and-juice-drinks": {
+                "links": {
+                    "Website": "https://www.minutemaid.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/minute-maid-juice-and-juice-drinks.png",
+                "description": "From breakfasts to soccer games and everything in between, Minute Maid has you covered. Find your favorite products or explore new ones here!",
+                "name": "Minute Maid Juice and Juice Drinks"
+            },
+            "peace-tea": {
+                "links": {
+                    "Website": "https://www.peacetea.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/peace-tea.png",
+                "description": "There&#39;s peace, happiness, and fresh iced tea flavor in every can of Peace Tea. Take a sip of something refreshingly delicious and enjoy Peace Tea today!",
+                "name": "Peace Tea®"
+            },
+            "powerade-sports-drink": {
+                "links": {
+                    "Website": "https://www.powerade.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/powerade-sports-drink.png",
+                "description": "ION4® Advanced Electrolyte System Replaces 4 Electrolytes Lost In Sweat. ION4® Electrolyte System. B Vitamins.",
+                "name": "POWERADE® Sports Drink"
+            },
+            "schweppes-sparkling-water": {
+                "links": {
+                    "Website": "https://www.schweppes.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/schweppes-sparkling-water.png",
+                "description": "A sparkling tradition since 1783",
+                "name": "Schweppes Sparkling Water"
+            },
+            "simply-beverages": {
+                "links": {
+                    "Website": "https://www.drinksimplybeverages.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/simply-beverages.png",
+                "description": "Experience the fresh taste of Simply Orange® Juice. Try our all natural juices, lemonades and almond milks. Find your favorite in stores or buy online!",
+                "name": "Simply® Beverages"
+            },
+            "smartwater": {
+                "links": {
+                    "Website": "https://www.drinksmartwater.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/smartwater.png",
+                "description": "introducing our new, natural smartwater flavors, smartwater alkaline & smartwater antioxidant. try smartwater and experience purity and hydration in every sip",
+                "name": "smartwater®"
+            },
+            "sprite": {
+                "links": {
+                    "Website": "https://www.sprite.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/sprite.png",
+                "name": "Sprite®",
+                "description": "The official website of Sprite®, Sprite Zero®, & Sprite Remix® sodas, the world’s most popular Lemon-Lime flavored soft drinks. Obey Your Thirst."
+            },
+            "topo-chico-mineral-water": {
+                "links": {
+                    "Website": "https://www.topochicousa.net/"
+                },
+                "picture": "packages/website/public/img/coca-cola/topo-chico-mineral-water.png",
+                "description": "Topo Chico is sparkling mineral water sourced and bottled in Monterrey, Mexico since 1895. Explore Topo Chico flavors and discover our latest artist collaborations.",
+                "name": "Topo Chico Mineral Water"
+            },
+            "vitaminwater": {
+                "links": {
+                    "Website": "https://www.vitaminwater.com/"
+                },
+                "picture": "packages/website/public/img/coca-cola/vitaminwater.png",
+                "description": "stay hydrated while you enhance your water drinking experience with the vitamins and electrolytes in the many flavors of vitaminwater®. try a bottle today!",
+                "name": "vitaminwater"
+            }
+        }
+    },
     "disney": {
         "name": "Disney",
         "details": {
