@@ -8,7 +8,6 @@ const OVERRIDES_WEBSITES = {
     'Coco Pops/Chocos': 'https://www.kelloggs.com.au/en_AU/brands/coco-pops.html/',
 };
 
-export const ENABLED = false;
 export const name = 'Kellogs';
 export const url = 'https://www.kelloggcompany.com/en_US/brandportfolio.html';
 export const infoUrl = 'https://en.wikipedia.org/wiki/Kellogg%27s';

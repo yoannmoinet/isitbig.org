@@ -1,5 +1,7 @@
 # Scraper
 
+The system that will scrap data for the website.
+
 ## Add a new scraper
 
 1. **Create a scraper**

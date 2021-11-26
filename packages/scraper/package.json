@@ -15,6 +15,6 @@
         "@sindresorhus/slugify": "2.1.0"
     },
     "scripts": {
-        "start": "node ."
+        "start": "node --trace-warnings ."
     }
 }

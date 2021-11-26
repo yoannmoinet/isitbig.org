@@ -1,18 +1,16 @@
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import c from 'chalk';
 import slug from '@sindresorhus/slugify';
 
-const fsP = fs.promises;
-
 import { downloadImage, ROOT, getCheerio, getPuppeteer } from './utils/index.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const fsP = fs.promises;
 
 const args = process.argv.slice(2);
 const NAME = args[0];
@@ -43,19 +41,19 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     // Ensure the dir exists.
     await fsP.mkdir(groupDir, { recursive: true });
 
-    if (group.details.logo) {
+    if (group.details.picture) {
         proms.push(
             new Promise(async (resolve) => {
-                const fileName = `${slug(group.details.name)}${path.extname(group.details.logo)}`;
+                const fileName = `${slug(group.details.name)}${path.extname(group.details.picture)}`;
                 const filePath = path.join(groupDir, fileName);
                 try {
-                    await downloadImage(group.details.logo, filePath);
+                    await downloadImage(group.details.picture, filePath);
                 } catch (e) {
-                    console.log(`${c.red('Failed')}: ${group.details.logo}`);
+                    console.log(`${c.red('Failed')}: ${group.details.picture}`);
                 }
 
                 // Update the path to the picture.
-                group.details.logo = path.relative(ROOT, filePath);
+                group.details.picture = path.relative(ROOT, filePath);
                 resolve();
             }),
         );
@@ -94,19 +92,22 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
         // Get groups' configurations
         const groupsPath = `${__dirname}/groups`;
         for (const name of fs.readdirSync(groupsPath)) {
-            if (name.startsWith('_') || (NAME && path.basename(name, path.extname(name)) !== NAME)) continue;
+            if (NAME && path.basename(name, path.extname(name)) !== NAME) continue;
             const config = await import(`${groupsPath}/${name}`);
             proms.push(scrap(page, config));
         }
 
         try {
+            const dataPath = path.join(ROOT, './packages/website/public/data.json');
             const everything = await Promise.all(proms);
+            const previousData = JSON.parse(await fsP.readFile(dataPath));
             const groups = {};
 
             // Index groups by name
-            for (const group of everything) {
+            for (const group of [...Object.values(previousData), ...everything]) {
                 // Sort brands alphabetically.
-                const brands = Object.fromEntries(group.brands);
+                const isMap = group.brands.constructor.name === 'Map';
+                const brands = isMap ? Object.fromEntries(group.brands) : group.brands;
                 const sortedBrands = {};
                 for (const brandName of Object.keys(brands).sort()) {
                     sortedBrands[brandName] = brands[brandName];
@@ -118,12 +119,14 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
                 };
             }
 
+            // Sort groups.
+            const sortedGroups = {};
+            for (const groupName of Object.keys(groups).sort()) {
+                sortedGroups[groupName] = groups[groupName];
+            }
+
             // Save the file in the website's assets.
-            await fsP.writeFile(
-                path.join(ROOT, './packages/website/public/data.json'),
-                JSON.stringify(groups, null, 4),
-                'utf-8',
-            );
+            await fsP.writeFile(dataPath, `${JSON.stringify(sortedGroups, null, 4)}\n`, 'utf-8');
             console.log(c.green.bold(`Done.`));
         } catch (e) {
             console.log(c.red(`Error scrapping:\n`), e);
