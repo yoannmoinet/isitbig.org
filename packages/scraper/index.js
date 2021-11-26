@@ -19,11 +19,13 @@ const NAME = args[0];
 
 // TODO
 /*
-CocaCola
-LVMH
-Kering
+Luxottica: https://www.luxottica.com/en/eyewear-brands
+CocaCola: https://www.coca-colacompany.com/brands
+LVMH: https://www.lvmh.com/houses/
+Kering: https://www.kering.com/en/houses/
 Swatch
-Unilever
+Unilever: https://www.unilever.com/brands/all-brands/
+Monsanto/Bayer: https://www.bayer.com/en/products/products-from-A-to-Z
 */
 
 const scrap = async (page, { name, scrapBrands, scrapDetails }) => {

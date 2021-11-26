@@ -1,8 +1,14 @@
 # isitbig.org
 
+## Overview
+
 ![GitHub deployments](https://img.shields.io/github/deployments/yoannmoinet/isitbig.org/production?label=vercel&logo=vercel&logoColor=white)
 
 Helps you find if a brand is part of a big group.
+
+The data is gathered in `./packages/website/public/data.json` from scrap scripts in `./packages/scraper`.
+
+There's also a `./packages/website/overrides.json` in case we need to enter manual data.
 
 ## Components
 
