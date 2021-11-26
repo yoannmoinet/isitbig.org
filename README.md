@@ -10,6 +10,26 @@ The data is gathered in `./packages/website/public/data.json` from scrap scripts
 
 There's also a `./packages/website/overrides.json` in case we need to enter manual data.
 
+## Groups
+
+-   [x] [Kellogg's](https://isitbig.org/brand/kellogs)
+-   [x] [The Walt Disney Company](https://isitbig.org/brand/disney)
+-   [x] [The CocaCola Company](https://isitbig.org/brand/the-coca-cola-company)
+-   [x] [Nestlé](https://isitbig.org/brand/nestle)
+-   [x] [PepsiCo](https://isitbig.org/brand/pepsico)
+-   [ ] [Luxottica](https://www.luxottica.com/en/eyewear-brands)
+-   [ ] [LVMH](https://www.lvmh.com/houses/)
+-   [ ] [Kering](https://www.kering.com/en/houses/)
+-   [ ] [Swatch]()
+-   [ ] [Unilever](https://www.unilever.com/brands/all-brands/)
+-   [ ] [Monsanto/Bayer](https://www.bayer.com/en/products/products-from-A-to-Z)
+
+## TODOS
+
+-   [ ] Scrap more groups
+-   [ ] Have a logo
+-   [ ] Social tags + banners
+
 ## Components
 
 Built around two components
