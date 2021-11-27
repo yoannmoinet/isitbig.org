@@ -291,7 +291,7 @@
                 }
             },
             "Aulani ": {
-                "name": "Aulani Hawaii Resort",
+                "name": "Aulani ",
                 "picture": "packages/website/public/img/disney/aulani.jpg",
                 "description": "Aulani, a Disney Resort & Spa in Ko Olina, is the place to stay for a Hawaii family vacation that immerses you in local culture through Disney magic.",
                 "links": {
@@ -368,8 +368,9 @@
                 }
             },
             "FXlogo": {
-                "name": "FXlogo",
+                "name": "FX Networks",
                 "picture": "packages/website/public/img/disney/f-xlogo.png",
+                "description": "The official site of FX and FXX features critically acclaimed dramas, hit comedies and original documentaries.",
                 "links": {
                     "FXlogo": "https://www.fxnetworks.com/"
                 }
@@ -438,7 +439,7 @@
                 }
             },
             "Shop Disney TDS  Blue": {
-                "name": "Show Disney",
+                "name": "Shop Disney TDS  Blue",
                 "picture": "packages/website/public/img/disney/shop-disney-tds-blue.jpg",
                 "description": "Disney Store online is now shopDisney.com, the ultimate Disney shopping destination! Shop for costumes, clothes, toys, collectibles, decor, movies and more at shopDisney.",
                 "links": {
@@ -495,7 +496,7 @@
             "hulu ": {
                 "name": "Hulu",
                 "picture": "packages/website/public/img/disney/hulu.png",
-                "description": "Watch TV shows and movies online. Stream TV episodes of South Park, Empire, SNL, Modern Family and popular movies on your favorite devices. Start your free trial now. Cancel anytime.",
+                "description": "Watch TV shows and movies online. Stream TV episodes of Grey's Anatomy, This Is Us, Bob's Burgers, Brooklyn Nine-Nine, Empire, SNL, and popular movies on your favorite devices. Start your free trial now. Cancel anytime.",
                 "links": {
                     "hulu ": "https://www.hulu.com"
                 }
