@@ -25,13 +25,13 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
         // Scrap for details
         group.details = await scrapDetails(getCheerio(name), getPuppeteer(name, page));
     } catch (e) {
-        console.log(`Error scraping ${c.bold.cyan('details')} for ${c.bold.red(name)}.`, e);
+        console.log(`Error scraping ${c.bold.cyan('details')} for ${c.bold.red(name)}.`, e.toString());
     }
     try {
         // Scrap websites
         group.brands = await scrapBrands(getCheerio(name), getPuppeteer(name, page));
     } catch (e) {
-        console.log(`Error scraping ${c.bold.cyan('website')} for ${c.bold.red(name)}.`, e);
+        console.log(`Error scraping ${c.bold.cyan('website')} for ${c.bold.red(name)}.`, e.toString());
     }
 
     console.log(`Downloading pictures for ${c.bold.green(name)}...`);
@@ -42,7 +42,7 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     if (group.details.picture) {
         proms.push(
             new Promise(async (resolve) => {
-                const fileName = `${slug(group.details.name)}${path.extname(group.details.picture)}`;
+                const fileName = `${group.details.slug}${path.extname(group.details.picture)}`;
                 const filePath = path.join(groupDir, fileName);
                 try {
                     await downloadImage(group.details.picture, filePath);
@@ -57,23 +57,25 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
         );
     }
 
-    for (const [brandName, brand] of group.brands.entries()) {
-        proms.push(
-            new Promise(async (resolve) => {
-                const fileName = `${slug(brandName)}${path.extname(brand.picture)}`;
-                const filePath = path.join(groupDir, fileName);
-                try {
-                    await downloadImage(brand.picture, filePath);
-                } catch (e) {
-                    console.log(`${c.red('Failed')}: ${brand.picture}\n${e.toString()}`);
-                }
+    if (group.brands) {
+        for (const [brandName, brand] of group.brands.entries()) {
+            proms.push(
+                new Promise(async (resolve) => {
+                    const fileName = `${slug(brandName)}${path.extname(brand.picture)}`;
+                    const filePath = path.join(groupDir, fileName);
+                    try {
+                        await downloadImage(brand.picture, filePath);
+                    } catch (e) {
+                        console.log(`${c.red('Failed')}: ${brand.picture}\n${e.toString()}`);
+                    }
 
-                // Update the path to the picture.
-                brand.picture = path.relative(ROOT, filePath);
-                group.brands.set(brandName, brand);
-                resolve();
-            }),
-        );
+                    // Update the path to the picture.
+                    brand.picture = path.relative(ROOT, filePath);
+                    group.brands.set(brandName, brand);
+                    resolve();
+                }),
+            );
+        }
     }
 
     await Promise.all(proms);
@@ -129,7 +131,7 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
 
             console.log('Writing data...');
             // Save the file in the website's assets.
-            await fsP.writeFile(dataPath, `${JSON.stringify(sortedGroups, null, 4)}\n`, 'utf-8');
+            await fsP.writeFile(dataPath, `${JSON.stringify(groups, null, 4)}\n`, 'utf-8');
             console.log(c.green.bold(`Done.`));
         } catch (e) {
             console.log(c.red(`Error scrapping:\n`), e);

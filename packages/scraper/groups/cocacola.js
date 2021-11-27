@@ -189,7 +189,6 @@ export const scrapBrands = async (get$, getPage) => {
                         Object.assign(brand, METAS_OVERRIDES[url](metas));
                     }
                 } catch (e) {
-                    console.log(e, brand);
                     // What can we do? Return the default override
                     if (METAS_OVERRIDES[url]) {
                         Object.assign(brand, METAS_OVERRIDES[url]({}));

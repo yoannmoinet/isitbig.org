@@ -1,5 +1,5 @@
 {
-    "coca-cola": {
+    "the-coca-cola-company": {
         "name": "CocaCola",
         "details": {
             "name": "The Coca-Cola Company",
@@ -256,15 +256,15 @@
             }
         }
     },
-    "disney": {
+    "the-walt-disney-company": {
         "name": "Disney",
         "details": {
             "name": "The Walt Disney Company",
-            "slug": "disney",
+            "slug": "the-walt-disney-company",
             "url": "https://thewaltdisneycompany.com/about/",
             "infoUrl": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
             "description": "The Walt Disney Company, commonly just Disney (/ˈdɪzni/),[2] is an American multinational entertainment and media conglomerate headquartered at the Walt Disney Studios complex in Burbank, California.\nDisney was originally founded on October 16, 1923, by brothers Walt and Roy O. Disney as the \"Disney Brothers Cartoon Studio\";[3] it also operated under the names \"The Walt Disney Studio\" and \"Walt Disney Productions\" before officially changing its name to The Walt Disney Company in 1986. The company established itself as a leader in the American animation industry before diversifying into live-action film production, television, and theme parks.\nSince the 1980s, Disney has created and acquired corporate divisions in order to market more mature content than is typically associated with its flagship family-oriented brands. The company is known for its film studio division, The Walt Disney Studios, which includes Walt Disney Pictures, Walt Disney Animation Studios, Pixar, Marvel Studios, Lucasfilm, 20th Century Studios, 20th Century Animation, and Searchlight Pictures. Disney's other main business units include divisions in television, broadcasting, streaming media, theme park resorts, consumer products, publishing, and international operations. Through these various segments, Disney owns and operates the ABC broadcast network; cable television networks such as Disney Channel, ESPN, Freeform, FX, and National Geographic; publishing, merchandising, music, and theater divisions; direct-to-consumer streaming services such as Disney+, Star+, ESPN+, Hulu, and Hotstar; and Disney Parks, Experiences and Products, a group of 14 theme parks, resort hotels, and cruise lines around the world.[4][5] Cartoon character Mickey Mouse, created in 1928 by Walt Disney and Ub Iwerks, serves as the company's official mascot.[6]\nThe company, which trades on the New York Stock Exchange (NYSE) under DIS stock symbol,[7] has been a component of the Dow Jones Industrial Average since 1991.[8] In August 2020, just under two-thirds of the stock was owned by large financial institutions.[9]\n",
-            "picture": "packages/website/public/img/disney/the-walt-disney-company.png"
+            "picture": "packages/website/public/img/disney/the-walt-disney-company.svg"
         },
         "brands": {
             "2018 abc news  promo black": {
@@ -502,15 +502,15 @@
             }
         }
     },
-    "kellogs": {
+    "kellogg-s": {
         "name": "Kellogs",
         "details": {
             "name": "Kellogg's",
-            "slug": "kellogs",
+            "slug": "kellogg-s",
             "url": "https://www.kelloggcompany.com/en_US/brandportfolio.html",
             "infoUrl": "https://en.wikipedia.org/wiki/Kellogg%27s",
             "description": "  Former Kellogg's Café, Union Square (Manhattan)The Kellogg Company, doing business as Kellogg's, is an American multinational food manufacturing company headquartered in Battle Creek, Michigan, United States. Kellogg's produces cereal and convenience foods, including crackers and toaster pastries and markets their products by several well known brands including Corn Flakes, Rice Krispies, Frosted Flakes, Pringles, Eggo, and Cheez-It. Kellogg's mission statement is \"Nourishing families so they can flourish and thrive.\"[2]\nKellogg's products are manufactured and marketed in over 180 countries.[3] Kellogg's largest factory is at Trafford Park in Trafford, Greater Manchester, United Kingdom, which is also the location of its UK headquarters.[4] Other corporate office locations outside of Battle Creek include Chicago, Dublin (European Headquarters), Shanghai, and Querétaro City.[5] Kellogg's holds a Royal Warrant from Queen Elizabeth II and the Prince of Wales.[6]\n",
-            "picture": "packages/website/public/img/kellogs/kellogg-s.png"
+            "picture": "packages/website/public/img/kellogs/kellogg-s.svg"
         },
         "brands": {
             "all-bran": {
@@ -697,7 +697,7 @@
             "url": "https://www.nestle.com/brands/brandssearchlist",
             "infoUrl": "https://en.wikipedia.org/wiki/Nestl%C3%A9",
             "description": "Nestlé S.A. (/ˈnɛsleɪ, -li, -əl/;[citation needed] French: [nɛsle]) is a Swiss multinational food and drink processing conglomerate corporation headquartered in Vevey, Vaud, Switzerland. It is the largest food company in the world, measured by revenue and other metrics, since 2014.[4][5][6][7][8] It ranked No. 64 on the Fortune Global 500 in 2017[9] and No. 33 in the 2016 edition of the Forbes Global 2000 list of largest public companies.[10]\nNestlé's products include baby food, medical food, bottled water, breakfast cereals, coffee and tea, confectionery, dairy products, ice cream, frozen food, pet foods, and snacks. Twenty-nine of Nestlé's brands have annual sales of over 1 billion CHF (about US$1.1 billion),[11] including Nespresso, Nescafé, Kit Kat, Smarties, Nesquik, Stouffer's, Vittel, and Maggi. Nestlé has 447 factories, operates in 189 countries, and employs around 339,000 people.[12] It is one of the main shareholders of L'Oreal, the world's largest cosmetics company.[13]\nNestlé was formed in 1905 by the merger of the \"Anglo-Swiss Milk Company\", established in 1866 by brothers George and Charles Page, and \"Farine Lactée Henri Nestlé\", founded in 1867 by Henri Nestlé.[14] The company grew significantly during the First World War and again following the Second World War, expanding its offerings beyond its early condensed milk and infant formula products. The company has made a number of corporate acquisitions, including Crosse & Blackwell in 1950, Findus in 1963, Libby's in 1971, Rowntree Mackintosh in 1988, Klim in 1998, and Gerber in 2007.\nThe company has been associated with various controversies, facing criticism and boycotts over its marketing of baby formula as an alternative to breastfeeding in developing countries (where clean water may be scarce), its reliance on child labour in cocoa production, and its production and promotion of bottled water.\n",
-            "picture": "packages/website/public/img/nestle/nestle.png"
+            "picture": "packages/website/public/img/nestle/nestle.svg"
         },
         "brands": {
             "Aero": {
@@ -1763,11 +1763,11 @@
         "name": "PepsiCo",
         "details": {
             "name": "PepsiCo",
-            "slug": "pepsico",
+            "slug": "pepsi-co",
             "url": "https://www.pepsico.com/brands/product-information",
             "infoUrl": "https://en.wikipedia.org/wiki/PepsiCo",
             "description": "PepsiCo, Inc. is an American multinational food, snack, and beverage corporation headquartered in Harrison, New York, in the hamlet of Purchase. PepsiCo's business encompasses all aspects of the food and beverage market. It oversees the manufacturing, distribution, and marketing of its products. PepsiCo was formed in 1965 with the merger of the Pepsi-Cola Company and Frito-Lay, Inc. PepsiCo has since expanded from its namesake product Pepsi Cola to an immensely diversified range of food and beverage brands. The largest and most recent acquisition was Tropicana Products in 1998 and the Quaker Oats Company in 2001, which added the Gatorade brand to the Pepsi portfolio.\nAs of January 2021, the company possesses 23 brands that have over $1 billion in sales.[2] Pepsico has operations all around the world and its products were distributed across more than 200 countries, resulting in annual net revenues of over $70 billion. Based on net revenue, profit, and market capitalization; PepsiCo is the second-largest food and beverage business in the world, behind Nestlé. PepsiCo's flagship product Pepsi Cola has been engaged in a rivalry for generations with Coca-Cola, commonly referred to as the Soda Wars. Despite Coca-Cola outselling Pepsi Cola in the United States, PepsiCo within the North American market is the largest food and beverage company by net revenue. Ramon Laguarta has been the chief executive of PepsiCo since 2018. The company's beverage distribution and bottling is conducted by PepsiCo as well as by licensed bottlers in certain regions.\nPepsi has been repeatedly criticized by environmentalists for its relationship to negative environmental impacts of agriculture in its supply chain, and distributing operations such as palm oil-related deforestation and pesticide use, its use of water resources, and the negative impacts of its packaging—Pepsi's packaging has consistently been one of the top sources of plastic pollution globally.[3]  Similarly public health advocates have criticized Pepsi's high-calorie, poor nutrition product lines along with other popular snack and drink manufacturers. In response, PepsiCo has made public comments on their commitment to minimizing their impact but has not released public information documenting progress on most of its public commitments.\n",
-            "picture": "packages/website/public/img/pepsi-co/pepsi-co.png"
+            "picture": "packages/website/public/img/pepsi-co/pepsi-co.svg"
         },
         "brands": {
             "7-up": {
