@@ -201,6 +201,5 @@ export const scrapBrands = async (get$, getPage) => {
     }
 
     await Promise.all(proms);
-    console.log(brands.entries());
     return brands;
 };
