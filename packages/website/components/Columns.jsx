@@ -24,7 +24,7 @@ export const Columns = ({ children, columns, defaultToMin }) => {
     // Convert columns to grid.
     const gridVals = {};
     for (const [key, val] of Object.entries(columns)) {
-        gridVals[key] = Math.floor(12 / Math.min(nbColumns, val));
+        gridVals[key] = 12 / Math.min(nbColumns, val);
     }
 
     return (
