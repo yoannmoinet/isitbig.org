@@ -4,6 +4,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import c from 'chalk';
 import slug from '@sindresorhus/slugify';
+import _ from 'lodash';
 
 import { downloadImage, ROOT, getCheerio, getPuppeteer } from './utils/index.js';
 
@@ -20,10 +21,18 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
     const proms = [];
     const group = { name };
 
-    // Scrap for details
-    group.details = await scrapDetails(getCheerio(name), getPuppeteer(name, page));
-    // Scrap websites
-    group.brands = await scrapBrands(getCheerio(name), getPuppeteer(name, page));
+    try {
+        // Scrap for details
+        group.details = await scrapDetails(getCheerio(name), getPuppeteer(name, page));
+    } catch (e) {
+        console.log(`Error scraping ${c.bold.cyan('details')} for ${c.bold.red(name)}.`, e);
+    }
+    try {
+        // Scrap websites
+        group.brands = await scrapBrands(getCheerio(name), getPuppeteer(name, page));
+    } catch (e) {
+        console.log(`Error scraping ${c.bold.cyan('website')} for ${c.bold.red(name)}.`, e);
+    }
 
     console.log(`Downloading pictures for ${c.bold.green(name)}...`);
     const groupDir = path.join(ROOT, `./packages/website/public/img/${slug(name)}`);
@@ -89,11 +98,21 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
         try {
             const dataPath = path.join(ROOT, './packages/website/public/data.json');
             const everything = await Promise.all(proms);
-            const previousData = JSON.parse(await fsP.readFile(dataPath));
+            const allData = JSON.parse(await fsP.readFile(dataPath));
             const groups = {};
 
+            console.log('Merging data...');
+            // Merge data
+            for (const group of everything) {
+                if (allData[group.details.slug]) {
+                    allData[group.details.slug] = _.merge(allData[group.details.slug], group);
+                } else {
+                    allData[group.details.slug] = group;
+                }
+            }
+
             // Index groups by name
-            for (const group of [...Object.values(previousData), ...everything]) {
+            for (const group of [...Object.values(allData)].sort((a, b) => b.details.slug - a.details.slug)) {
                 // Sort brands alphabetically.
                 const isMap = group.brands.constructor.name === 'Map';
                 const brands = isMap ? Object.fromEntries(group.brands) : group.brands;
@@ -102,18 +121,13 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
                     sortedBrands[brandName] = brands[brandName];
                 }
 
-                groups[slug(group.name)] = {
+                groups[group.details.slug] = {
                     ...group,
                     brands: sortedBrands,
                 };
             }
 
-            // Sort groups.
-            const sortedGroups = {};
-            for (const groupName of Object.keys(groups).sort()) {
-                sortedGroups[groupName] = groups[groupName];
-            }
-
+            console.log('Writing data...');
             // Save the file in the website's assets.
             await fsP.writeFile(dataPath, `${JSON.stringify(sortedGroups, null, 4)}\n`, 'utf-8');
             console.log(c.green.bold(`Done.`));
