@@ -26,6 +26,8 @@ There's also a `./packages/website/overrides.json` in case we need to enter manu
 
 ## TODOS
 
+-   [ ] Fix logo background for white logos
+-   [ ] Fix search slowness
 -   [ ] Scrap more groups
 -   [ ] Have a logo
 -   [ ] Social tags + banners
