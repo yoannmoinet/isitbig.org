@@ -41,13 +41,13 @@
                 "description": "�}�{�ł��ꂽ�悤�ȁA�ɂ���̎|�� �u����i���₽���j�v�̌����T�C�g�B����̐��i����A�L�����y�[�����Ȃǂ����Љ�B",
                 "name": "Aya Taka | 綾鷹"
             },
-            "barq-and-39-s": {
+            "barq-s": {
                 "links": {
                     "Website": "https://www.barqs.com/"
                 },
-                "picture": "packages/website/public/img/coca-cola/barq-and-39-s.png",
-                "description": "[object Object]",
-                "name": "Barq&#39;s"
+                "picture": "packages/website/public/img/coca-cola/barq-s.png",
+                "description": "Barq's has bite! Enjoy the classic taste of Barq&#39;s® Root Beer, or Crème Soda that&#39;s crisp, refreshing and tastes good since 1898. Try a can today!",
+                "name": "Barq's"
             },
             "bodyarmor-sports-drink": {
                 "links": {
@@ -195,7 +195,7 @@
                     "Website": "https://www.peacetea.com/"
                 },
                 "picture": "packages/website/public/img/coca-cola/peace-tea.png",
-                "description": "There&#39;s peace, happiness, and fresh iced tea flavor in every can of Peace Tea. Take a sip of something refreshingly delicious and enjoy Peace Tea today!",
+                "description": "There's peace, happiness, and fresh iced tea flavor in every can of Peace Tea. Take a sip of something refreshingly delicious and enjoy Peace Tea today!",
                 "name": "Peace Tea®"
             },
             "powerade-sports-drink": {

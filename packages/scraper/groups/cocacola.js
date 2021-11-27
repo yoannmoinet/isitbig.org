@@ -36,8 +36,8 @@ const METAS_OVERRIDES = {
     },
     'https://www.barqs.com/': (metas) => {
         return {
-            name: decodeURIComponent(metas['og:title'].content.replace(' Home', '')),
-            description: decodeURIComponent(metas['og:description']),
+            name: metas['og:title'].content.replace(' Home', '').replace('&#39;', `'`),
+            description: metas['og:description'].content.replace('&#39;', `'`),
         };
     },
     'https://www.coca-colamexico.com.mx/marcas/ciel': (metas) => {
@@ -95,7 +95,7 @@ const METAS_OVERRIDES = {
     'https://www.peacetea.com/': (metas) => {
         return {
             name: metas.title.content.split('|').pop().trim(),
-            description: decodeURIComponent(metas.description.content),
+            description: metas.description.content.replace('&#39;', `'`),
         };
     },
     'https://www.innocentdrinks.co.uk/': (metas) => {
@@ -201,5 +201,6 @@ export const scrapBrands = async (get$, getPage) => {
     }
 
     await Promise.all(proms);
+    console.log(brands.entries());
     return brands;
 };
