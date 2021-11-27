@@ -1,5 +1,5 @@
 {
     "the-coca-cola-company": {
-        "bg": "#333"
+        "details": { "bg": "#333" }
     }
 }

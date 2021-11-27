@@ -55,7 +55,7 @@ const Brand = ({ data }) => {
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
                 <Brands
                     brands={Object.values(group.brands).map((b) => {
-                        b.parent = group;
+                        b.parent = group.details;
                         return b;
                     })}
                 />
