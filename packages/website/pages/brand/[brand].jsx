@@ -53,7 +53,12 @@ const Brand = ({ data }) => {
                 </Box>
             </Box>
             <Box sx={{ my: 4, mx: 'auto' }} maxWidth="xl">
-                <Brands brands={Object.values(group.brands)} />
+                <Brands
+                    brands={Object.values(group.brands).map((b) => {
+                        b.parent = group;
+                        return b;
+                    })}
+                />
             </Box>
         </Page>
     );

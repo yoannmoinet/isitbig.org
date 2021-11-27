@@ -2,7 +2,7 @@ import { Card, CardActionArea, CardContent, CardMedia, Link, Typography } from '
 import { Box } from '@mui/system';
 import { getImageSrc } from '../../utils';
 
-export const Brand = ({ name, description, link, links, picture }) => {
+export const Brand = ({ name, description, link, links, picture, bg, parent }) => {
     const pictureSrc = getImageSrc(picture);
 
     let brandEl = (
@@ -10,7 +10,7 @@ export const Brand = ({ name, description, link, links, picture }) => {
             <CardActionArea>
                 <Box
                     sx={{
-                        background: 'white',
+                        background: bg || parent.bg || 'white',
                         padding: '5px',
                         minHeight: '100px',
                         display: 'flex',
@@ -26,6 +26,7 @@ export const Brand = ({ name, description, link, links, picture }) => {
                             maxWidth: '100%',
                             margin: 'auto',
                             width: 'inherit',
+                            padding: '15px',
                         }}
                     />
                 </Box>

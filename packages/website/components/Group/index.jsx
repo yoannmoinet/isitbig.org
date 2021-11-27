@@ -23,16 +23,8 @@ export const Group = ({ group }) => {
             <Typography gutterBottom variant="h5" component="div">
                 {group.name}
             </Typography>
-            {brands.map((brand) => {
-                return (
-                    <Brand
-                        name={brand.name}
-                        description={brand.description}
-                        links={brand.links}
-                        picture={brand.picture}
-                        key={brand.name}
-                    />
-                );
+            {brands.map((brand, index) => {
+                return <Brand key={index} {...brand} />;
             })}
         </Container>
     );
