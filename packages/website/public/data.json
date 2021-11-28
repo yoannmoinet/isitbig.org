@@ -14,6 +14,7 @@
                 "links": {
                     "Website": "https://www.coca-colacompany.com/brands/ades"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/ade-s.png",
                 "description": "Founded in 1988 in Argentina, AdeS is the leading soy-based beverage brand in Latin America. Learn more about AdeS & AdeS products here.",
                 "name": "AdeS"
@@ -22,6 +23,7 @@
                 "links": {
                     "Website": "https://www.appletiser.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/appletiser.png",
                 "name": "Appletiser"
             },
@@ -29,6 +31,7 @@
                 "links": {
                     "Website": "https://www.aquarius-sports.jp/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/aquarius-a-n-g-a-x.png",
                 "description": "�M���J���_�ɁA�₦���A�N�G���B",
                 "name": "AQUARIUS | �A�N�G���A�X"
@@ -37,6 +40,7 @@
                 "links": {
                     "Website": "https://www.ayataka.jp/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/aya-taka.png",
                 "description": "�}�{�ł��ꂽ�悤�ȁA�ɂ���̎|�� �u����i���₽���j�v�̌����T�C�g�B����̐��i����A�L�����y�[�����Ȃǂ����Љ�B",
                 "name": "Aya Taka | 綾鷹"
@@ -45,6 +49,7 @@
                 "links": {
                     "Website": "https://www.barqs.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/barq-s.png",
                 "description": "Barq's has bite! Enjoy the classic taste of Barq&#39;s® Root Beer, or Crème Soda that&#39;s crisp, refreshing and tastes good since 1898. Try a can today!",
                 "name": "Barq's"
@@ -53,6 +58,7 @@
                 "links": {
                     "Website": "https://www.drinkbodyarmor.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/bodyarmor-sports-drink.png",
                 "description": "BODYARMOR is dedicated to providing today’s athletes the best in sports nutrition & hydration. With BODYARMOR Sports Drink, BODYARMOR LYTE Sports Drink and BODYARMOR SportWater, we continue to deliver Superior Hydration no matter your game.",
                 "name": "BODYARMOR Sports Drink"
@@ -61,6 +67,7 @@
                 "links": {
                     "Website": "https://www.coca-colamexico.com.mx/marcas/ciel"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/ciel.png",
                 "name": "Ciel"
             },
@@ -68,6 +75,7 @@
                 "links": {
                     "Website": "https://us.coca-cola.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/coca-cola.png",
                 "description": "Enjoy every magical moment of the season together. Explore ways you can be closer to the ones you love with meals worth sharing, festive playlists, and more holiday magic from Coke®.",
                 "name": "Coca-Cola®"
@@ -76,6 +84,7 @@
                 "links": {
                     "Website": "https://www.costa.co.uk/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/costa-coffee.png",
                 "name": "Costa Coffee",
                 "description": "Costa is the Nation's Favourite coffee shop and the largest and fastest growing coffee shop chain in the UK."
@@ -84,6 +93,7 @@
                 "links": {
                     "Website": "https://www.dasani.com"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/dasani-water.png",
                 "description": "Invigorate every day with the purified taste of the world&#39;s most delicious water. Splash Into Life with the refreshing, crisp taste of DASANI®.",
                 "name": "DASANI® Water"
@@ -92,6 +102,7 @@
                 "links": {
                     "Website": "https://www.dietcoke.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/diet-coke.png",
                 "description": "Diet Coke® is the perfect balance of crisp + refreshing. it’s your deliciously fizzy go-to companion. the beverage you can count on. an original, just like you.",
                 "name": "Diet Coke®"
@@ -100,6 +111,7 @@
                 "links": {
                     "Website": "https://www.dogadan.com.tr/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/dogadan-cay.png",
                 "name": "Doğadan Çay"
             },
@@ -107,6 +119,7 @@
                 "links": {
                     "Website": "https://www.drinkaha.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/drinkaha.png",
                 "description": "AHA´s flavored sparkling water pairs familiar flavors in unexpected ways that delight. No sweeteners, no calories, no sodium. Try new AHA sparkling water today!",
                 "name": "Drinkaha®"
@@ -115,6 +128,7 @@
                 "links": {
                     "Website": "https://www.fairlife.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/fairlife-milk.png",
                 "description": "fairlife lactose-free ultra-filtered milk is higher protein and a great source of calcium.",
                 "name": "fairlife Milk"
@@ -123,6 +137,7 @@
                 "links": {
                     "Website": "https://www.fanta.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/fanta.png",
                 "name": "@Fanta",
                 "description": "Enjoy the refreshing tastes of Fanta®. Made with 100% natural  Orange, Grape, Pineapple and Strawberry flavors. This fruity soda will make you Wanta Fanta!"
@@ -131,6 +146,7 @@
                 "links": {
                     "Website": "https://www.fresca.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/fresca.png",
                 "description": "FRESCA has a fresh new look, but same fresh taste! Explore all the crisp, refreshing citrus flavors of great tasting zero calorie flavored soda with FRESCA!",
                 "name": "Fresca"
@@ -139,6 +155,7 @@
                 "links": {
                     "Website": "https://www.fuze-tea.com/en/home.html"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/fuze-tea.png",
                 "name": "Fuze Tea"
             },
@@ -146,6 +163,7 @@
                 "links": {
                     "Website": "https://www.georgia.jp/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/georgia.png",
                 "description": "�R�[�q�[�u�����h �W���[�W�A�̃I�t�B�V�����T�C�g�B���i���ATVCM�A�L�����y�[�����ق��A�y�����X�y�V�����R���e���c�����J���I",
                 "name": "Georgia | ジョージア"
@@ -154,6 +172,7 @@
                 "links": {
                     "Website": "https://www.goldpeakbeverages.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/gold-peak-beverages.png",
                 "description": "Enjoy the real comforts of home with Gold Peak® Real Brewed Tea and Coffee. View our variety of Gold Peak Real Brewed beverages and find products near you!",
                 "name": "Gold Peak® Beverages"
@@ -162,6 +181,7 @@
                 "links": {
                     "Website": "https://www.honesttea.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/honest-tea.png",
                 "description": "Honest Tea brings you organic bottled beverages like lemonade, juices, kids drinks, and now yerba mate tea! Browse your favorite products online and find in stores.",
                 "name": "Honest® Tea"
@@ -170,6 +190,7 @@
                 "links": {
                     "Website": "https://www.i-lohas.jp/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/i-lohas.png",
                 "description": "�u����륂ͥ���v�͐���������u�����h�A����������������؂ɂ��܂��B�n���̂������������A�n���̋߂��֓͂��Ă��܂��B���I���ꂽ�S��7�����ō̐����A�������i���Ǘ����o�Ă��͂����Ă��܂��BLOVE WATER , LOVE ����륂ͥ���B",
                 "name": "I Lohas | い･ろ･は･す"
@@ -178,6 +199,7 @@
                 "links": {
                     "Website": "https://www.innocentdrinks.co.uk/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/innocent.png",
                 "name": "innocent",
                 "description": "We're innocent and we make natural, tasty little drinks. Find out more about our big dreams to help people and the planet."
@@ -186,6 +208,7 @@
                 "links": {
                     "Website": "https://www.minutemaid.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/minute-maid-juice-and-juice-drinks.png",
                 "description": "From breakfasts to soccer games and everything in between, Minute Maid has you covered. Find your favorite products or explore new ones here!",
                 "name": "Minute Maid Juice and Juice Drinks"
@@ -194,6 +217,7 @@
                 "links": {
                     "Website": "https://www.peacetea.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/peace-tea.png",
                 "description": "There's peace, happiness, and fresh iced tea flavor in every can of Peace Tea. Take a sip of something refreshingly delicious and enjoy Peace Tea today!",
                 "name": "Peace Tea®"
@@ -202,6 +226,7 @@
                 "links": {
                     "Website": "https://www.powerade.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/powerade-sports-drink.png",
                 "description": "ION4® Advanced Electrolyte System Replaces 4 Electrolytes Lost In Sweat. ION4® Electrolyte System. B Vitamins.",
                 "name": "POWERADE® Sports Drink"
@@ -210,6 +235,7 @@
                 "links": {
                     "Website": "https://www.schweppes.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/schweppes-sparkling-water.png",
                 "description": "A sparkling tradition since 1783",
                 "name": "Schweppes Sparkling Water"
@@ -218,6 +244,7 @@
                 "links": {
                     "Website": "https://www.drinksimplybeverages.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/simply-beverages.png",
                 "description": "Experience the fresh taste of Simply Orange® Juice. Try our all natural juices, lemonades and almond milks. Find your favorite in stores or buy online!",
                 "name": "Simply® Beverages"
@@ -226,6 +253,7 @@
                 "links": {
                     "Website": "https://www.drinksmartwater.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/smartwater.png",
                 "description": "introducing our new, natural smartwater flavors, smartwater alkaline & smartwater antioxidant. try smartwater and experience purity and hydration in every sip",
                 "name": "smartwater®"
@@ -234,6 +262,7 @@
                 "links": {
                     "Website": "https://www.sprite.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/sprite.png",
                 "name": "Sprite®",
                 "description": "The official website of Sprite®, Sprite Zero®, & Sprite Remix® sodas, the world’s most popular Lemon-Lime flavored soft drinks. Obey Your Thirst."
@@ -242,6 +271,7 @@
                 "links": {
                     "Website": "https://www.topochicousa.net/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/topo-chico-mineral-water.png",
                 "description": "Topo Chico is sparkling mineral water sourced and bottled in Monterrey, Mexico since 1895. Explore Topo Chico flavors and discover our latest artist collaborations.",
                 "name": "Topo Chico Mineral Water"
@@ -250,6 +280,7 @@
                 "links": {
                     "Website": "https://www.vitaminwater.com/"
                 },
+                "bg": "#bbb",
                 "picture": "packages/website/public/img/coca-cola/vitaminwater.png",
                 "description": "stay hydrated while you enhance your water drinking experience with the vitamins and electrolytes in the many flavors of vitaminwater®. try a bottle today!",
                 "name": "vitaminwater"

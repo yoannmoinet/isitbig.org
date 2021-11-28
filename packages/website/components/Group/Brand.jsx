@@ -10,7 +10,7 @@ export const Brand = ({ name, description, link, links, picture, bg, parent }) =
             <CardActionArea>
                 <Box
                     sx={{
-                        background: '#ddd',
+                        background: bg || (parent && parent.bg) || 'white',
                         padding: '5px',
                         minHeight: '100px',
                         display: 'flex',

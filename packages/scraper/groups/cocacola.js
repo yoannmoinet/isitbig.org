@@ -171,6 +171,8 @@ export const scrapBrands = async (get$, getPage) => {
                 const url = (await getAttributes(page, aEl)).href;
                 brand.links = { Website: url };
                 const image = await aEl.$('.svg-logo-object img');
+                // Add a grey background to logos
+                brand.bg = '#bbb';
                 brand.picture = `https://www.coca-colacompany.com${(await getAttributes(page, image))['data-src']}`;
 
                 // Get more details
