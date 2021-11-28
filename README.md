@@ -14,9 +14,13 @@ There's also a `./packages/website/overrides.json` in case we need to enter manu
 
 We keep a list of groups scraped and to scrap in [this project](https://github.com/yoannmoinet/isitbig.org/projects/1).
 
+You can also [suggest a new group](https://github.com/yoannmoinet/isitbig.org/issues/new?assignees=&labels=group&template=new-group.md&title=%5BGROUP%5D).
+
 ## TODOS
 
 We keep a list of things to do in [this project](https://github.com/yoannmoinet/isitbig.org/projects/2).
+
+You can [request a new feature](https://github.com/yoannmoinet/isitbig.org/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D) or [submit a bug report](https://github.com/yoannmoinet/isitbig.org/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D) as well.
 
 ## Components
 
