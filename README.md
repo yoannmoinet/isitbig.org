@@ -1,8 +1,8 @@
-# isitbig.org
-
-## Overview
+# [isitbig.org](https://isitbig.org)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/yoannmoinet/isitbig.org/production?label=vercel&logo=vercel&logoColor=white)
+
+## Overview
 
 Helps you find if a brand is part of a big group.
 
