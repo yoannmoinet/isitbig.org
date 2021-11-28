@@ -1,6 +1,8 @@
-import { Container } from '@mui/material';
+import { Button, Container, Divider, Link } from '@mui/material';
 import { Box } from '@mui/system';
 import { Title } from './Title';
+import EmojiFoodBeverageTwoToneIcon from '@mui/icons-material/EmojiFoodBeverageTwoTone';
+import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 
 export const Page = ({ children, title }) => {
     return (
@@ -9,6 +11,19 @@ export const Page = ({ children, title }) => {
                 <Title>{title ? title : 'Is it big?'}</Title>
             </Box>
             {children}
+            <Divider sx={{ my: 10 }}>
+                <Link href="https://ko-fi.com/yoannmoinet" target="_blank" rel="noreferrer,noopener" underline="none">
+                    <Button
+                        variant="contained"
+                        size="small"
+                        color="primary"
+                        startIcon={<EmojiFoodBeverageTwoToneIcon />}
+                        endIcon={<FavoriteTwoToneIcon sx={{ color: 'red' }} />}
+                    >
+                        Buy me a tea
+                    </Button>
+                </Link>
+            </Divider>
         </Container>
     );
 };
