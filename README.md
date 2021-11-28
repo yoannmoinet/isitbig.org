@@ -12,25 +12,11 @@ There's also a `./packages/website/overrides.json` in case we need to enter manu
 
 ## Groups
 
--   [x] [Kellogg's](https://isitbig.org/brand/kellogs)
--   [x] [The Walt Disney Company](https://isitbig.org/brand/disney)
--   [x] [The CocaCola Company](https://isitbig.org/brand/the-coca-cola-company)
--   [x] [Nestlé](https://isitbig.org/brand/nestle)
--   [x] [PepsiCo](https://isitbig.org/brand/pepsico)
--   [ ] [Luxottica](https://www.luxottica.com/en/eyewear-brands)
--   [ ] [LVMH](https://www.lvmh.com/houses/)
--   [ ] [Kering](https://www.kering.com/en/houses/)
--   [ ] [Swatch]()
--   [ ] [Unilever](https://www.unilever.com/brands/all-brands/)
--   [ ] [Monsanto/Bayer](https://www.bayer.com/en/products/products-from-A-to-Z)
+We keep a list of groups scraped and to scrap in [this project](https://github.com/yoannmoinet/isitbig.org/projects/1).
 
 ## TODOS
 
--   [ ] Fix logo background for white logos
--   [ ] Fix search slowness
--   [ ] Scrap more groups
--   [ ] Have a logo
--   [ ] Social tags + banners
+We keep a list of things to do in [this project](https://github.com/yoannmoinet/isitbig.org/projects/2).
 
 ## Components
 
@@ -49,3 +35,5 @@ The source of the website located at https://isitbig.org
 ```bash
 yarn install
 ```
+
+If you're looking for stuffs to do, you can find something in one of our projects [#1](https://github.com/yoannmoinet/isitbig.org/projects/1) and [#2](https://github.com/yoannmoinet/isitbig.org/projects/2).
