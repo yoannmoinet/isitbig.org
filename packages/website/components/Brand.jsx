@@ -1,6 +1,6 @@
 import { Card, CardActionArea, CardContent, CardMedia, Link, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { getImageSrc } from '../../utils';
+import { getImageSrc } from '../utils';
 
 export const Brand = ({ name, description, link, links, picture, bg, parent }) => {
     const pictureSrc = getImageSrc(picture);

@@ -1,7 +1,7 @@
 import { Fade } from '@mui/material';
 import { Box } from '@mui/system';
 
-import { Brand } from '../components/Group/Brand';
+import { Brand } from '../components/Brand';
 import { Columns } from '../components/Columns';
 
 export const Brands = ({ brands, noanim }) => {
