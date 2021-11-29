@@ -1,6 +1,6 @@
 # [isitbig.org](https://isitbig.org)
 
-![GitHub deployments](https://img.shields.io/github/deployments/yoannmoinet/isitbig.org/production?label=vercel&logo=vercel&logoColor=white) ![Ko-fi](https://img.shields.io/badge/ko--fi-Buy%20me%20a%20tea-29abe0?logo=kofi&style=flat&link=https://ko-fi.com/yoannmoinet)
+![GitHub deployments](https://img.shields.io/github/deployments/yoannmoinet/isitbig.org/production?label=vercel&logo=vercel&logoColor=white) [![Ko-fi](https://img.shields.io/badge/ko--fi-Buy%20me%20a%20tea-29abe0?logo=kofi&style=flat)](https://ko-fi.com/yoannmoinet)
 
 ## Overview
 
