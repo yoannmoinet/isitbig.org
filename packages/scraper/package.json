@@ -13,7 +13,9 @@
         "puppeteer": "10.4.0"
     },
     "dependencies": {
-        "@sindresorhus/slugify": "2.1.0"
+        "@sindresorhus/slugify": "2.1.0",
+        "puppeteer-extra": "3.2.3",
+        "puppeteer-extra-plugin-stealth": "2.9.0"
     },
     "scripts": {
         "start": "node --trace-warnings ."

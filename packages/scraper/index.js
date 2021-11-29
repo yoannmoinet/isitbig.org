@@ -1,6 +1,7 @@
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import fs from 'fs';
 import c from 'chalk';
 import slug from '@sindresorhus/slugify';
@@ -84,6 +85,7 @@ const scrap = async (page, { name, scrapBrands, scrapDetails }) => {
 
 (async () => {
     try {
+        puppeteer.use(StealthPlugin());
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
 
