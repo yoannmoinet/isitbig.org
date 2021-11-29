@@ -2370,5 +2370,702 @@
                 "description": "Since 1948, we&rsquo;ve been delighting the nation everyday with our delicious great tasting crisps. We strive to always give you the very best quality and continue to be made with 100% Great British Potatoes.\n"
             }
         }
+    },
+    "bayer": {
+        "name": "Bayer",
+        "details": {
+            "name": "Bayer",
+            "slug": "bayer",
+            "url": "https://www.bayer.com/en/products/products-from-A-to-Z",
+            "infoUrl": "https://en.wikipedia.org/wiki/Bayer",
+            "description": "  Bayer facility in LeverkusenBayer AG (/ˈbeɪ.ər, ˈbaɪ.ər/; German: [ˈbaɪɐ]) is a German multinational pharmaceutical and life sciences company and one of the largest pharmaceutical companies in the world. Headquartered in Leverkusen, Bayer's areas of business include pharmaceuticals; consumer healthcare products, agricultural chemicals, seeds and biotechnology products. The company is a component of the Euro Stoxx 50 stock market index.[3]\nBayer was founded in 1863 in Barmen as a partnership between dye salesman Friedrich Bayer and dyer Friedrich Weskott. As was common in this era, the company was established as a dyestuffs producer. The versatility of aniline chemistry led Bayer to expand their business into other areas, and in 1899 Bayer launched the compound acetylsalicylic acid under the trademarked name Aspirin. In 1904 Bayer received a trademark for the \"Bayer Cross\" logo, which was subsequently stamped onto each aspirin tablet, creating an iconic product that is still sold by Bayer. Other commonly known products initially commercialized by Bayer include heroin, phenobarbitol, polyurethanes, and polycarbonates.\nIn 1925 Bayer merged with five other German companies to form IG Farben, creating the world's largest chemical and pharmaceutical company. Following World War II, the Allied Control Council seized IG Farben's assets[a][4] because of its role in the Nazi war effort and involvement in the Holocaust, which included using slave labour from concentration camps, the purchase of humans for dangerous medical testing and production of Zyklon B, a chemical used in gas chambers.[5] In 1951 IG Farben was split into its constituent companies, and Bayer was reincorporated as Farbenfabriken Bayer AG. Bayer played a key role in the Wirtschaftswunder in post-war West Germany, quickly regaining its position as one of the world's largest chemical and pharmaceutical corporations.\n",
+            "picture": "packages/website/public/img/bayer/bayer.svg"
+        },
+        "brands": {
+            "acceleron": {
+                "picture": "packages/website/public/img/bayer/acceleron.jpg",
+                "name": "Acceleron™",
+                "links": {
+                    "Website": "http://www.acceleronsas.com/Pages/default.aspx"
+                },
+                "description": "Field of Activity: Crop Protection\nView product information"
+            },
+            "adalat": {
+                "picture": "packages/website/public/img/bayer/adalat.png",
+                "name": "Adalat™",
+                "links": {
+                    "Website": "http://www.adalat.com/en/patient/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Cardiology\nView product information"
+            },
+            "adempas": {
+                "picture": "packages/website/public/img/bayer/adempas.png",
+                "name": "Adempas™",
+                "links": {
+                    "Website": "http://www.adempas.com/en/index.php"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Pulmonary Hypertension\nView product information"
+            },
+            "adengo": {
+                "picture": "packages/website/public/img/bayer/adengo.png",
+                "name": "Adengo™",
+                "description": "Field of Activity: Crop Protection\nApplications: Herbicides\nA residual and foliar herbicide family that combats annual grasses and broad leaved weeds in corn."
+            },
+            "afrin": {
+                "picture": "packages/website/public/img/bayer/afrin.png",
+                "name": "Afrin™",
+                "links": {
+                    "Website": "https://www.afrin.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Cough & Cold\nUse for Relief from Nasal Congestion due to Colds or Allergies\nView product information"
+            },
+            "agroeste": {
+                "picture": "packages/website/public/img/bayer/agroeste.jpg",
+                "name": "Agroeste™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA seed brand offering Brazilian farmers corn, soy and sorghum solutions to improve productivity and maximize return on investment."
+            },
+            "aktren": {
+                "picture": "packages/website/public/img/bayer/aktren.png",
+                "name": "Aktren™",
+                "description": "Field of Activity: Consumer Health\nApplications: Analgesics"
+            },
+            "aleve": {
+                "picture": "packages/website/public/img/bayer/aleve.png",
+                "name": "Aleve™",
+                "links": {
+                    "Website": "http://www.aleve.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Analgesics\nNon-prescription pain-reliever with particularly long-lasting action.\nView product information"
+            },
+            "alion": {
+                "picture": "packages/website/public/img/bayer/alion.png",
+                "name": "Alion™",
+                "description": "Field of Activity: Crop Protection\nApplications: Herbicides\nA new high-performance broad spectrum, soil active herbicide for use in established permanent crops such as citrus, grapes, fruit trees, tree nuts, industrial plantations and perennial sugar cane."
+            },
+            "aliqopa": {
+                "picture": "packages/website/public/img/bayer/aliqopa.jpg",
+                "name": "Aliqopa",
+                "description": "Field of Activity: Pharmaceuticals\nCurrently approved in the U.S. only."
+            },
+            "alka-seltzer": {
+                "picture": "packages/website/public/img/bayer/alka-seltzer.png",
+                "name": "Alka-Seltzer™",
+                "links": {
+                    "Website": "https://www.alkaseltzer.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Digestive Health\nProvides fast, effective acid indigestion and heartburn relief that's safe and gentle for upset stomachs. Formulations differ per country\nView product information"
+            },
+            "arize": {
+                "picture": "packages/website/public/img/bayer/arize.png",
+                "name": "Arize™",
+                "links": {
+                    "Website": "http://arize.bayer.com/en/Arize-Hybrids.aspx"
+                },
+                "description": "Applications: Rice Seed\nHybrid rice seeds that offer enhanced yield potential.\nView product information"
+            },
+            "asgrow": {
+                "picture": "packages/website/public/img/bayer/asgrow.jpg",
+                "name": "Asgrow",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA US performance soybean brand with best-in-class breeding for farmers eager to adopt progressive technologies. In Mexico, the Asgrow seed brand includes corn."
+            },
+            "aspirin": {
+                "picture": "packages/website/public/img/bayer/aspirin.png",
+                "name": "Aspirin™",
+                "links": {
+                    "Website": "http://aspirin.com/en/our-products/aspirin/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Analgesics, Cardiology, Cough & Cold\nA pain-reliever that works against headaches as well as acute back, muscle and joint pain. Low-dose Aspirin™ is also used during suspected heart attack to help reduce damage to the heart, and as cornerstone therapy for reducing risk of recurrent CV events, specifically, heart attack and ischemic stroke.\nView product information"
+            },
+            "aspirin-cardio": {
+                "picture": "packages/website/public/img/bayer/aspirin-cardio.png",
+                "name": "Aspirin Cardio™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Cardiology"
+            },
+            "avelox-avalox": {
+                "picture": "packages/website/public/img/bayer/avelox-avalox.png",
+                "name": "Avelox™/ Avalox™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Bacterial Infections"
+            },
+            "belt": {
+                "picture": "packages/website/public/img/bayer/belt.png",
+                "name": "Belt™",
+                "links": {
+                    "Website": "https://www.crop.bayer.com.au/find-crop-solutions/by-product/insecticides/belt-480sc-insecticide"
+                },
+                "description": "Field of Activity: Crop Protection\nApplications: Insecticides\nAn insecticide that gives farmers maximum power against these voracious pests across the maximum number of crops.\nView product information"
+            },
+            "bepanthen": {
+                "picture": "packages/website/public/img/bayer/bepanthen.png",
+                "name": "Bepanthen™",
+                "links": {
+                    "Website": "https://www.bepanthen.co.uk/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Dermatology\nHealing skin for over 70 years, with innovative products that offer protection for the whole family.\nView product information"
+            },
+            "berocca": {
+                "picture": "packages/website/public/img/bayer/berocca.png",
+                "name": "Berocca™",
+                "links": {
+                    "Website": "http://www.berocca.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Nutritionals\nThe special combination of B vitamins, vitamin C, magnesium and zinc helps to provide the brain and nerves with energy, supporting mental and physical performance.\nView product information"
+            },
+            "betaferon-betaseron": {
+                "picture": "packages/website/public/img/bayer/betaferon-betaseron.png",
+                "name": "Betaferon™ / Betaseron™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Neurological diseases"
+            },
+            "bollgard-3": {
+                "picture": "packages/website/public/img/bayer/bollgard-3.png",
+                "name": "Bollgard™ 3",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nProvides cotton growers three modes of action against bollworm and other cotton pests, for fewer sprays and less potential damage to their cotton crop all season long."
+            },
+            "bollgard-ii-xtend-flex-cotton": {
+                "picture": "packages/website/public/img/bayer/bollgard-ii-xtend-flex-cotton.png",
+                "name": "Bollgard II™ XtendFlex™ Cotton",
+                "links": {
+                    "Website": "https://www.genuity.com/cotton/Pages/Bollgard-2-XtendFlex.aspx"
+                },
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nView product information"
+            },
+            "canesten": {
+                "picture": "packages/website/public/img/bayer/canesten.png",
+                "name": "Canesten™",
+                "links": {
+                    "Website": "https://www.canesten.co.uk/en/home/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Dermatology\nProvides relief from unusual and embarrassing skin- and intimate health conditions, such as vaginal yeast infections, bacterial vaginosis, athletes foot or nail fungus.\nView product information"
+            },
+            "channel": {
+                "picture": "packages/website/public/img/bayer/channel.png",
+                "name": "Channel™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA US performance soybean brand with best-in-class breeding for farmers eager to adopt progressive technologies. In Mexico, the Asgrow seed brand includes corn."
+            },
+            "ciprobay-cipro": {
+                "picture": "packages/website/public/img/bayer/ciprobay-cipro.png",
+                "name": "Ciprobay™ / Cipro™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Bacterial Infections"
+            },
+            "claritin": {
+                "picture": "packages/website/public/img/bayer/claritin.png",
+                "name": "Claritin™",
+                "links": {
+                    "Website": "https://www.claritin.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Allergy\nProvides effective, 24-hour, non-drowsy relief from indoor and outdoor allergy symptoms.\nView product information"
+            },
+            "climate-field-view": {
+                "picture": "packages/website/public/img/bayer/climate-field-view.jpg",
+                "name": "Climate FieldView™",
+                "links": {
+                    "Website": "https://climate.com/newsroom/climate-fieldview-drive-and-fieldview-plus/16"
+                },
+                "description": "Field of Activity: Digital Farming\nView product information"
+            },
+            "confidor": {
+                "picture": "packages/website/public/img/bayer/confidor.png",
+                "name": "Confidor™",
+                "links": {
+                    "Website": "https://www.saudi-arabia.cropscience.bayer.com/en/Products/Insecticides/Confidor-SC-350.aspx"
+                },
+                "description": "Field of Activity: Crop Protection\nApplications: Insecticides\nThe best-in-class insecticide for combating biting and sucking insect pests in more than 150 crops including vegetables, fruit, soybeans, cotton, potatoes and rice.\nView product information"
+            },
+            "corvus": {
+                "picture": "packages/website/public/img/bayer/corvus.png",
+                "name": "Corvus™",
+                "links": {
+                    "Website": "https://www.cropscience.bayer.us/products/herbicides/corvus"
+                },
+                "description": "Field of Activity: Crop Protection\nApplications: Herbicides\nBelongs to the Adengo™ brand family and is a residual and foliar herbicide that combats annual grasses and broad leaved weeds in corn.\nView product information"
+            },
+            "crop-star": {
+                "picture": "packages/website/public/img/bayer/crop-star.png",
+                "name": "CropStar™",
+                "description": "Field of Activity: Crop Protection\nApplications: Seeds\nBelongs to the Gaucho™ brand family that protects from seed to leaf and helps sugar beet, cereals, corn, cotton, oilseed rape, rice and vegetables stay strong and resistant through their most vulnerable early stages."
+            },
+            "de-ruiter": {
+                "picture": "packages/website/public/img/bayer/de-ruiter.jpg",
+                "name": "DeRuiter™",
+                "links": {
+                    "Website": "https://www.deruiterseeds.com/country-landing-page.html"
+                },
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA global vegetable seed brand offering customers access to robust resources focused on the unique demands of Protected Culture cultivation, including glasshouse growing.\nView product information"
+            },
+            "dekalb-asgrow": {
+                "picture": "packages/website/public/img/bayer/dekalb-asgrow.jpg",
+                "name": "DEKALB Asgrow™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nOne of the best-known seed brands in the world, for top-performing, cutting-edge seed solutions. DEKALB seed is primarily corn, but includes soybeans, canola/OSR, alfalfa and sorghum in some areas."
+            },
+            "deltapine": {
+                "picture": "packages/website/public/img/bayer/deltapine.jpg",
+                "name": "Deltapine™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA leading global cotton seed brand with elite genetics and key cotton traits for optimal performance potential, and premium fiber quality to improve customer profit potential."
+            },
+            "diane-35": {
+                "picture": "packages/website/public/img/bayer/diane-35.png",
+                "name": "Diane-35™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "drought-gard-hybrids": {
+                "picture": "packages/website/public/img/bayer/drought-gard-hybrids.jpg",
+                "name": "DroughtGard™ Hybrids",
+                "links": {
+                    "Website": "https://www.channel.com/en-us/products/trait-technology/droughtgard-hybrids.html"
+                },
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nThe world’s first drought-tolerant biotech trait for corn, these hybrids are designed to resist drought stress and help customers minimize their risks from weather.\nView product information"
+            },
+            "elevit": {
+                "picture": "packages/website/public/img/bayer/elevit.png",
+                "name": "Elevit™",
+                "links": {
+                    "Website": "http://www.elevit.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Nutritionals\nA pregnancy multivitamin and mineral supplement that has been specially formulated to help meet the increased nutritional needs of women who are trying to conceive, pregnant and breastfeeding.\nView product information"
+            },
+            "esplanade": {
+                "picture": "packages/website/public/img/bayer/esplanade.png",
+                "name": "Esplanade™",
+                "description": "Field of Activity: Environmental Science\nApplications: Herbicides\nHerbicide with effective, long-lasting control in vegetation management and forestry business. Esplanade™ increases productivity and efficiency because it requires less applications."
+            },
+            "eylea": {
+                "picture": "packages/website/public/img/bayer/eylea.png",
+                "name": "Eylea™",
+                "links": {
+                    "Website": "https://ophthalmology.bayer.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Ophthalmology\nView product information"
+            },
+            "flint": {
+                "picture": "packages/website/public/img/bayer/flint.png",
+                "name": "Flint™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nBelongs to the Nativo™ blockbuster brand family which helps farmers control soybean rust and many other fungal diseases – not only in soybeans but in close to 100 different crop plants."
+            },
+            "fox": {
+                "picture": "packages/website/public/img/bayer/fox.png",
+                "name": "Fox™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nBelongs to the Nativo™ blockbuster brand family which helps farmers control soybean rust and many other fungal diseases – not only in soybeans but in close to 100 different crop plants."
+            },
+            "gadavist-gadovist": {
+                "picture": "packages/website/public/img/bayer/gadavist-gadovist.png",
+                "name": "Gadavist™ / Gadovist™",
+                "links": {
+                    "Website": "https://www.radiologysolutions.bayer.com/search?q=Primovist&WT.oss=&Search=#Gadavist"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Magnetic Resonance Tomography\nView product information"
+            },
+            "gastrogafin": {
+                "picture": "packages/website/public/img/bayer/gastrogafin.png",
+                "name": "Gastrogafin™",
+                "description": "Field of Activity: Radiology\nApplications: Computed Tomography"
+            },
+            "gaucho": {
+                "picture": "packages/website/public/img/bayer/gaucho.png",
+                "name": "Gaucho™",
+                "description": "Field of Activity: Crop Protection\nApplications: Seeds\nProtects from seed to leaf and helps sugar beet, cereals, corn, cotton, oilseed rape, rice and vegetables stay strong and resistant through their most vulnerable early stages."
+            },
+            "glucobay": {
+                "picture": "packages/website/public/img/bayer/glucobay.png",
+                "name": "Glucobay™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Diabetes"
+            },
+            "harness-branded-herbicides": {
+                "picture": "packages/website/public/img/bayer/harness-branded-herbicides.jpg",
+                "name": "Harness™ Branded Herbicides",
+                "description": "Field of Activity: Crop Protection\nA trusted product family for over 20 years providing consistent, season-long performance against more than 30 species of annual grasses and small-seeded broadleaf weeds."
+            },
+            "iberogast": {
+                "picture": "packages/website/public/img/bayer/iberogast.png",
+                "name": "Iberogast™",
+                "links": {
+                    "Website": "https://www.iberogast.ca"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Digestive Health\nIberogast is a plant based medicine that effectively relieves multiple symptoms associated with Functional Dyspepsia and IBS (Irritable Bowel Syndrome) like abdominal pain, cramps, fullness, bloating, flatulence, nausea and vomiting.\nView product information"
+            },
+            "intacta-rr-2-pro": {
+                "picture": "packages/website/public/img/bayer/intacta-rr-2-pro.jpg",
+                "name": "Intacta RR2 Pro™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nBiotech soybean trait launched in Brazil, offering South American farmers broader choices for pest control, greater convenience and increased yield potential."
+            },
+            "jaydess-skyla": {
+                "picture": "packages/website/public/img/bayer/jaydess-skyla.png",
+                "name": "Jaydess™ / Skyla™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "jivi": {
+                "picture": "packages/website/public/img/bayer/jivi.jpg",
+                "name": "Jivi™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Hematology"
+            },
+            "k-othrine": {
+                "picture": "packages/website/public/img/bayer/k-othrine.png",
+                "name": "K-Othrine™",
+                "links": {
+                    "Website": "https://www.vectorcontrol.bayer.com/solutions/products/k-othrine-wg250"
+                },
+                "description": "Field of Activity: Environmental Science\nApplications: Vector Control\nResidual spray for professional operators to effectively control a broad spectrum of insects.\nView product information"
+            },
+            "kogenate": {
+                "picture": "packages/website/public/img/bayer/kogenate.png",
+                "name": "Kogenate™",
+                "links": {
+                    "Website": "https://www.kogenatefs.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Hematology\nView product information"
+            },
+            "kovaltry": {
+                "picture": "packages/website/public/img/bayer/kovaltry.png",
+                "name": "Kovaltry™",
+                "links": {
+                    "Website": "https://www.kovaltry-us.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Hematology\nView product information"
+            },
+            "kyleena": {
+                "picture": "packages/website/public/img/bayer/kyleena.png",
+                "name": "Kyleena™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "levitra": {
+                "picture": "packages/website/public/img/bayer/levitra.png",
+                "name": "Levitra™",
+                "links": {
+                    "Website": "https://gsksource.com/pharma/content/dam/GlaxoSmithKline/US/en/Brands/LEVITRA/pdf/LEVITRA_PI.PDF#page=24"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Men's Healthcare\nView product information"
+            },
+            "luna": {
+                "picture": "packages/website/public/img/bayer/luna.png",
+                "name": "Luna™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nFungicide family against many fungal disease, e.g. powdery mildew, botrytis, sclerotinia, and monilinia in fruit and vegetable crops."
+            },
+            "magnevist": {
+                "picture": "packages/website/public/img/bayer/magnevist.png",
+                "name": "Magnevist™",
+                "description": "Field of Activity: Radiology\nApplications: Magnetic Resonance Tomography"
+            },
+            "maxforce": {
+                "picture": "packages/website/public/img/bayer/maxforce.png",
+                "name": "Maxforce™",
+                "description": "Field of Activity: Environmental Science\nApplications: Insecticides\nBait gel for the control of roaches and other insects in professional and domestic area."
+            },
+            "medrad-avanta": {
+                "picture": "packages/website/public/img/bayer/medrad-avanta.png",
+                "name": "Medrad™ Avanta",
+                "description": "Field of Activity: Radiology\nApplications: Angiography"
+            },
+            "medrad-certo": {
+                "picture": "packages/website/public/img/bayer/medrad-certo.png",
+                "name": "Medrad™ Certo",
+                "links": {
+                    "Website": "http://www.radiologysolutions.bayer.com/products/mr/mraccessories/certo/"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Magnetic Resonance Tomography\nView product information"
+            },
+            "medrad-e-coil": {
+                "picture": "packages/website/public/img/bayer/medrad-e-coil.png",
+                "name": "Medrad™ eCoil",
+                "description": "Field of Activity: Radiology\nApplications: Magnetic Resonance Tomography"
+            },
+            "medrad-intego": {
+                "picture": "packages/website/public/img/bayer/medrad-intego.png",
+                "name": "Medrad™ Intego",
+                "links": {
+                    "Website": "http://www.radiologysolutions.bayer.com/products/molecularimaging/intego/"
+                },
+                "description": "Field of Activity: Radiology\nApplications: PET Infusion System\nView product information"
+            },
+            "medrad-mark-7-arterion": {
+                "picture": "packages/website/public/img/bayer/medrad-mark-7-arterion.png",
+                "name": "Medrad™ Mark 7 Arterion",
+                "links": {
+                    "Website": "http://www.radiologysolutions.bayer.com/products/angiography/injection/mark7arterion/"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Angiography\nView product information"
+            },
+            "medrad-mr-xperion": {
+                "picture": "packages/website/public/img/bayer/medrad-mr-xperion.png",
+                "name": "Medrad™ MRXperion",
+                "links": {
+                    "Website": "https://www.radiologie.bayer.de/mrt/medrad-r-mrxperion"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Injection Systems, Magnetic Resonance Tomography\nView product information"
+            },
+            "medrad-spectris-solaris-ep": {
+                "picture": "packages/website/public/img/bayer/medrad-spectris-solaris-ep.png",
+                "name": "Medrad™ Spectris Solaris EP",
+                "links": {
+                    "Website": "http://www.radiologysolutions.bayer.com/products/mr/injection/spectris/"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Injection Systems, Magnetic Resonance Tomography\nView product information"
+            },
+            "medrad-stellant": {
+                "picture": "packages/website/public/img/bayer/medrad-stellant.png",
+                "name": "Medrad™ Stellant",
+                "links": {
+                    "Website": "http://www.radiologysolutions.bayer.com/products/ct/injection/stellant/"
+                },
+                "description": "Field of Activity: Radiology\nApplications: Injection Systems, Computed Tomography\nView product information"
+            },
+            "medrad-xds": {
+                "picture": "packages/website/public/img/bayer/medrad-xds.png",
+                "name": "Medrad™ XDS",
+                "description": "Field of Activity: Radiology\nApplications: Injection Systems, Computed Tomography"
+            },
+            "mira-lax": {
+                "picture": "packages/website/public/img/bayer/mira-lax.png",
+                "name": "MiraLAX™",
+                "links": {
+                    "Website": "https://www.miralax.com/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Digestive Health\nRelieves occasional constipation and softens stool. Only available in the U.S.\nView product information"
+            },
+            "mirena": {
+                "picture": "packages/website/public/img/bayer/mirena.png",
+                "name": "Mirena™",
+                "links": {
+                    "Website": "http://www.mirena.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare\nView product information"
+            },
+            "movento": {
+                "picture": "packages/website/public/img/bayer/movento.png",
+                "name": "Movento™",
+                "description": "Field of Activity: Crop Protection\nApplications: Insecticides\nOffers broad-spectrum control of many sucking pests and it's an important addition to pest management programs in grapes, citrus, vegetables, tree fruits and potatoes."
+            },
+            "nativo": {
+                "picture": "packages/website/public/img/bayer/nativo.png",
+                "name": "Nativo™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nOur blockbuster brand family which helps farmers control soybean rust and many other fungal diseases – not only in soybeans but in close to 100 different crop plants."
+            },
+            "nebido": {
+                "picture": "packages/website/public/img/bayer/nebido.png",
+                "name": "Nebido™",
+                "links": {
+                    "Website": "https://www.nebido.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Men's Healthcare\nView product information"
+            },
+            "nexavar": {
+                "picture": "packages/website/public/img/bayer/nexavar.png",
+                "name": "Nexavar™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Oncology"
+            },
+            "nubeqa": {
+                "picture": "packages/website/public/img/bayer/nubeqa.jpg",
+                "name": "Nubeqa™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Oncology"
+            },
+            "primovist": {
+                "picture": "packages/website/public/img/bayer/primovist.png",
+                "name": "Primovist™",
+                "description": "Field of Activity: Radiology\nApplications: Magnetic Resonance Tomography"
+            },
+            "prosaro": {
+                "picture": "packages/website/public/img/bayer/prosaro.png",
+                "name": "Prosaro™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nFungicide family that deals effectively with leaf and ear diseases in cereals and oilseed rape and reduces levels of mycotoxins in the harvested produce, providing all-around control and curative activity which adds value beyond the yield."
+            },
+            "qlaira": {
+                "picture": "packages/website/public/img/bayer/qlaira.png",
+                "name": "Qlaira™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "redoxon": {
+                "picture": "packages/website/public/img/bayer/redoxon.png",
+                "name": "Redoxon™",
+                "links": {
+                    "Website": "https://www.redoxon.co.uk/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Nutritionals\nRedoxon believes that everyone has the basic right to a healthy life. Since over 80 years Redoxon is at the forefront in delivering innovative solutions supporting the immune health. Redoxon is truly science for a better life.\nView product information"
+            },
+            "rennie": {
+                "picture": "packages/website/public/img/bayer/rennie.png",
+                "name": "Rennie™",
+                "links": {
+                    "Website": "http://www.rennie.co.uk/home/"
+                },
+                "description": "Field of Activity: Consumer Health\nApplications: Digestive Health\nProvides fast, reliable relief from heartburn, a sensation of fullness and pressure in the stomach.\nView product information"
+            },
+            "roundup": {
+                "picture": "packages/website/public/img/bayer/roundup.jpg",
+                "name": "Roundup™",
+                "description": "Field of Activity: Crop Protection\nRoundup herbicide was first introduced in 1974. Today, Roundup brands are registered in over 120 countries; approved for weed control in more than 100 crops; and are available for a variety of other uses including Industrial & Turf, and consumer Lawn & Garden."
+            },
+            "roundup-ready-2-xtend-soybeans": {
+                "picture": "packages/website/public/img/bayer/roundup-ready-2-xtend-soybeans.jpg",
+                "name": "Roundup Ready 2 Xtend™ soybeans",
+                "links": {
+                    "Website": "https://traits.bayer.ca/en/soybeans/roundup-ready-xtend-crop-system/roundup-ready-2-xtend-soybeans/"
+                },
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nThe industry's first stacked biotech soybean trait with both dicamba and glyphosate herbicide tolerance, offering improved control over resistant and other tough-to-control weeds.\nView product information"
+            },
+            "sementes-agroceres": {
+                "picture": "packages/website/public/img/bayer/sementes-agroceres.jpg",
+                "name": "Sementes Agroceres™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Seeds\nA 70-year-old Brazil seed brand offering more traditional farmers a portfolio of corn and sorghum products with a broad range of planting, stability and proven results to bring security to customers."
+            },
+            "seminis": {
+                "picture": "packages/website/public/img/bayer/seminis.jpg",
+                "name": "Seminis™",
+                "links": {
+                    "Website": "http://www.seminis.com/"
+                },
+                "description": "Field of Activity: Seeds & Traits\nOne of the world’s largest brands of vegetable seed for 20 different open-field and un-heated protected crops, with more than 2,200 varieties in over 150 countries and territories.\nView product information"
+            },
+            "serenade": {
+                "picture": "packages/website/public/img/bayer/serenade.png",
+                "name": "Serenade™",
+                "links": {
+                    "Website": "https://www.cropscience.bayer.us/products/fungicides/serenade-opti"
+                },
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nBiological fungicide that is effective against fire blight, botrytis, sour rot, rust, sclerotinia, powdery mildew, bacterial spot and white mold as well as soil diseases such as Pythium, Rhizoctonia, Fusarium and Phytophthora.\nView product information"
+            },
+            "signature": {
+                "picture": "packages/website/public/img/bayer/signature.png",
+                "name": "Signature™",
+                "description": "Field of Activity: Environmental Science\nApplications: Fungicides\nSystemic fungicide that enhances plant health and turf quality on golf courses."
+            },
+            "sivanto": {
+                "picture": "packages/website/public/img/bayer/sivanto.png",
+                "name": "Sivanto™",
+                "links": {
+                    "Website": "https://www.sivanto.bayer.com/"
+                },
+                "description": "Field of Activity: Crop Protection\nApplications: Insecticides\nA novel insecticide for the control of major sucking pests like aphids, whiteflies, and other key insects including larval and adult live stages.\nView product information"
+            },
+            "skyla": {
+                "picture": "packages/website/public/img/bayer/skyla.png",
+                "name": "Skyla®",
+                "links": {
+                    "Website": "http://www.skyla-us.com/index.php"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare\nView product information"
+            },
+            "smart-stax": {
+                "picture": "packages/website/public/img/bayer/smart-stax.jpg",
+                "name": "SmartStax™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nAdvanced insect and weed control system offering farmers maximum corn rootworm plus broad spectrum weed control from Roundup Ready™ 2 Technology and the LibertyLink™ traits."
+            },
+            "stivarga": {
+                "picture": "packages/website/public/img/bayer/stivarga.png",
+                "name": "Stivarga™",
+                "links": {
+                    "Website": "http://www.stivarga.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Oncology\nView product information"
+            },
+            "stratego": {
+                "picture": "packages/website/public/img/bayer/stratego.png",
+                "name": "Stratego™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nBelongs to the Nativo™ blockbuster brand family which helps farmers control soybean rust and many other fungal diseases – not only in soybeans but in close to 100 different crop plants."
+            },
+            "supradyn": {
+                "picture": "packages/website/public/img/bayer/supradyn.png",
+                "name": "Supradyn™",
+                "description": "Field of Activity: Consumer Health\nApplications: Nutritionals\nComplete multivitamin and multi mineral formula. High dose of essential vitamins to give you an effective energy recharge during demanding periods."
+            },
+            "talcid": {
+                "picture": "packages/website/public/img/bayer/talcid.png",
+                "name": "Talcid™",
+                "description": "Field of Activity: Consumer Health\nApplications: Digestive Health\nTalcid™ is what is termed a layer-lattice antacid. It is particularly suitable for the treatment of heartburn and other acid-induced gastric disorders."
+            },
+            "tru-flex-canola": {
+                "picture": "packages/website/public/img/bayer/tru-flex-canola.jpg",
+                "name": "TruFlex™ Canola",
+                "links": {
+                    "Website": "https://traits.bayer.com/specialty/Pages/TruFlex-Canola.aspx"
+                },
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nOffers canola growers more flexibility for different growing conditions and their farm’s unique challenges.\nView product information"
+            },
+            "ultravist": {
+                "picture": "packages/website/public/img/bayer/ultravist.png",
+                "name": "Ultravist™",
+                "description": "Field of Activity: Radiology\nApplications: Computed Tomography"
+            },
+            "velum": {
+                "picture": "packages/website/public/img/bayer/velum.png",
+                "name": "Velum™",
+                "description": "Field of Activity: Crop Protection\nApplications: Insecticides\nModern and innovative nematicide with an excellent safety profile for the control of key nematode species and a reliable product in modern-day root protection."
+            },
+            "ventavis": {
+                "picture": "packages/website/public/img/bayer/ventavis.png",
+                "name": "Ventavis™",
+                "links": {
+                    "Website": "http://pharma.bayer.com/en/treatment-care/heart-and-blood-disorders/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Pulmonary Hypertension\nView product information"
+            },
+            "visanne": {
+                "picture": "packages/website/public/img/bayer/visanne.png",
+                "name": "Visanne™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "vitrakvi": {
+                "picture": "packages/website/public/img/bayer/vitrakvi.jpg",
+                "name": "Vitrakvi™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Oncology"
+            },
+            "vt-triple-pro": {
+                "picture": "packages/website/public/img/bayer/vt-triple-pro.jpg",
+                "name": "VT Triple Pro™",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nHigh-yield corn protection with three modes of action: two for controlling above-ground insects, plus one for below-ground insect protection."
+            },
+            "warrant-herbicide": {
+                "picture": "packages/website/public/img/bayer/warrant-herbicide.jpg",
+                "name": "Warrant™ Herbicide",
+                "description": "Field of Activity: Crop Protection\nBayer microencapsulation technology provides slow release of acetochlor, activated by moisture. This process allows for increased crop safety and longer lasting residual."
+            },
+            "west-bred": {
+                "picture": "packages/website/public/img/bayer/west-bred.jpg",
+                "name": "WestBred™",
+                "description": ""
+            },
+            "xarelto": {
+                "picture": "packages/website/public/img/bayer/xarelto.png",
+                "name": "Xarelto™",
+                "links": {
+                    "Website": "https://www.xarelto.com/"
+                },
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Thromboembolic diseases\nView product information"
+            },
+            "xofigo": {
+                "picture": "packages/website/public/img/bayer/xofigo.png",
+                "name": "Xofigo™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Oncology"
+            },
+            "xpro": {
+                "picture": "packages/website/public/img/bayer/xpro.png",
+                "name": "Xpro™",
+                "description": "Field of Activity: Crop Protection\nApplications: Fungicides\nA foliar fungicide family with systemic properties against a broad spectrum of fungal diseases in cereals, including septoria tritici."
+            },
+            "xtend-flex-technology": {
+                "picture": "packages/website/public/img/bayer/xtend-flex-technology.jpg",
+                "name": "XtendFlex™ Technology",
+                "description": "Field of Activity: Seeds & Traits\nApplications: Traits\nXtendFlex Technology is the foundation for three cotton traits: XtendFlex Cotton; Bollgard II XtendFlex Cotton and new Bollgard 3 XtendFlex Cotton."
+            },
+            "xtendi-max-with-vapor-grip-technology": {
+                "picture": "packages/website/public/img/bayer/xtendi-max-with-vapor-grip-technology.jpg",
+                "name": "XtendiMax™ with VaporGrip™ Technology",
+                "links": {
+                    "Website": "https://www.roundupreadyxtend.com/Pages/xtendimax-updates.aspx"
+                },
+                "description": "Field of Activity: Crop Protection\nIdeal dicamba option to help manage glyphosate-resistant broadleaf weeds. VaporGrip™ Technology provides a significant reduction in volatility potential compared to commercially available dicamba formulations.\nView product information"
+            },
+            "yasmin": {
+                "picture": "packages/website/public/img/bayer/yasmin.png",
+                "name": "Yasmin™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "yasminelle": {
+                "picture": "packages/website/public/img/bayer/yasminelle.png",
+                "name": "Yasminelle™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            },
+            "yaz": {
+                "picture": "packages/website/public/img/bayer/yaz.png",
+                "name": "YAZ™",
+                "description": "Field of Activity: Pharmaceuticals\nApplications: Women´s Healthcare"
+            }
+        }
     }
 }
