@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 
 export const Title = ({ children }) => {
     const router = useRouter();
-    console.log(router);
     const needBack = router.route !== '/';
     return (
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
