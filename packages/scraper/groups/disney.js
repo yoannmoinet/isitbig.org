@@ -46,7 +46,7 @@ export const scrapBrands = async (get$) => {
             // Try to get a better name.
             proms.push(
                 axios
-                    .get(link, REQUEST_OPTS)
+                    .get(link, REQUEST_OPTS(url))
                     .then(
                         async (response) => {
                             const $$ = cheerio.load(response.data);

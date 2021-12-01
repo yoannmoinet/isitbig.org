@@ -2,7 +2,7 @@ import slugify from '@sindresorhus/slugify';
 import axios from 'axios';
 import cheerio from 'cheerio';
 
-import { getAttributes, getDetailsScraper, getMetas, REQUEST_OPTS } from '../utils/index.js';
+import { getAttributes, getDetailsScraper, getMetas } from '../utils/index.js';
 
 const URL_OVERRIDES = {
     'https://www.schweppes.com/': 'https://www.schweppesus.com/',
