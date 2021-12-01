@@ -21,10 +21,7 @@ const Brand = ({ data }) => {
     const logoSrc = getImageSrc(group.details.picture);
     return (
         <Page title={group.details.name}>
-            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                <Link href="/" underline="none">
-                    <Button startIcon={<ArrowBackIosIcon />}>Back</Button>
-                </Link>
+            <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Box sx={{ display: 'block', position: 'relative' }}>
                         <Image src={logoSrc} alt={group.details.name} layout="fill" />
