@@ -2,15 +2,29 @@ import { Alert, AlertTitle, Button, Collapse, Fade, IconButton, Link, Typography
 import CloseIcon from '@mui/icons-material/Close';
 import InfoIcon from '@mui/icons-material/Info';
 import { Box } from '@mui/system';
-import { useCallback, useState } from 'react';
+import { NoSsr } from '@mui/core';
+import { useCallback, useEffect, useState } from 'react';
+import { useStorage } from '../hooks/useStorage';
 
 export const InfoPanel = () => {
+    const [storedInfoState, setStoredInfoState] = useStorage('info', true);
+    const [showInfoBt, setShowInfoBt] = useState(false);
     const [open, setOpen] = useState(true);
-    const [showInfo, setShowInfo] = useState(false);
+
+    // Initial setup with useStorage.
+    // This is needed because of SSR that sets the value as the default initially.
+    useEffect(() => {
+        setOpen(storedInfoState);
+        setShowInfoBt(!storedInfoState);
+    }, []);
+
+    useEffect(() => {
+        setStoredInfoState(open);
+    }, [open, setStoredInfoState]);
 
     const onExit = useCallback(() => {
-        setShowInfo(!open);
-    }, [open]);
+        setShowInfoBt(!open);
+    }, [open, setShowInfoBt]);
 
     const Text = ({ children }) => (
         <Typography variant="body" paragraph sx={{ my: 0.5 }}>
@@ -20,12 +34,12 @@ export const InfoPanel = () => {
 
     return (
         <Box sx={{ position: 'relative', width: '100%' }}>
-            <Fade in={showInfo}>
+            <Fade appear={true} in={showInfoBt}>
                 <Button
                     startIcon={<InfoIcon />}
                     size="small"
                     onClick={() => {
-                        setShowInfo(false);
+                        setShowInfoBt(false);
                         setOpen(true);
                     }}
                     sx={{
@@ -36,7 +50,7 @@ export const InfoPanel = () => {
                     More info
                 </Button>
             </Fade>
-            <Collapse in={open} onExit={onExit}>
+            <Collapse appear={true} in={open} onExited={onExit}>
                 <Alert
                     severity="info"
                     action={
